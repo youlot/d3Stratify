@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    .link {
+        fill: none;
+        stroke: #555;
+        a stroke-opacity: 0.4;
+        stroke-width: 1px;
+    }
+
+    text {
+        font-family: "Arial Black", Gadget, sans-serif;
+        fill: black;
+        font-weight: bold;
+        font-size: 14px
+    }
+
+    .xAxis .tick text {
+        fill: black;
+    }
+
+    .grid .tick line {
+        stroke: grey;
+        stroke-dasharray: 5, 10;
+        opacity: 0.7;
+    }
+
+    .grid path {
+        stroke-width: 0;
+    }
+
+    .node circle {
+        fill: #999;
+    }
+
+    .node--internal circle {
+        fill: #555;
+    }
+
+    .node--internal text {
+        font-size: 16px;
+        text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
+    }
+
+    .node--leaf text {
+        fill: white;
+    }
+
+    .node--collapsed text {
+        fill: #000;
+    }
+
+    .node--collapsed circle {
+        fill: #555;
+    }
+
+    .ballG text {
+        fill: white;
+    }
+
+    .shadow {
+        -webkit-filter: drop-shadow(-1.5px -1.5px 1.5px #000);
+        filter: drop-shadow(-1.5px -1.5px 1.5px #000);
+    }
+</style>
+
+<body>
+    <svg width="1200" height="1100"></svg>
+</body>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+    // main svg - get the initial size and append a g element to svg
+    var svg = d3.select("svg"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height"),
+        g = svg.append("g").attr("transform", "translate(20,0)");       // move right 20px.
+
+    // x-scale and x-axis
+    var xScale = d3.scaleLinear()
+        .domain([0, 5]) // the values
+        .range([0, 400]);
+
+
+    // Setting up a way to handle the data
+    var tree = d3.cluster()    // This D3 API method setup the Dendrogram elements position.
+        .size([height, width - 460]);    // Total width - bar chart width = Dendrogram chart width
+
+    var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
+        .parentId(function (d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
+
+    let myData;
+    let root;
+    d3.csv("skillsdata.csv", row, function (error, data) {
+        if (error) throw error;
+
+        myData = data;
+        // call update method to append the elements
+
+        root = stratify(data);
+        update();
+    });
+
+    function update() {
+        // generate a new hierarchy from the specified tabular data
+        // root object example
+        // children: Array(6) [ {…}, {…}, {…}, … ]
+        // data: Object { id: "Tom", value: 0, color: undefined }
+        // depth: 0
+        // height: 3
+        // id: "Tom"
+        // parent: null
+        // x: 657.7932098765434
+        // y: 0
+
+
+        tree(root); // d3.cluster()
+
+        // Draw every datum a line connecting to its parent.
+        var link = g.selectAll(".link")
+            .data(root.descendants().slice(1))
+            .enter().append("path")
+            .attr("class", "link")
+            .attr("d", function (d) {
+                return "M" + d.y + "," + d.x
+                    + "C" + (d.parent.y + 100) + "," + d.x
+                    + " " + (d.parent.y + 100) + "," + d.parent.x
+                    + " " + d.parent.y + "," + d.parent.x;
+            });
+
+        // Setup position for every datum; Applying different css classes to parents and leafs.
+        var node = g.selectAll(".node")
+            .data(root.descendants())
+            .enter().append("g")
+            .attr("class", function (d) { return "node" + (d.children ? " node--internal" : " node--leaf") + (d.isCollapsedNode ? ' node--collapsed' : ''); })
+            .attr("transform", function (d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+        // Draw every datum a small circle.
+        node.append("circle")
+            .attr("r", 4);
+
+        node.on("click", click);
+
+        // Setup G for every leaf datum. (rectangle)
+        var leafNodeG = g.selectAll(".node--leaf")
+            .append("g")
+            .attr("class", "node--leaf-g")
+            .attr("transform", "translate(" + 8 + "," + -13 + ")"); // move rectangle to be centered to the node
+
+        leafNodeG.append("rect")
+            .attr("class", "shadow")
+            .style("fill", function (d) { return d.data.color; })
+            .attr("width", 2)
+            .attr("height", 30)
+            .attr("rx", 2)
+            .attr("ry", 2)
+            .transition()
+            .duration(800)
+            .attr("width", function (d) { return xScale(d.data.value); });
+
+        leafNodeG.append("text")
+            .attr("dy", 19.5)
+            .attr("x", 8)
+            .style("text-anchor", "start")
+            .text(function (d) {
+                return d.data.id.substring(d.data.id.lastIndexOf(".") + 1);
+            });
+
+        // Write down text for every parent datum
+        var internalNode = g.selectAll(".node--internal");
+        internalNode.append("text")
+            .attr("y", -10)
+            .style("text-anchor", "middle")
+            .text(function (d) {
+                return d.data.id.substring(d.data.id.lastIndexOf(".") + 1);
+            });
+
+        // Write down text for every collapsed datum
+        //var leafNodeGCollapsed = g.selectAll(".node--leaf")
+        //leafNodeGCollapsed.append("text")
+        //    .attr("y", -10)
+        //    .style("text-anchor", "middle")
+        //    .text(function (d) {
+        //        return ((d.isCollapsedNode === true) ? d.data.id.substring(d.data.id.lastIndexOf(".") + 1 ) : '');
+        //    });
+        //var internalNodeCollapsed = g.selectAll(".node--internal");
+        //internalNodeCollapsed.append("text")
+        //    .attr("y", -10)
+        //    .style("text-anchor", "middle")
+        //    .text(function (d) {
+        //        return ((d.isCollapsedNode === true) ? d.data.id.substring(d.data.id.lastIndexOf(".") + 1 ) : '');
+        //    });
+
+        // Emphasize the y-axis baseline.
+        svg.selectAll(".grid").select("line")
+            .style("stroke-dasharray", "20,1")
+            .style("stroke", "black");
+    }
+
+    function collapse(d) {
+        if (d.children) {
+            d._children = d.children;
+            d._children.forEach(collapse);
+            d.children = null;
+        }
+    }
+
+    function removeCurrentGraph() {
+        console.log('will remove graph !');
+        svg.selectAll("path.link").remove();
+        svg.selectAll("g.node").remove();
+    }
+
+    function click(d) {
+        if (d.children != null) {
+            console.log('children != null');
+            console.log('d.children : ', d.children);
+            d._children = d.children;
+            d.children = null;
+            d.isCollapsedNode = true;
+        } else {
+            console.log('children = null');
+            d.children = d._children;
+            d._children = null;
+            d.isCollapsedNode = false;
+        }
+        console.log('click ! d after update : ', d);
+
+        //for (let childrenElem of d.children) {
+        //    for (let i in myData) {
+        //        if (myData[i].id === childrenElem.id) {
+        //            // tata 
+        //            console.log('elem to remove : ', myData[i]);
+        //            myData.splice(i, 1);
+        //        }
+        //        if (myData[i] === d.data.id) {
+        //            myData[i]
+        //        }
+        //    }
+        //}
+
+
+        removeCurrentGraph();
+        update();
+        //update(d);
+
+    }
+    function row(d) {
+        return {
+            id: d.id,
+            value: +d.value,
+            color: d.color
+        };
+    }
+</script>
