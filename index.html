@@ -75,7 +75,7 @@
     var svg = d3.select("svg"),
         width = +svg.attr("width"),
         height = +svg.attr("height"),
-        g = svg.append("g").attr("transform", "translate(20,0)");       // move right 20px.
+        g = svg.append("g").attr("transform", "translate(20,20)");       // move right 20px.
 
     // x-scale and x-axis
     var experienceName = ["", "Basic 1.0","Alright 2.0","Handy 3.0","Expert 4.0","Guru 5.0"];
@@ -223,7 +223,7 @@
     
         g.insert("g")
                 .attr("class","xAxis")
-                .attr("transform", "translate(" + (7 + 2 * width / 3) + "," + 20 + ")")
+                .attr("transform", "translate(" + (7 + 2 * width / 3) + "," + 0 + ")")
                 .call(xAxis);
 
         // tick mark for x-axis
