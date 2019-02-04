@@ -94,7 +94,9 @@
 
     // Setting up a way to handle the data
     var tree = d3.cluster()    // This D3 API method setup the Dendrogram elements position.
+        .separation(function(a, b) { return a.parent == b.parent ? 3 : 4; })
         .size([height, width - (width / 3)]);    // Total width - bar chart width = Dendrogram chart width
+        
         //.size([height, width - 460]);    // Total width - bar chart width = Dendrogram chart width
 
     //var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
@@ -125,11 +127,18 @@
 
     function update() {
 
+        let maxDepth = d3.max(root.leaves(), function(d) {
+            return d.depth;
+        });
+        computeX = function(node) {
+            return node.depth / (node.depth + node.height) * tree.size()[1]
+        }
+
         // update tree size
-        height = (root.leaves().length + 1) * 40;
+        height = (root.leaves().length + 1) * 50;
         d3.select("svg").attr("height", height)
-        var tree = d3.cluster()    // This D3 API method setup the Dendrogram elements position.
-        .size([height, width - (width / 3)]);
+        tree.size([height, width - (width / 3)]);
+        // tree.nodeSize([40, 200])
 
         // update axis
         maxWeight =d3.max(root.leaves(), function(d) {
@@ -147,7 +156,6 @@
         // parent: null
         // x: 657.7932098765434
         // y: 0
-
         tree(root); // d3.cluster()
 
         // Draw every datum a line connecting to its parent.
@@ -158,18 +166,22 @@
                 return d.parent.isCollapsedNode? "" :"link"
             })
             .attr("d", function (d) {
-                return "M" + d.y + "," + d.x
-                    + "C" + (d.parent.y + 100) + "," + d.x
-                    + " " + (d.parent.y + 100) + "," + d.parent.x
-                    + " " + d.parent.y + "," + d.parent.x;
+                return "M" + computeX(d) + "," + d.x
+                    + "C" + (computeX(d.parent) + 100) + "," + d.x
+                    + " " + (computeX(d.parent) + 100) + "," + d.parent.x
+                    + " " + computeX(d.parent) + "," + d.parent.x;
             });
 
         // Setup position for every datum; Applying different css classes to parents and leafs.
         var node = g.selectAll(".node")
-            .data(root.descendants())
+            .data(root.descendants().filter(d => {
+                return !d.data.isFakeLeaf;
+            }))
             .enter().append("g")
             .attr("class", function (d) { return "node" + (d.children ? " node--internal" : " node--leaf") + (d.isCollapsedNode ? ' node--collapsed' : ''); })
-            .attr("transform", function (d) { return "translate(" + d.y + "," + d.x + ")"; });
+            .attr("transform", function (d) { 
+                return "translate(" + computeX(d) + "," + d.x + ")"; 
+            });
 
         // Draw every datum a small circle.
         node.append("circle")
@@ -218,9 +230,7 @@
                 //return d.id
             });
 
-
-        // Attach axis on top of the first leaf datum.
-    
+        // Attach the xAxis a the top of the document    
         g.insert("g")
                 .attr("class","xAxis")
                 .attr("transform", "translate(" + (7 + 2 * width / 3) + "," + 0 + ")")
@@ -229,7 +239,7 @@
         // tick mark for x-axis
         g.insert("g")
                 .attr("class", "grid")
-                .attr("transform", "translate(" + (7 + 2 * width / 3) + "," + (height - 15) + ")")
+                .attr("transform", "translate(" + (7 + 2 * width / 3) + "," + height + ")")
                 .call(d3.axisBottom()
                         .scale(xScale)
                         .ticks(5)
@@ -338,6 +348,7 @@
                 height: 1,
                 id: '',
                 data:{
+                    isFakeLeaf: true, // flag to mark built leaves
                     weight: 0,
                     target: null,
                     source: d.id
