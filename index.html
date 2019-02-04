@@ -112,6 +112,7 @@
         
         myData = addRootElements(treeData.data);
         root = stratify(myData);
+        console.log(root.leaves()[0])
         maxWeight =d3.max(root.leaves(), function(d) {
             return d.data.weight;
         })
@@ -153,7 +154,9 @@
         var link = g.selectAll(".link")
             .data(root.descendants().slice(1))
             .enter().append("path")
-            .attr("class", "link")
+            .attr("class", function(d) {
+                return d.parent.isCollapsedNode? "" :"link"
+            })
             .attr("d", function (d) {
                 return "M" + d.y + "," + d.x
                     + "C" + (d.parent.y + 100) + "," + d.x
@@ -200,7 +203,7 @@
             .attr("x", 8)
             .style("text-anchor", "start")
             .text(function (d) {
-                let text = Number(d.data.weight).toFixed(1) + ` - ${d.id}`;
+                let text = d.id ? Number(d.data.weight).toFixed(1) + ` - ${d.id}` : '';
                 return text;
             });
 
@@ -322,10 +325,24 @@
         svg.selectAll("g.ballG").remove();
     }
 
+
     function click(d) {
-        if (d.children != null) {
+        if (d.children != null && !d.isCollapsedNode) {
             d._children = d.children;
-            d.children = null;
+            // d.children = null;
+            console.log(d)
+            d.children = [{
+                children: null,
+                parent: d,
+                depth: d.depth +1,
+                height: 1,
+                id: '',
+                data:{
+                    weight: 0,
+                    target: null,
+                    source: d.id
+                }
+            }];
             d.isCollapsedNode = true;
         } else {
             d.children = d._children;
