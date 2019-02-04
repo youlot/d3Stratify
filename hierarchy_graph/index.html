@@ -107,7 +107,7 @@
     let myData;
     let root;
 
-    d3.json("JSON2_noms_despeces_modified.json", function (error, treeData) {
+    d3.json("JSON2_noms_despeces.json", function (error, treeData) {
         if (error) throw error;
 
         myData = addRootElements(treeData.data);
@@ -336,7 +336,7 @@
                 if (!parentExist) {
                     if (parentsAdded.indexOf(elem.source) < 0) {
                         newData.push({ 
-                            source: 'fakeRoot',
+                            source: '',
                             target: elem.source,
                             weight: 0 
                             });
@@ -345,15 +345,6 @@
                 }
             }
         }
-
-        newData.push({
-            source: '',
-            target: 'fakeRoot',
-            weight: 0 
-        });
-
-        console.log(`parentsAdded : ${parentsAdded}`);
-        console.log(`newData : `, newData);
 
         newData.push.apply(newData, data);
         return newData;
