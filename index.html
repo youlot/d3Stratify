@@ -12,7 +12,7 @@
         font-family: "Arial Black", Gadget, sans-serif;
         fill: black;
         font-weight: bold;
-        font-size: 14px
+        font-size: 12px
     }
 
     .xAxis .tick text {
@@ -38,7 +38,7 @@
     }
 
     .node--internal text {
-        font-size: 16px;
+        font-size: 12px;
         text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
     }
 
@@ -94,7 +94,7 @@
 
     // Setting up a way to handle the data
     var tree = d3.cluster()    // This D3 API method setup the Dendrogram elements position.
-        .separation(function(a, b) { return a.parent == b.parent ? 3 : 4; })
+        .separation(function(a, b) { return a.parent == b.parent ? 3 : 4; }) // define separation ratio between siblings 
         .size([height, width - (width / 3)]);    // Total width - bar chart width = Dendrogram chart width
         
         //.size([height, width - 460]);    // Total width - bar chart width = Dendrogram chart width
@@ -215,8 +215,9 @@
             .attr("x", 8)
             .style("text-anchor", "start")
             .text(function (d) {
-                let text = d.id ? Number(d.data.weight).toFixed(1) + ` - ${d.id}` : '';
-                return text;
+                // let text = d.id ? Number(d.data.weight).toFixed(1) + ` - ${d.id}` : '';
+                // return text;
+                return d.id;
             });
 
         // Write down text for every parent datum
@@ -225,9 +226,9 @@
             .attr("y", -10)
             .style("text-anchor", "middle")
             .text(function (d) {
-                let text = Number(d.data.weight).toFixed(1) + ` - ${d.id}`;
-                return text;
-                //return d.id
+                // let text = Number(d.data.weight).toFixed(1) + ` - ${d.id}`;
+                // return text;
+                return d.id;
             });
 
         // Attach the xAxis a the top of the document    
@@ -270,23 +271,27 @@
 
         // The moving ball
         // tata 
-        //var ballG = svg.insert("g")
-        //        .attr("class","ballG")
-        //        .attr("stroke-width","0")
-        //        .attr("transform", "translate(" + 1100 + "," + height/2 + ")");
-        //ballG.insert("circle")
-        //        .attr("class","shadow")
-        //        .style("fill","steelblue")
-        //        .attr("r", 5);
-        //ballG.insert("text")
-        //        .style("text-anchor", "middle")
-        //        .attr("dy",5)
-        //        .text("0.0");
+        var ballG = svg.insert("g")
+               .attr("class","ballG")
+               .attr("stroke-width","5")
+               .attr("transform", "translate(" + 1100 + "," + height/2 + ")");
+        ballG.insert("circle")
+               .attr("class","shadow")
+               .style("fill","steelblue")
+               .attr("r", 5);
+        ballG.insert("text")
+               .style("text-anchor", "middle")
+               .attr("dy",5)
+               .text("0.0");
 
         //// Animation functions for mouse on and off events.
-        //d3.selectAll(".node--leaf-g")
-        //        .on("mouseover", handleMouseOver)
-        //        .on("mouseout", handleMouseOut);
+        d3.selectAll(".node--leaf-g")
+               .on("mouseover", handleMouseOver)
+               .on("mouseout", handleMouseOut);
+        
+        d3.selectAll(".node--internal")
+               .on("mouseover", handleMouseOverInternalNode)
+               .on("mouseout", handleMouseOutInternalNode);
         // tata 
         
         function handleMouseOver(d) {
@@ -297,11 +302,11 @@
                     .attr("stroke-width","2");
 
 
-            let tmpText = Number(d.data.weight).toFixed(1) + ` - ${d.id}`;
-            let textSize = (9 * tmpText.length  + 20); 
+            let tmpText = d.id;
+            let textSize = leafG.select("text").node().getComputedTextLength(); //get text length
             var ballGMovement = ballG.transition()
                     .duration(400)
-                    .attr("transform", "translate(" + (d.y + textSize + 90) + "," + (d.x + 1.5) + ")");
+                    .attr("transform", "translate(" + (d.y + textSize + 90) + "," + (d.x + 23) + ")");
 
             ballGMovement.select("circle")
                     .style("fill", "#454545")
@@ -317,6 +322,18 @@
 
             leafG.select("rect")
                     .attr("stroke-width","0");
+        }
+        function handleMouseOverInternalNode(d) {
+            var text = d3.select(this).select("text");
+            text.text(function(d) {
+                return d.id + ' - '+ d.data.weight.toFixed(1);
+            })
+        }
+        function handleMouseOutInternalNode(d) {
+            var text = d3.select(this).select("text");
+            text.text(function(d) {
+                return d.id;
+            })
         }
 
     }
