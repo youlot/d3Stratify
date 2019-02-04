@@ -43,7 +43,7 @@
     }
 
     .node--leaf text {
-        fill: white;
+        fill: #000000;
     }
 
     .node--collapsed text {
@@ -85,12 +85,12 @@
     var xScale = d3.scaleLinear()
         .domain([0, 5]) // the values // tata 
         .range([0, (width / 3) - 60]);
-        //.range([0, 400]);
-
+    let maxWeight = 0
     var xAxis = d3.axisTop()
             .scale(xScale)
             .ticks(5)
-            .tickFormat(formatSkillPoints);
+            // .tickFormat(formatSkillPoints);
+    
 
     // Setting up a way to handle the data
     var tree = d3.cluster()    // This D3 API method setup the Dendrogram elements position.
@@ -109,13 +109,33 @@
 
     d3.json("JSON2_noms_despeces_modified.json", function (error, treeData) {
         if (error) throw error;
-
+        
         myData = addRootElements(treeData.data);
         root = stratify(myData);
+        maxWeight =d3.max(root.leaves(), function(d) {
+            return d.data.weight;
+        })
+        xScale.domain([0, maxWeight])
+        xAxis.scale(xScale)
+
+
         update();
     });
 
     function update() {
+
+        // update tree size
+        height = (root.leaves().length + 1) * 40;
+        d3.select("svg").attr("height", height)
+        var tree = d3.cluster()    // This D3 API method setup the Dendrogram elements position.
+        .size([height, width - (width / 3)]);
+
+        // update axis
+        maxWeight =d3.max(root.leaves(), function(d) {
+            return d.data.weight;
+        })
+        xScale.domain([0, maxWeight])
+        xAxis.scale(xScale)
         // generate a new hierarchy from the specified tabular data
         // root object example
         // children: Array(6) [ {…}, {…}, {…}, … ]
@@ -162,18 +182,18 @@
 
         leafNodeG.append("rect")
             .attr("class", "shadow")
-            .style("fill", function (d) { return "#777777"; })
+            .style("fill", function (d) { return "#ebebeb"; })
             .attr("width", 2)
             .attr("height", 30)
             .attr("rx", 2)
             .attr("ry", 2)
             .transition()
             .duration(800)
-            .attr("width", function (d) { 
-                let text = Number(d.data.weight).toFixed(1) + ` - ${d.id}`;
-                return (9 * text.length  + 20); 
-            }); 
-            //.attr("width", function (d) { return xScale(d.data.weight); });
+            // .attr("width", function (d) { 
+            //     let text = Number(d.data.weight).toFixed(1) + ` - ${d.id}`;
+            //     return (9 * text.length  + 20); 
+            // }); 
+            .attr("width", function (d) { return xScale(d.data.weight); });
 
         leafNodeG.append("text")
             .attr("dy", 19.5)
@@ -197,22 +217,22 @@
 
 
         // Attach axis on top of the first leaf datum.
-        //var firstEndNode = g.select(".node--leaf");
-        //    firstEndNode.insert("g")
-        //            .attr("class","xAxis")
-        //            .attr("transform", "translate(" + 7 + "," + -14 + ")")
-        //            .call(xAxis);
+    
+        g.insert("g")
+                .attr("class","xAxis")
+                .attr("transform", "translate(" + (7 + 2 * width / 3) + "," + 20 + ")")
+                .call(xAxis);
 
-        //    // tick mark for x-axis
-        //    firstEndNode.insert("g")
-        //            .attr("class", "grid")
-        //            .attr("transform", "translate(7," + (height - 15) + ")")
-        //            .call(d3.axisBottom()
-        //                    .scale(xScale)
-        //                    .ticks(5)
-        //                    .tickSize(-height, 0, 0)
-        //                    .tickFormat("")
-        //            );
+        // tick mark for x-axis
+        g.insert("g")
+                .attr("class", "grid")
+                .attr("transform", "translate(" + (7 + 2 * width / 3) + "," + (height - 15) + ")")
+                .call(d3.axisBottom()
+                        .scale(xScale)
+                        .ticks(5)
+                        .tickSize(-height, 0, 0)
+                        .tickFormat("")
+                );
 
         // Write down text for every collapsed datum
         //var leafNodeGCollapsed = g.selectAll(".node--leaf")

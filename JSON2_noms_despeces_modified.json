@@ -1168,7 +1168,7 @@
 {
     "source": "Règne : test",
     "target": "Embranchement : tata",
-    "weight": 25
+    "weight": 3
 },
 {
     "source": "Règne : test",
@@ -1178,6 +1178,6 @@
 {
     "source": "Règne : test",
     "target": "Embranchement : tutu",
-    "weight": 64
+    "weight": 5
 }
 ]}
