@@ -169,6 +169,10 @@
         // x: 657.7932098765434
         // y: 0
         tree(root); // d3.cluster()
+        root.descendants().forEach(d => {
+            d.y = d.x;
+            d.x = (d.depth - 1) / (d.depth + d.height - 1) * width * ratioGridTree;
+        });
 
         // Draw every datum a line connecting to its parent.
         var link = g.selectAll(".link")
@@ -178,10 +182,10 @@
                 return d.parent.isCollapsedNode? "" :"link"
             })
             .attr("d", function (d) {
-                return "M" + computeX(d) + "," + d.x
-                    + "C" + (computeX(d.parent) + 100) + "," + d.x
-                    + " " + (computeX(d.parent) + 100) + "," + d.parent.x
-                    + " " + computeX(d.parent) + "," + d.parent.x;
+                return "M" + d.x + "," + d.y
+                    + "C" + (d.parent.x + 100) + "," + d.y
+                    + " " + (d.parent.x + 100) + "," + d.parent.y
+                    + " " + d.parent.x + "," + d.parent.y;
             });
 
         // Setup position for every datum; Applying different css classes to parents and leafs.
@@ -192,7 +196,7 @@
             .enter().append("g")
             .attr("class", function (d) { return "node" + (d.children ? " node--internal" : " node--leaf") + (d.isCollapsedNode ? ' node--collapsed' : ''); })
             .attr("transform", function (d) { 
-                return "translate(" + computeX(d) + "," + d.x + ")"; 
+                return "translate(" + d.x + "," + d.y + ")"; 
             });
 
         // Draw every datum a small circle.
@@ -318,7 +322,7 @@
             let textSize = leafG.select("text").node().getComputedTextLength(); //get text length
             var ballGMovement = ballG.transition()
                     .duration(400)
-                    .attr("transform", "translate(" + (d.y + textSize + 90) + "," + (d.x) + ")");
+                    .attr("transform", "translate(" + (d.x + textSize + 90) + "," + (d.y) + ")");
 
             ballGMovement.select("circle")
                     .style("fill", "#454545")
@@ -355,7 +359,10 @@
     }
 
     function collapse(d) {
+        
         if (d.children != null && !d.isCollapsedNode) {
+            d.isCollapsedNode = true;
+            d.children.forEach(collapse);
             d._children = d.children;
             // d.children = null;
             d.children = [{
@@ -371,8 +378,6 @@
                     source: d.id
                 }
             }];
-            d._children.forEach(collapse);
-            d.isCollapsedNode = true;
         } else {
             d.children = d._children;
             d._children = null;
@@ -396,11 +401,10 @@
     }
     function centerNode(source) {
         scale = d3.zoomTransform(this).k;
-        x = -source.y;
-        y = -source.x;
+        x = -source.x;
+        y = -source.y;
         x = x * scale + d3.select("svg").attr("width") / 2;
         y = y * scale + d3.select("svg").attr("height") / 2;
-        console.log(d3.zoomTransform(this), x, y, -source.y, -source.x)
         svg.call(d3.zoom().transform, d3.zoomIdentity.translate(x, y));
         g.transition().duration(1000).attr('transform', 'translate(' + x + ',' + y + ')');
 
