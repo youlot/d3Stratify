@@ -80,10 +80,10 @@
 
     // main svg - get the initial 2ize and append a g element to svg
     var svg = d3.select("svg"),
-        width = 2200
+        width = +svg.attr("width")
         height = 4500,
-        g = svg.append("g").attr("transform", "translate(20,20)");       // move right 20px.
-
+        g = svg.append("g").attr("transform", "translate(20,20)"),       // move right 20px.
+        ratioGridTree = 0.7; // width of the tree/ width of the grid 
     function zoom() {
         g.attr("transform", d3.event.transform);
     }
@@ -98,7 +98,7 @@
     }
     var xScale = d3.scaleLinear()
         .domain([0, 5]) // the values // tata 
-        .range([0, (width / 3) - 60]);
+        .range([0, (width * (1 - ratioGridTree))]);
     let maxWeight = 0
     var xAxis = d3.axisTop()
             .scale(xScale)
@@ -109,7 +109,7 @@
     // Setting up a way to handle the data
     var tree = d3.cluster()    // This D3 API method setup the Dendrogram elements position.
         .separation(function(a, b) { return a.parent == b.parent ? 3 : 4; }) // define separation ratio between siblings 
-        .size([height, width - (width / 3)]);    // Total width - bar chart width = Dendrogram chart width
+        .size([height, width * ratioGridTree]);    // Total width - bar chart width = Dendrogram chart width
         
         //.size([height, width - 460]);    // Total width - bar chart width = Dendrogram chart width
 
@@ -128,6 +128,8 @@
         
         myData = addRootElements(treeData.data);
         root = stratify(myData);
+        // collpsed all nodes
+        root.children.forEach(d => d.children.forEach(collapse))
         maxWeight =d3.max(root.leaves(), function(d) {
             return d.data.weight;
         })
@@ -141,13 +143,13 @@
     function update() {
 
         computeX = function(node) {
-            return node.depth / (node.depth + node.height) * tree.size()[1]
+            return (node.depth - 1) / (node.depth + node.height - 1) * width * ratioGridTree
         }
 
         // update tree size
         height = (root.leaves().length + 1) * 50;
         // d3.select("svg").attr("height", height)
-        tree.size([height, width - (width / 3)]);
+        tree.size([height, width * ratioGridTree]);
         // tree.nodeSize([40, 200])
 
         // update axis
@@ -244,13 +246,13 @@
         // Attach the xAxis a the top of the document    
         g.insert("g")
                 .attr("class","xAxis")
-                .attr("transform", "translate(" + (7 + 2 * width / 3) + "," + 0 + ")")
+                .attr("transform", "translate(" + (7 + width * ratioGridTree) + "," + 0 + ")")
                 .call(xAxis);
 
         // tick mark for x-axis
         g.insert("g")
                 .attr("class", "grid")
-                .attr("transform", "translate(" + (7 + 2 * width / 3) + "," + height + ")")
+                .attr("transform", "translate(" + (7 + width * ratioGridTree) + "," + height + ")")
                 .call(d3.axisBottom()
                         .scale(xScale)
                         .ticks(5)
@@ -284,7 +286,7 @@
         var ballG = svg.insert("g")
                .attr("class","ballG")
                .attr("stroke-width","5")
-               .attr("transform", "translate(" + 1100 + "," + height/2 + ")");
+               .attr("transform", "translate(" + width + "," + height/2 + ")");
         ballG.insert("circle")
                .attr("class","shadow")
                .style("fill","steelblue")
@@ -353,21 +355,6 @@
     }
 
     function collapse(d) {
-        if (d.children) {
-            d._children = d.children;
-            d._children.forEach(collapse);
-            d.children = null;
-        }
-    }
-
-    function removeCurrentGraph() {
-        svg.selectAll("path.link").remove();
-        svg.selectAll("g.node").remove();
-        svg.selectAll("g.ballG").remove();
-    }
-
-
-    function click(d) {
         if (d.children != null && !d.isCollapsedNode) {
             d._children = d.children;
             // d.children = null;
@@ -384,13 +371,24 @@
                     source: d.id
                 }
             }];
+            d._children.forEach(collapse);
             d.isCollapsedNode = true;
         } else {
             d.children = d._children;
             d._children = null;
             d.isCollapsedNode = false;
         }
+    }
 
+    function removeCurrentGraph() {
+        svg.selectAll("path.link").remove();
+        svg.selectAll("g.node").remove();
+        svg.selectAll("g.ballG").remove();
+    }
+
+
+    function click(d) {
+        collapse(d)
         removeCurrentGraph();
         update();
     }
