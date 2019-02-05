@@ -97,13 +97,12 @@
         return experienceName[d % 6];
     }
     var xScale = d3.scaleLinear()
-        .domain([0, 5]) // the values // tata 
+        .domain([0, 5]) // the values 
         .range([0, (width * (1 - ratioGridTree))]);
     let maxWeight = 0
     var xAxis = d3.axisTop()
             .scale(xScale)
-            .ticks(5)
-            // .tickFormat(formatSkillPoints);
+            .ticks(5);
     
 
     // Setting up a way to handle the data
@@ -153,7 +152,7 @@
         // tree.nodeSize([40, 200])
 
         // update axis
-        maxWeight =d3.max(root.leaves(), function(d) {
+        maxWeight =d3.max(root.descendants().filter(d => !d.children && !d._children), function(d) {
             return d.data.weight;
         })
         xScale.domain([0, maxWeight])
@@ -194,7 +193,7 @@
                 return !d.data.isFakeNode; // remove fake node (ie: fakeRoot and fake children when collapsed)
             }))
             .enter().append("g")
-            .attr("class", function (d) { return "node" + (d.children ? " node--internal" : " node--leaf") + (d.isCollapsedNode ? ' node--collapsed' : ''); })
+            .attr("class", function (d) { return "node" + ((d.children || d._children) ? " node--internal" : " node--leaf") + (d._children ? ' node--collapsed' : ''); })
             .attr("transform", function (d) { 
                 return "translate(" + d.x + "," + d.y + ")"; 
             });
@@ -358,9 +357,9 @@
 
     }
 
-    function collapse(d) {
+    /*function collapse(d) {
         
-        if (d.children != null && !d.isCollapsedNode) {
+        if (d.children != null) {
             d.isCollapsedNode = true;
             d.children.forEach(collapse);
             d._children = d.children;
@@ -383,6 +382,21 @@
             d._children = null;
             d.isCollapsedNode = false;
         }
+    }*/
+
+    function collapse(d) {
+        if (d.children) {
+            d._children = d.children;
+            d._children.forEach(collapse);
+            d.children = null;
+        }
+    }
+
+    function expand(d) {
+        if (d._children) {
+            d.children = d._children;
+            d._children = null;
+        }
     }
 
     function removeCurrentGraph() {
@@ -390,11 +404,16 @@
         svg.selectAll("g.node").remove();
         svg.selectAll("g.ballG").remove();
         svg.selectAll(".grid").remove();
+        svg.selectAll(".xAxis").remove();
     }
 
 
     function click(d) {
-        collapse(d)
+        if(d.children) {
+            collapse(d)
+        } else {
+            expand(d)
+        }
         removeCurrentGraph();
         update();
         centerNode(d)
