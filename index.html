@@ -41,9 +41,6 @@
         font-size: 12px;
         text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
     }
-    .node--internal:hover text {
-        font-size: 16px;
-    }
 
     .node--leaf text {
         fill: #000000;
@@ -69,6 +66,18 @@
     svg {
         border: black solid 1px;
     }
+    div.tooltip {	
+        position: absolute;			
+        text-align: center;													
+        padding: 4px;				
+        font: 14px;		
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-weight: bold;
+        background: #ebebeb;	
+        border: 0px;		
+        border-radius: 8px;			
+        pointer-events: none;			
+    }
 </style>
 
 <body>
@@ -83,7 +92,10 @@
         width = +svg.attr("width")
         height = 4500,
         g = svg.append("g").attr("transform", "translate(20,20)"),       // move right 20px.
-        ratioGridTree = 0.7; // width of the tree/ width of the grid 
+        ratioGridTree = 0.7, // width of the tree/ width of the grid 
+        tooltip = d3.select("body").append("div")	// Define the div for the tooltip
+            .attr("class", "tooltip")				
+            .style("opacity", 0);
     function zoom() {
         g.attr("transform", d3.event.transform);
     }
@@ -339,50 +351,29 @@
                     .attr("stroke-width","0");
         }
         function handleMouseOverInternalNode(d) {
-            var text = d3.select(this).select("text");
+            var nodeG = d3.select(this);
+            var text = nodeG.select("text");
             text.text(function(d) {
                 return d.id + ' - '+ d.data.weight.toFixed(1);
             })
-            d3.select(this).select("circle")
+            tooltip.transition()		
+                .duration(200)		
+                .style("opacity", .9);		
+            tooltip.html(d.id + ' - '+ d.data.weight.toFixed(1))
+                .style("left", (d3.event.pageX - text.node().getComputedTextLength() *0.5) + "px")		
+                .style("top", (d3.event.pageY - 28) + "px");
+            nodeG.select("circle")
                 .attr("r", 8)
         }
         function handleMouseOutInternalNode(d) {
-            var text = d3.select(this).select("text");
-            text.text(function(d) {
-                return d.id;
-            })
+            tooltip.transition()		
+                .duration(500)		
+                .style("opacity", 0);
             d3.select(this).select("circle")
                 .attr("r", 4)
         }
 
     }
-
-    /*function collapse(d) {
-        
-        if (d.children != null) {
-            d.isCollapsedNode = true;
-            d.children.forEach(collapse);
-            d._children = d.children;
-            // d.children = null;
-            d.children = [{
-                children: null,
-                parent: d,
-                depth: d.depth +1,
-                height: 1,
-                id: '',
-                data:{
-                    isFakeNode: true, // flag to mark built node
-                    weight: 0,
-                    target: null,
-                    source: d.id
-                }
-            }];
-        } else {
-            d.children = d._children;
-            d._children = null;
-            d.isCollapsedNode = false;
-        }
-    }*/
 
     function collapse(d) {
         if (d.children) {
@@ -418,6 +409,7 @@
         update();
         centerNode(d)
     }
+
     function centerNode(source) {
         scale = d3.zoomTransform(this).k;
         x = -source.x;
