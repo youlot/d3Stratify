@@ -4,7 +4,7 @@
     .link {
         fill: none;
         stroke: #555;
-        a stroke-opacity: 0.4;
+        stroke-opacity: 0.4;
         stroke-width: 1px;
     }
 
@@ -86,8 +86,8 @@
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
-
-    // main svg - get the initial 2ize and append a g element to svg
+    var transition = d3.transition().duration(500)
+    // main svg - get the initial size and append a g element to svg
     var svg = d3.select("svg"),
         width = +svg.attr("width")
         height = 4500,
@@ -103,11 +103,6 @@
     var zoomListener = d3.zoom().on("zoom", zoom);
     svg.call(zoomListener);
 
-    // x-scale and x-axis
-    var experienceName = ["", "Basic 1.0","Alright 2.0","Handy 3.0","Expert 4.0","Guru 5.0"];
-    var formatSkillPoints = function (d) {
-        return experienceName[d % 6];
-    }
     var xScale = d3.scaleLinear()
         .domain([0, 5]) // the values 
         .range([0, (width * (1 - ratioGridTree))]);
@@ -121,11 +116,6 @@
     var tree = d3.cluster()    // This D3 API method setup the Dendrogram elements position.
         .separation(function(a, b) { return a.parent == b.parent ? 3 : 4; }) // define separation ratio between siblings 
         .size([height, width * ratioGridTree]);    // Total width - bar chart width = Dendrogram chart width
-        
-        //.size([height, width - 460]);    // Total width - bar chart width = Dendrogram chart width
-
-    //var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
-    //    .parentId(function (d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
     var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
         .id(function(d) { return d.target; })
@@ -144,6 +134,8 @@
         maxWeight =d3.max(root.leaves(), function(d) {
             return d.data.weight;
         })
+
+        // set axis dimension
         xScale.domain([0, maxWeight])
         xAxis.scale(xScale)
 
@@ -187,11 +179,21 @@
 
         // Draw every datum a line connecting to its parent.
         var link = g.selectAll(".link")
-            .data(root.descendants().slice(1).filter(d => !d.parent.data.isFakeNode)) // remove links from fakeRootNode
-            .enter().append("path")
-            .attr("class", function(d) {
-                return d.parent.isCollapsedNode? "" :"link"
-            })
+            .data(root.descendants().slice(1).filter(d => !d.parent.data.isFakeNode && !d.parent.isCollapsedNode), function (d) {
+                return d.id;
+            }); // remove links from fakeRootNode
+        //remove old links
+        link.exit().remove()
+        // update remaining link
+        link.attr("d", function (d) {
+                return "M" + d.x + "," + d.y
+                    + "C" + (d.parent.x + 100) + "," + d.y
+                    + " " + (d.parent.x + 100) + "," + d.parent.y
+                    + " " + d.parent.x + "," + d.parent.y;
+            });
+        // add new one
+        link.enter().append("path")
+            .attr("class", "link")
             .attr("d", function (d) {
                 return "M" + d.x + "," + d.y
                     + "C" + (d.parent.x + 100) + "," + d.y
@@ -203,22 +205,40 @@
         var node = g.selectAll(".node")
             .data(root.descendants().filter(d => {
                 return !d.data.isFakeNode; // remove fake node (ie: fakeRoot and fake children when collapsed)
-            }))
-            .enter().append("g")
-            .attr("class", function (d) { return "node" + ((d.children || d._children) ? " node--internal" : " node--leaf") + (d._children ? ' node--collapsed' : ''); })
-            .attr("transform", function (d) { 
+            }), function(d) {
+                return d.id;
+            });
+            
+        // remove old nodes
+        node.exit().remove()
+        //udpate remaining nodes
+        node.attr("transform", function (d) { 
                 return "translate(" + d.x + "," + d.y + ")"; 
             });
-
-        // Draw every datum a small circle.
-        node.append("circle")
+        // add new nodes
+        var nodeEnter = node.enter().append("g")
+            .attr("class", function (d) { return "node" + ((d.children || d._children) ? " node--internal" : " node--leaf") + (d._children ? ' node--collapsed' : ''); })
+            .on("click", click)
+            .attr("transform", function (d) { 
+                return "translate(" + d.x + "," + d.y + ")"; 
+            })
+        nodeEnter.append("circle")
             .attr("r", 4);
-
-        node.on("click", click);
+        
+        var nodeInternal = nodeEnter.filter(function(d) {
+            return (d.children || d._children);
+        });
+        nodeInternal.append("text")
+            .style("text-anchor", "middle")
+            .text(function(d) {
+                return d.id;
+            })
+            .attr("y", -10);
 
         // Setup G for every leaf datum. (rectangle)
-        var leafNodeG = g.selectAll(".node--leaf")
-            .append("g")
+        var leafNodeG = nodeEnter.filter(function(d) {
+                return !d.children && !d._children;
+            }).append("g")
             .attr("class", "node--leaf-g")
             .attr("transform", "translate(" + 8 + "," + -13 + ")"); // move rectangle to be centered to the node
 
@@ -229,8 +249,7 @@
             .attr("height", 30)
             .attr("rx", 2)
             .attr("ry", 2)
-            .transition()
-            .duration(800)
+            .transition(transition)
             // .attr("width", function (d) { 
             //     let text = Number(d.data.weight).toFixed(1) + ` - ${d.id}`;
             //     return (9 * text.length  + 20); 
@@ -238,26 +257,13 @@
             .attr("width", function (d) { return xScale(d.data.weight); });
 
         leafNodeG.append("text")
+            .style("text-anchor", "start")
+            .text(function(d) {
+                return d.id;
+            })
             .attr("dy", 19.5)
             .attr("x", 8)
-            .style("text-anchor", "start")
-            .text(function (d) {
-                // let text = d.id ? Number(d.data.weight).toFixed(1) + ` - ${d.id}` : '';
-                // return text;
-                return d.id;
-            });
-
-        // Write down text for every parent datum
-        var internalNode = g.selectAll(".node--internal");
-        internalNode.append("text")
-            .attr("y", -10)
-            .style("text-anchor", "middle")
-            .text(function (d) {
-                // let text = Number(d.data.weight).toFixed(1) + ` - ${d.id}`;
-                // return text;
-                return d.id;
-            });
-
+        
         // Attach the xAxis a the top of the document    
         g.insert("g")
                 .attr("class","xAxis")
@@ -356,19 +362,15 @@
             text.text(function(d) {
                 return d.id + ' - '+ d.data.weight.toFixed(1);
             })
-            tooltip.transition()		
-                .duration(200)		
-                .style("opacity", .9);		
-            tooltip.html(d.id + ' - '+ d.data.weight.toFixed(1))
+            tooltip.style("opacity", 1);		
+            tooltip.html(`${d.id} - ${d.data.weight.toFixed(1)}`)
                 .style("left", (d3.event.pageX - text.node().getComputedTextLength() *0.5) + "px")		
                 .style("top", (d3.event.pageY - 28) + "px");
             nodeG.select("circle")
                 .attr("r", 8)
         }
         function handleMouseOutInternalNode(d) {
-            tooltip.transition()		
-                .duration(500)		
-                .style("opacity", 0);
+            tooltip.style("opacity", 0);
             d3.select(this).select("circle")
                 .attr("r", 4)
         }
@@ -391,8 +393,6 @@
     }
 
     function removeCurrentGraph() {
-        svg.selectAll("path.link").remove();
-        svg.selectAll("g.node").remove();
         svg.selectAll("g.ballG").remove();
         svg.selectAll(".grid").remove();
         svg.selectAll(".xAxis").remove();
@@ -417,7 +417,7 @@
         x = x * scale + d3.select("svg").attr("width") / 2;
         y = y * scale + d3.select("svg").attr("height") / 2;
         svg.call(d3.zoom().transform, d3.zoomIdentity.translate(x, y));
-        g.transition().duration(1000).attr('transform', 'translate(' + x + ',' + y + ')');
+        g.transition(transition).attr('transform', 'translate(' + x + ',' + y + ')');
 
         
     }
