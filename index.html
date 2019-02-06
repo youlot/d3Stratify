@@ -125,10 +125,10 @@
     let myData;
     let root;
 
-    // d3.json("sciences.json", function (error, treeData) {
+    d3.json("sciences.json", function (error, treeData) {
     // d3.json("sciences2.json", function (error, treeData) {
     // d3.json("sciences100.json", function (error, treeData) {
-    d3.json("animal2002.json", function (error, treeData) {
+    // d3.json("animal2002.json", function (error, treeData) {
     // d3.json("JSON2_noms_despeces_modified.json", function (error, treeData) {
 
         if (error) throw error;
@@ -237,8 +237,20 @@
         node.exit().remove()
         //udpate remaining nodes
         node.attr("transform", function (d) { 
-                return "translate(" + d.x + "," + d.y + ")"; 
+                return "translate(" + d.x + "," + d.y + ")";
             });
+        var nodeLeafG = node.filter(function(d) {
+                return !d.children && !d._children;
+            }).selectAll("g");
+        nodeLeafG.select("rect")
+            .attr("width", function (d) { return xScale(d.data.weight); });
+        nodeLeafG.select("text")
+            .attr("width", function (d) { return xScale(d.data.weight) - 8; })
+            .text(function(d) {
+                return d.id;
+            })
+            .call(dotme);
+
         // add new nodes
         var nodeEnter = node.enter().append("g")
             .attr("class", function (d) { return "node" + ((d.children || d._children) ? " node--internal" : " node--leaf") + (d._children ? ' node--collapsed' : ''); })
@@ -260,13 +272,13 @@
             .attr("y", -10);
 
         // Setup G for every leaf datum. (rectangle)
-        var leafNodeG = nodeEnter.filter(function(d) {
+        var leafNodeGEnter = nodeEnter.filter(function(d) {
                 return !d.children && !d._children;
             }).append("g")
             .attr("class", "node--leaf-g")
             .attr("transform", "translate(" + 8 + "," + -13 + ")"); // move rectangle to be centered to the node
 
-        leafNodeG.append("rect")
+        leafNodeGEnter.append("rect")
             .attr("class", "shadow")
             .style("fill", function (d) { return "#ebebeb"; })
             .attr("width", 2)
@@ -280,18 +292,15 @@
             // }); 
             .attr("width", function (d) { return xScale(d.data.weight); });
 
-        leafNodeG.append("text")
-            .attr("class", "dotme")
+        leafNodeGEnter.append("text")
             .style("text-anchor", "start")
             .text(function(d) {
                 return d.id;
             })
             .attr("dy", 19.5)
             .attr("x", 8)
-            .attr("width", function (d) { return xScale(d.data.weight) - 8; });
-        
-        // text fits its container
-        d3.selectAll('.dotme').call(dotme);
+            .attr("width", function (d) { return xScale(d.data.weight) - 8; })
+            .call(dotme);
         
         // Attach the xAxis a the top of the document    
         g.insert("g")
@@ -383,7 +392,6 @@
         text.each(function() {
             var text = d3.select(this);
             var letters = text.text().split('');
-            
             var ellipsis = text.text('').append('tspan').attr('class', 'elip').text('...');
             var width = parseFloat(text.attr('width')) - ellipsis.node().getComputedTextLength();
             var numLetters = letters.length;
@@ -449,7 +457,6 @@
     }
 
     function addRootElements(data) {
-        debugger
         newData = [];
         elementsDone = [];
         parentsAdded = [];
