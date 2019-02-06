@@ -1,0 +1,115 @@
+{"total":100,"maxSize":300,"maxValue":1000000,"minValue":0,"data":[{
+    "source": "1 - applied sciences",
+    "target": "2 - agriculture, fisheries & forestry",
+    "weight": 22
+},
+{
+    "source": "1 - arts & humanities",
+    "target": "2 - historical studies",
+    "weight": 3
+},
+{
+    "source": "1 - health sciences",
+    "target": "2 - biomedical research",
+    "weight": 2
+},
+{
+    "source": "1 - health sciences",
+    "target": "2 - clinical medicine",
+    "weight": 2
+},
+{
+    "source": "1 - health sciences",
+    "target": "2 - psychology & cognitive sciences",
+    "weight": 5
+},
+{
+    "source": "1 - natural sciences",
+    "target": "2 - biology",
+    "weight": 60
+},
+{
+    "source": "1 - natural sciences",
+    "target": "2 - earth & environmental sciences",
+    "weight": 5
+},
+{
+    "source": "2 - agriculture, fisheries & forestry",
+    "target": "3 - fisheries",
+    "weight": 21
+},
+{
+    "source": "2 - agriculture, fisheries & forestry",
+    "target": "3 - veterinary sciences",
+    "weight": 1
+},
+{
+    "source": "2 - biology",
+    "target": "3 - ecology",
+    "weight": 20
+},
+{
+    "source": "2 - biology",
+    "target": "3 - entomology",
+    "weight": 9
+},
+{
+    "source": "2 - biology",
+    "target": "3 - evolutionary biology",
+    "weight": 19
+},
+{
+    "source": "2 - biology",
+    "target": "3 - marine biology & hydrobiology",
+    "weight": 4
+},
+{
+    "source": "2 - biology",
+    "target": "3 - ornithology",
+    "weight": 4
+},
+{
+    "source": "2 - biology",
+    "target": "3 - zoology",
+    "weight": 4
+},
+{
+    "source": "2 - biomedical research",
+    "target": "3 - anatomy & morphology",
+    "weight": 1
+},
+{
+    "source": "2 - biomedical research",
+    "target": "3 - developmental biology",
+    "weight": 1
+},
+{
+    "source": "2 - clinical medicine",
+    "target": "3 - legal & forensic medicine",
+    "weight": 1
+},
+{
+    "source": "2 - clinical medicine",
+    "target": "3 - tropical medicine",
+    "weight": 1
+},
+{
+    "source": "2 - earth & environmental sciences",
+    "target": "3 - environmental sciences",
+    "weight": 5
+},
+{
+    "source": "2 - historical studies",
+    "target": "3 - anthropology",
+    "weight": 2
+},
+{
+    "source": "2 - historical studies",
+    "target": "3 - archaeology",
+    "weight": 1
+},
+{
+    "source": "2 - psychology & cognitive sciences",
+    "target": "3 - behavioral science & comparative psychology",
+    "weight": 5
+}]}

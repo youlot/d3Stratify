@@ -1,0 +1,8350 @@
+{"total":100,"maxSize":2000,"maxValue":1000000,"minValue":0,"data":[{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Acipenseriformes",
+    "weight": 3
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Anguilliformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Atheriniformes",
+    "weight": 3
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Batrachoidiformes",
+    "weight": 3
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Beloniformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Characiformes",
+    "weight": 30
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Clupeiformes",
+    "weight": 4
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Cypriniformes",
+    "weight": 54
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Cyprinodontiformes",
+    "weight": 6
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Esociformes",
+    "weight": 4
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Gadiformes",
+    "weight": 5
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Gasterosteiformes",
+    "weight": 5
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Mugiliformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Ophidiiformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Osmeriformes",
+    "weight": 5
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Perciformes",
+    "weight": 213
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Percopsiformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Pleuronectiformes",
+    "weight": 8
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Salmoniformes",
+    "weight": 28
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Scorpaeniformes",
+    "weight": 11
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Siluriformes",
+    "weight": 45
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Stomiiformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Syngnathiformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Actinopterygii",
+    "target": "Ordre : Tetraodontiformes",
+    "weight": 6
+},
+{
+    "source": "Classe : Adenophorea",
+    "target": "Ordre : Trichocephalida",
+    "weight": 1
+},
+{
+    "source": "Classe : Amphibia",
+    "target": "Ordre : Anura",
+    "weight": 29
+},
+{
+    "source": "Classe : Arachnida",
+    "target": "Ordre : Araneae",
+    "weight": 19
+},
+{
+    "source": "Classe : Arachnida",
+    "target": "Ordre : Ixodida",
+    "weight": 1
+},
+{
+    "source": "Classe : Ascidiacea",
+    "target": "Ordre : Phlebobranchia",
+    "weight": 1
+},
+{
+    "source": "Classe : Ascidiacea",
+    "target": "Ordre : Stolidobranchia",
+    "weight": 5
+},
+{
+    "source": "Classe : Asteroidea",
+    "target": "Ordre : Paxillosida",
+    "weight": 1
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Accipitriformes",
+    "weight": 9
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Anseriformes",
+    "weight": 9
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Apodiformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Apterygiformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Caprimulgiformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Charadriiformes",
+    "weight": 10
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Columbiformes",
+    "weight": 6
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Cuculiformes",
+    "weight": 2
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Falconiformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Galliformes",
+    "weight": 13
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Gruiformes",
+    "weight": 4
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Passeriformes",
+    "weight": 97
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Pelecaniformes",
+    "weight": 5
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Piciformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Sphenisciformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Strigiformes",
+    "weight": 3
+},
+{
+    "source": "Classe : Aves",
+    "target": "Ordre : Suliformes",
+    "weight": 2
+},
+{
+    "source": "Classe : Bivalvia",
+    "target": "Ordre : Adapedonta",
+    "weight": 1
+},
+{
+    "source": "Classe : Bivalvia",
+    "target": "Ordre : Arcida",
+    "weight": 2
+},
+{
+    "source": "Classe : Bivalvia",
+    "target": "Ordre : Cardiida",
+    "weight": 1
+},
+{
+    "source": "Classe : Bivalvia",
+    "target": "Ordre : Limida",
+    "weight": 1
+},
+{
+    "source": "Classe : Bivalvia",
+    "target": "Ordre : Myida",
+    "weight": 3
+},
+{
+    "source": "Classe : Bivalvia",
+    "target": "Ordre : Mytilida",
+    "weight": 14
+},
+{
+    "source": "Classe : Bivalvia",
+    "target": "Ordre : Ostreida",
+    "weight": 4
+},
+{
+    "source": "Classe : Bivalvia",
+    "target": "Ordre : Pectinida",
+    "weight": 2
+},
+{
+    "source": "Classe : Bivalvia",
+    "target": "Ordre : Venerida",
+    "weight": 4
+},
+{
+    "source": "Classe : Branchiopoda",
+    "target": "Ordre : Anostraca",
+    "weight": 2
+},
+{
+    "source": "Classe : Branchiopoda",
+    "target": "Ordre : Diplostraca",
+    "weight": 2
+},
+{
+    "source": "Classe : Caudofoveata",
+    "target": "Ordre : Chaetodermatida",
+    "weight": 1
+},
+{
+    "source": "Classe : Cephalopoda",
+    "target": "Ordre : Myopsida",
+    "weight": 3
+},
+{
+    "source": "Classe : Cephalopoda",
+    "target": "Famille : Chtenopterygidae",
+    "weight": 1
+},
+{
+    "source": "Classe : Cephalopoda",
+    "target": "Ordre : Octopoda",
+    "weight": 3
+},
+{
+    "source": "Classe : Cephalopoda",
+    "target": "Ordre : Oegopsida",
+    "weight": 16
+},
+{
+    "source": "Classe : Cephalopoda",
+    "target": "Ordre : Sepiida",
+    "weight": 2
+},
+{
+    "source": "Classe : Cestoda",
+    "target": "Ordre : Diphyllobothriidea",
+    "weight": 1
+},
+{
+    "source": "Classe : Chilopoda",
+    "target": "Ordre : Craterostigmomorpha",
+    "weight": 1
+},
+{
+    "source": "Classe : Clitellata",
+    "target": "Ordre : Arhynchobdellida",
+    "weight": 1
+},
+{
+    "source": "Classe : Clitellata",
+    "target": "Ordre : Crassiclitellata",
+    "weight": 1
+},
+{
+    "source": "Classe : Clitellata",
+    "target": "Ordre : Enchytraeida",
+    "weight": 1
+},
+{
+    "source": "Classe : Clitellata",
+    "target": "Ordre : Haplotaxida",
+    "weight": 2
+},
+{
+    "source": "Classe : Clitellata",
+    "target": "Ordre : Lumbriculida",
+    "weight": 1
+},
+{
+    "source": "Classe : Clitellata",
+    "target": "Ordre : Rhynchobdellida",
+    "weight": 1
+},
+{
+    "source": "Classe : Diplopoda",
+    "target": "Ordre : Julida",
+    "weight": 1
+},
+{
+    "source": "Classe : Elasmobranchii",
+    "target": "Ordre : Carcharhiniformes",
+    "weight": 6
+},
+{
+    "source": "Classe : Elasmobranchii",
+    "target": "Ordre : Lamniformes",
+    "weight": 3
+},
+{
+    "source": "Classe : Elasmobranchii",
+    "target": "Ordre : Myliobatiformes",
+    "weight": 3
+},
+{
+    "source": "Classe : Elasmobranchii",
+    "target": "Ordre : Orectolobiformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Elasmobranchii",
+    "target": "Ordre : Rhinopristiformes",
+    "weight": 1
+},
+{
+    "source": "Classe : Entognatha",
+    "target": "Ordre : Collembola",
+    "weight": 3
+},
+{
+    "source": "Classe : Gastropoda",
+    "target": "Ordre : Lepetellida",
+    "weight": 2
+},
+{
+    "source": "Classe : Gastropoda",
+    "target": "Ordre : Littorinimorpha",
+    "weight": 5
+},
+{
+    "source": "Classe : Gastropoda",
+    "target": "Ordre : Neogastropoda",
+    "weight": 5
+},
+{
+    "source": "Classe : Gastropoda",
+    "target": "Ordre : Stylommatophora",
+    "weight": 2
+},
+{
+    "source": "Classe : Gymnolaemata",
+    "target": "Ordre : Cheilostomatida",
+    "weight": 20
+},
+{
+    "source": "Classe : Hexanauplia",
+    "target": "Ordre : Calanoida",
+    "weight": 6
+},
+{
+    "source": "Classe : Hexanauplia",
+    "target": "Ordre : Cyclopoida",
+    "weight": 1
+},
+{
+    "source": "Classe : Hydrozoa",
+    "target": "Ordre : Anthoathecata",
+    "weight": 3
+},
+{
+    "source": "Classe : Insecta",
+    "target": "Ordre : Blattodea",
+    "weight": 2
+},
+{
+    "source": "Classe : Insecta",
+    "target": "Ordre : Coleoptera",
+    "weight": 9
+},
+{
+    "source": "Classe : Insecta",
+    "target": "Ordre : Diptera",
+    "weight": 31
+},
+{
+    "source": "Classe : Insecta",
+    "target": "Ordre : Ephemeroptera",
+    "weight": 1
+},
+{
+    "source": "Classe : Insecta",
+    "target": "Ordre : Hemiptera",
+    "weight": 3
+},
+{
+    "source": "Classe : Insecta",
+    "target": "Ordre : Hymenoptera",
+    "weight": 27
+},
+{
+    "source": "Classe : Insecta",
+    "target": "Ordre : Lepidoptera",
+    "weight": 32
+},
+{
+    "source": "Classe : Insecta",
+    "target": "Ordre : Orthoptera",
+    "weight": 7
+},
+{
+    "source": "Classe : Malacostraca",
+    "target": "Ordre : Amphipoda",
+    "weight": 1
+},
+{
+    "source": "Classe : Malacostraca",
+    "target": "Ordre : Decapoda",
+    "weight": 40
+},
+{
+    "source": "Classe : Malacostraca",
+    "target": "Ordre : Isopoda",
+    "weight": 1
+},
+{
+    "source": "Classe : Malacostraca",
+    "target": "Ordre : Mysida",
+    "weight": 4
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Afrosoricida",
+    "weight": 1
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Artiodactyla",
+    "weight": 14
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Carnivora",
+    "weight": 30
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Cetacea",
+    "weight": 7
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Chiroptera",
+    "weight": 15
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Cingulata",
+    "weight": 3
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Didelphimorphia",
+    "weight": 1
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Diprotodontia",
+    "weight": 1
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Lagomorpha",
+    "weight": 2
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Perissodactyla",
+    "weight": 2
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Pilosa",
+    "weight": 3
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Primates",
+    "weight": 45
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Proboscidea",
+    "weight": 1
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Rodentia",
+    "weight": 38
+},
+{
+    "source": "Classe : Mammalia",
+    "target": "Ordre : Soricomorpha",
+    "weight": 3
+},
+{
+    "source": "Classe : Ophiuroidea",
+    "target": "Ordre : Amphilepidida",
+    "weight": 1
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Ordre : Amphinomida",
+    "weight": 1
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Ordre : Eunicida",
+    "weight": 13
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Ordre : Phyllodocida",
+    "weight": 9
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Ordre : Sabellida",
+    "weight": 1
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Ordre : Spionida",
+    "weight": 2
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Ordre : Terebellida",
+    "weight": 1
+},
+{
+    "source": "Classe : Polyplacophora",
+    "target": "Ordre : Chitonida",
+    "weight": 1
+},
+{
+    "source": "Classe : Reptilia",
+    "target": "Ordre : Crocodylia",
+    "weight": 3
+},
+{
+    "source": "Classe : Reptilia",
+    "target": "Ordre : Squamata",
+    "weight": 52
+},
+{
+    "source": "Classe : Reptilia",
+    "target": "Ordre : Testudines",
+    "weight": 2
+},
+{
+    "source": "Classe : Rhynchonellata",
+    "target": "Ordre : Rhynchonellida",
+    "weight": 1
+},
+{
+    "source": "Classe : Rhynchonellata",
+    "target": "Ordre : Terebratulida",
+    "weight": 3
+},
+{
+    "source": "Classe : Secernentea",
+    "target": "Ordre : Rhabditida",
+    "weight": 3
+},
+{
+    "source": "Classe : Stenolaemata",
+    "target": "Ordre : Cyclostomatida",
+    "weight": 2
+},
+{
+    "source": "Embranchement : Annelida",
+    "target": "Classe : Clitellata",
+    "weight": 7
+},
+{
+    "source": "Embranchement : Annelida",
+    "target": "Classe : Polychaeta",
+    "weight": 39
+},
+{
+    "source": "Embranchement : Arthropoda",
+    "target": "Classe : Arachnida",
+    "weight": 20
+},
+{
+    "source": "Embranchement : Arthropoda",
+    "target": "Classe : Branchiopoda",
+    "weight": 4
+},
+{
+    "source": "Embranchement : Arthropoda",
+    "target": "Classe : Chilopoda",
+    "weight": 1
+},
+{
+    "source": "Embranchement : Arthropoda",
+    "target": "Classe : Diplopoda",
+    "weight": 1
+},
+{
+    "source": "Embranchement : Arthropoda",
+    "target": "Classe : Entognatha",
+    "weight": 3
+},
+{
+    "source": "Embranchement : Arthropoda",
+    "target": "Classe : Hexanauplia",
+    "weight": 7
+},
+{
+    "source": "Embranchement : Arthropoda",
+    "target": "Classe : Insecta",
+    "weight": 112
+},
+{
+    "source": "Embranchement : Arthropoda",
+    "target": "Classe : Malacostraca",
+    "weight": 46
+},
+{
+    "source": "Embranchement : Brachiopoda",
+    "target": "Classe : Rhynchonellata",
+    "weight": 4
+},
+{
+    "source": "Embranchement : Bryozoa",
+    "target": "Classe : Gymnolaemata",
+    "weight": 20
+},
+{
+    "source": "Embranchement : Bryozoa",
+    "target": "Classe : Stenolaemata",
+    "weight": 2
+},
+{
+    "source": "Embranchement : Chordata",
+    "target": "Classe : Actinopterygii",
+    "weight": 440
+},
+{
+    "source": "Embranchement : Chordata",
+    "target": "Classe : Amphibia",
+    "weight": 29
+},
+{
+    "source": "Embranchement : Chordata",
+    "target": "Classe : Ascidiacea",
+    "weight": 6
+},
+{
+    "source": "Embranchement : Chordata",
+    "target": "Classe : Aves",
+    "weight": 166
+},
+{
+    "source": "Embranchement : Chordata",
+    "target": "Classe : Elasmobranchii",
+    "weight": 14
+},
+{
+    "source": "Embranchement : Chordata",
+    "target": "Classe : Mammalia",
+    "weight": 166
+},
+{
+    "source": "Embranchement : Chordata",
+    "target": "Classe : Reptilia",
+    "weight": 63
+},
+{
+    "source": "Embranchement : Cnidaria",
+    "target": "Classe : Hydrozoa",
+    "weight": 3
+},
+{
+    "source": "Embranchement : Echinodermata",
+    "target": "Classe : Asteroidea",
+    "weight": 1
+},
+{
+    "source": "Embranchement : Echinodermata",
+    "target": "Classe : Ophiuroidea",
+    "weight": 1
+},
+{
+    "source": "Embranchement : Mollusca",
+    "target": "Classe : Bivalvia",
+    "weight": 32
+},
+{
+    "source": "Embranchement : Mollusca",
+    "target": "Classe : Caudofoveata",
+    "weight": 1
+},
+{
+    "source": "Embranchement : Mollusca",
+    "target": "Classe : Cephalopoda",
+    "weight": 25
+},
+{
+    "source": "Embranchement : Mollusca",
+    "target": "Classe : Gastropoda",
+    "weight": 15
+},
+{
+    "source": "Embranchement : Mollusca",
+    "target": "Classe : Polyplacophora",
+    "weight": 1
+},
+{
+    "source": "Embranchement : Nematoda",
+    "target": "Classe : Adenophorea",
+    "weight": 1
+},
+{
+    "source": "Embranchement : Nematoda",
+    "target": "Classe : Secernentea",
+    "weight": 3
+},
+{
+    "source": "Embranchement : Platyhelminthes",
+    "target": "Classe : Cestoda",
+    "weight": 1
+},
+{
+    "source": "Famille : Acartiidae",
+    "target": "Acartia omorii",
+    "weight": 1
+},
+{
+    "source": "Famille : Accipitridae",
+    "target": "Aegypius monachus",
+    "weight": 1
+},
+{
+    "source": "Famille : Accipitridae",
+    "target": "Aquila chrysaetos",
+    "weight": 2
+},
+{
+    "source": "Famille : Accipitridae",
+    "target": "Circus aeruginosus",
+    "weight": 1
+},
+{
+    "source": "Famille : Accipitridae",
+    "target": "Haliaeetus leucocephalus",
+    "weight": 2
+},
+{
+    "source": "Famille : Accipitridae",
+    "target": "Harpia harpyja",
+    "weight": 1
+},
+{
+    "source": "Famille : Accipitridae",
+    "target": "Spilornis cheela",
+    "weight": 1
+},
+{
+    "source": "Famille : Acipenseridae",
+    "target": "Acipenser mikadoi",
+    "weight": 1
+},
+{
+    "source": "Famille : Acipenseridae",
+    "target": "Pseudoscaphirhynchus kaufmanni",
+    "weight": 1
+},
+{
+    "source": "Famille : Acipenseridae",
+    "target": "Scaphirhynchus albus",
+    "weight": 1
+},
+{
+    "source": "Famille : Acrididae",
+    "target": "Chorthippus parallelus",
+    "weight": 1
+},
+{
+    "source": "Famille : Acrididae",
+    "target": "Goniaea australasiae",
+    "weight": 1
+},
+{
+    "source": "Famille : Acrididae",
+    "target": "Stenobothrus festivus",
+    "weight": 1
+},
+{
+    "source": "Famille : Acrocephalidae",
+    "target": "Acrocephalus arundinaceus",
+    "weight": 1
+},
+{
+    "source": "Famille : Adrianichthyidae",
+    "target": "Oryzias latipes",
+    "weight": 1
+},
+{
+    "source": "Famille : Aegithalidae",
+    "target": "Aegithalos caudatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Acanthocercus annectans",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Acanthocercus atricollis",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Acanthocercus zonurus",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Agama agama",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Agama spinosa",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Agama zonura",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Stellio cyanogaster",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Uromastyx princeps",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Xenagama batillifera",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Xenagama taylori",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Xenagama wilmsi",
+    "weight": 1
+},
+{
+    "source": "Famille : Agamidae",
+    "target": "Xenagama zonura",
+    "weight": 1
+},
+{
+    "source": "Famille : Agaonidae",
+    "target": "Blastophaga psenes",
+    "weight": 1
+},
+{
+    "source": "Famille : Agaonidae",
+    "target": "Ceratosolen solmsi",
+    "weight": 1
+},
+{
+    "source": "Famille : Agaonidae",
+    "target": "Eupristina belgaumensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Agriolimacidae",
+    "target": "Deroceras laeve",
+    "weight": 1
+},
+{
+    "source": "Famille : Alcidae",
+    "target": "Aethia pygmaea",
+    "weight": 1
+},
+{
+    "source": "Famille : Alligatoridae",
+    "target": "Alligator mississippiensis",
+    "weight": 2
+},
+{
+    "source": "Famille : Alloposidae",
+    "target": "Haliphron atlanticus",
+    "weight": 1
+},
+{
+    "source": "Famille : Amblycipitidae",
+    "target": "Liobagrus obesus",
+    "weight": 1
+},
+{
+    "source": "Famille : Amphinomidae",
+    "target": "Eurythoe complanata",
+    "weight": 1
+},
+{
+    "source": "Famille : Anatidae",
+    "target": "Anas acuta",
+    "weight": 1
+},
+{
+    "source": "Famille : Anatidae",
+    "target": "Anas clypeata",
+    "weight": 1
+},
+{
+    "source": "Famille : Anatidae",
+    "target": "Anas discors",
+    "weight": 1
+},
+{
+    "source": "Famille : Anatidae",
+    "target": "Anas platyrhynchos",
+    "weight": 3
+},
+{
+    "source": "Famille : Anatidae",
+    "target": "Anas strepera",
+    "weight": 1
+},
+{
+    "source": "Famille : Anatidae",
+    "target": "Cygnus olor",
+    "weight": 1
+},
+{
+    "source": "Famille : Anatidae",
+    "target": "Somateria mollissima",
+    "weight": 1
+},
+{
+    "source": "Famille : Anguillidae",
+    "target": "Anguilla anguilla",
+    "weight": 1
+},
+{
+    "source": "Famille : Anostomidae",
+    "target": "Anostomoides laticeps",
+    "weight": 1
+},
+{
+    "source": "Famille : Anostomidae",
+    "target": "Leporinus spilopleura",
+    "weight": 1
+},
+{
+    "source": "Famille : Anostomidae",
+    "target": "Leporinus steindachneri",
+    "weight": 1
+},
+{
+    "source": "Famille : Anostomidae",
+    "target": "Schizodon vittatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Aphroditidae",
+    "target": "Aphrodita aculeata",
+    "weight": 1
+},
+{
+    "source": "Famille : Aphroditidae",
+    "target": "Aphrodita longicornis",
+    "weight": 1
+},
+{
+    "source": "Famille : Apidae",
+    "target": "Apis mellifera",
+    "weight": 2
+},
+{
+    "source": "Famille : Apidae",
+    "target": "Tetragonisca angustula",
+    "weight": 1
+},
+{
+    "source": "Famille : Apidae",
+    "target": "Trigona angustula",
+    "weight": 1
+},
+{
+    "source": "Famille : Apterygidae",
+    "target": "Apteryx mantelli",
+    "weight": 1
+},
+{
+    "source": "Famille : Arachnopusiidae",
+    "target": "Arachnopusia inchoata",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Allocyclosa bifurca",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Argiope aurantia",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Argiope keyserlingi",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Argiope trifasciata",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Argiope versicolor",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Cyclosa conica",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Cyclosa fililineata",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Cyclosa monteverde",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Cyclosa morretes",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Cyclosa octotuberculata",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Cyclosa turbinata",
+    "weight": 1
+},
+{
+    "source": "Famille : Araneidae",
+    "target": "Nephila edulis",
+    "weight": 1
+},
+{
+    "source": "Famille : Arcanatoridae",
+    "target": "Kakamega poliothorax",
+    "weight": 1
+},
+{
+    "source": "Famille : Arcidae",
+    "target": "Anadara grandis",
+    "weight": 1
+},
+{
+    "source": "Famille : Arcidae",
+    "target": "Anadara tuberculosa",
+    "weight": 1
+},
+{
+    "source": "Famille : Arcticidae",
+    "target": "Arctica islandica",
+    "weight": 1
+},
+{
+    "source": "Famille : Arctiidae",
+    "target": "Conilepia nigricosta",
+    "weight": 1
+},
+{
+    "source": "Famille : Arctiidae",
+    "target": "Creatonotos transiens",
+    "weight": 1
+},
+{
+    "source": "Famille : Arctiidae",
+    "target": "Hyphantria cunea",
+    "weight": 1
+},
+{
+    "source": "Famille : Arctiidae",
+    "target": "Lithosia quadra",
+    "weight": 1
+},
+{
+    "source": "Famille : Arctiidae",
+    "target": "Syntomeida epilais",
+    "weight": 1
+},
+{
+    "source": "Famille : Arctiidae",
+    "target": "Utetheisa ornatrix",
+    "weight": 1
+},
+{
+    "source": "Famille : Ardeidae",
+    "target": "Ardea cinerea",
+    "weight": 1
+},
+{
+    "source": "Famille : Ardeidae",
+    "target": "Botaurus stellaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Ardeidae",
+    "target": "Egretta garzetta",
+    "weight": 1
+},
+{
+    "source": "Famille : Ardeidae",
+    "target": "Ixobrychus minutus",
+    "weight": 1
+},
+{
+    "source": "Famille : Aromobatidae",
+    "target": "Mannophryne trinitatis",
+    "weight": 1
+},
+{
+    "source": "Famille : Artemiidae",
+    "target": "Artemia salina",
+    "weight": 2
+},
+{
+    "source": "Famille : Asellidae",
+    "target": "Asellus aquaticus",
+    "weight": 1
+},
+{
+    "source": "Famille : Astroblepidae",
+    "target": "Astroblepus caquetae",
+    "weight": 1
+},
+{
+    "source": "Famille : Astroblepidae",
+    "target": "Astroblepus chapmani",
+    "weight": 1
+},
+{
+    "source": "Famille : Astroblepidae",
+    "target": "Astroblepus grixalvii",
+    "weight": 1
+},
+{
+    "source": "Famille : Astroblepidae",
+    "target": "Astroblepus homodon",
+    "weight": 1
+},
+{
+    "source": "Famille : Astropectinidae",
+    "target": "Astropecten irregularis",
+    "weight": 1
+},
+{
+    "source": "Famille : Atelidae",
+    "target": "Alouatta macconnelli",
+    "weight": 1
+},
+{
+    "source": "Famille : Atelidae",
+    "target": "Alouatta pigra",
+    "weight": 1
+},
+{
+    "source": "Famille : Atelidae",
+    "target": "Ateles paniscus",
+    "weight": 1
+},
+{
+    "source": "Famille : Atherinopsidae",
+    "target": "Atherinopsis californiensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Atherinopsidae",
+    "target": "Atherinops affinis",
+    "weight": 1
+},
+{
+    "source": "Famille : Baetidae",
+    "target": "Baetis rhodani",
+    "weight": 1
+},
+{
+    "source": "Famille : Bagridae",
+    "target": "Hemibagrus nemurus",
+    "weight": 1
+},
+{
+    "source": "Famille : Bagridae",
+    "target": "Hemibagrus wyckii",
+    "weight": 1
+},
+{
+    "source": "Famille : Bagridae",
+    "target": "Mystus singaringan",
+    "weight": 1
+},
+{
+    "source": "Famille : Batrachoididae",
+    "target": "Halobatrachus didactylus",
+    "weight": 1
+},
+{
+    "source": "Famille : Batrachoididae",
+    "target": "Opsanus tau",
+    "weight": 1
+},
+{
+    "source": "Famille : Batrachoididae",
+    "target": "Triathalassothia argentina",
+    "weight": 1
+},
+{
+    "source": "Famille : Bitectiporidae",
+    "target": "Pentapora fascialis",
+    "weight": 1
+},
+{
+    "source": "Famille : Blenniidae",
+    "target": "Blennius pholis",
+    "weight": 1
+},
+{
+    "source": "Famille : Blenniidae",
+    "target": "Lipophrys pholis",
+    "weight": 1
+},
+{
+    "source": "Famille : Boidae",
+    "target": "Boa constrictor",
+    "weight": 1
+},
+{
+    "source": "Famille : Bombycidae",
+    "target": "Bombyx mori",
+    "weight": 4
+},
+{
+    "source": "Famille : Bovidae",
+    "target": "Bos taurus",
+    "weight": 1
+},
+{
+    "source": "Famille : Bovidae",
+    "target": "Damaliscus lunatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Brachioteuthidae",
+    "target": "Brachioteuthis riisei",
+    "weight": 1
+},
+{
+    "source": "Famille : Braconidae",
+    "target": "Cotesia glomerata",
+    "weight": 1
+},
+{
+    "source": "Famille : Braconidae",
+    "target": "Habrobracon juglandis",
+    "weight": 1
+},
+{
+    "source": "Famille : Braconidae",
+    "target": "Habrobracon serinopae",
+    "weight": 1
+},
+{
+    "source": "Famille : Buccinidae",
+    "target": "Buccinum undatum",
+    "weight": 1
+},
+{
+    "source": "Famille : Bufonidae",
+    "target": "Bufo marinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Bufonidae",
+    "target": "Bufo valliceps",
+    "weight": 1
+},
+{
+    "source": "Famille : Bufonidae",
+    "target": "Rhinella marina",
+    "weight": 1
+},
+{
+    "source": "Famille : Calanidae",
+    "target": "Calanus sinicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Calliphoridae",
+    "target": "Chrysomya varipes",
+    "weight": 1
+},
+{
+    "source": "Famille : Calliphoridae",
+    "target": "Cochliomyia hominivorax",
+    "weight": 1
+},
+{
+    "source": "Famille : Calliphoridae",
+    "target": "Cochliomyia macellaria",
+    "weight": 1
+},
+{
+    "source": "Famille : Calliphoridae",
+    "target": "Lucilia cuprina",
+    "weight": 1
+},
+{
+    "source": "Famille : Callitrichidae",
+    "target": "Saguinus fuscicollis",
+    "weight": 1
+},
+{
+    "source": "Famille : Cancridae",
+    "target": "Cancer magister",
+    "weight": 1
+},
+{
+    "source": "Famille : Cancridae",
+    "target": "Metacarcinus magister",
+    "weight": 1
+},
+{
+    "source": "Famille : Canidae",
+    "target": "Canis familiaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Capitellidae",
+    "target": "Capitella capitata",
+    "weight": 1
+},
+{
+    "source": "Famille : Caprimulgidae",
+    "target": "Chordeiles acutipennis",
+    "weight": 1
+},
+{
+    "source": "Famille : Carcharhinidae",
+    "target": "Isogomphodon oxyrhynchus",
+    "weight": 1
+},
+{
+    "source": "Famille : Carcharhinidae",
+    "target": "Prionace glauca",
+    "weight": 1
+},
+{
+    "source": "Famille : Cardinalidae",
+    "target": "Cardinalis sinuatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cardinalidae",
+    "target": "Guiraca caerulea",
+    "weight": 1
+},
+{
+    "source": "Famille : Cardinalidae",
+    "target": "Passerina caerulea",
+    "weight": 1
+},
+{
+    "source": "Famille : Cathartidae",
+    "target": "Cathartes aura",
+    "weight": 1
+},
+{
+    "source": "Famille : Catostomidae",
+    "target": "Catostomus catostomus",
+    "weight": 1
+},
+{
+    "source": "Famille : Catostomidae",
+    "target": "Catostomus clarkii",
+    "weight": 1
+},
+{
+    "source": "Famille : Catostomidae",
+    "target": "Catostomus commersonii",
+    "weight": 1
+},
+{
+    "source": "Famille : Catostomidae",
+    "target": "Catostomus insignis",
+    "weight": 1
+},
+{
+    "source": "Famille : Cebidae",
+    "target": "Cebus apella",
+    "weight": 2
+},
+{
+    "source": "Famille : Cebidae",
+    "target": "Cebus capucinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cellariidae",
+    "target": "Cellaria fistulosa",
+    "weight": 1
+},
+{
+    "source": "Famille : Cellariidae",
+    "target": "Cellaria salicornioides",
+    "weight": 1
+},
+{
+    "source": "Famille : Cellariidae",
+    "target": "Cellaria sinuosa",
+    "weight": 1
+},
+{
+    "source": "Famille : Cellariidae",
+    "target": "Melicerita obliqua",
+    "weight": 1
+},
+{
+    "source": "Famille : Centrarchidae",
+    "target": "Lepomis cyanellus",
+    "weight": 2
+},
+{
+    "source": "Famille : Centrarchidae",
+    "target": "Lepomis macrochirus",
+    "weight": 2
+},
+{
+    "source": "Famille : Centrarchidae",
+    "target": "Micropterus dolomieu",
+    "weight": 3
+},
+{
+    "source": "Famille : Centrarchidae",
+    "target": "Micropterus salmoides",
+    "weight": 3
+},
+{
+    "source": "Famille : Centropagidae",
+    "target": "Sinocalanus sinensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopagidae",
+    "target": "Bythotrephes longimanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Cercopithecus mitis",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Chlorocebus aethiops",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Colobus guereza",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Lophocebus albigena",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Macaca fascicularis",
+    "weight": 2
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Macaca fuscata",
+    "weight": 2
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Macaca irus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Macaca mulatta",
+    "weight": 3
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Macaca nigra",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Macaca ochreata",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Macaca radiata",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Mandrillus leucophaeus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Mandrillus sphinx",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Papio anubis",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Papio cynocephalus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Papio hamadryas",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Papio ursinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Presbytis melalophos",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Presbytis rubicunda",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Semnopithecus entellus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Simias concolor",
+    "weight": 1
+},
+{
+    "source": "Famille : Cercopithecidae",
+    "target": "Theropithecus gelada",
+    "weight": 2
+},
+{
+    "source": "Famille : Cervidae",
+    "target": "Cervus unicolor",
+    "weight": 1
+},
+{
+    "source": "Famille : Cervidae",
+    "target": "Mazama americana",
+    "weight": 2
+},
+{
+    "source": "Famille : Cervidae",
+    "target": "Mazama gouazoubira",
+    "weight": 1
+},
+{
+    "source": "Famille : Cervidae",
+    "target": "Mazama gouazoupira",
+    "weight": 1
+},
+{
+    "source": "Famille : Cervidae",
+    "target": "Odocoileus virginianus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cervidae",
+    "target": "Rusa unicolor",
+    "weight": 1
+},
+{
+    "source": "Famille : Cetorhinidae",
+    "target": "Cetorhinus maximus",
+    "weight": 1
+},
+{
+    "source": "Famille : Chaetopleuridae",
+    "target": "Chaetopleura isabellei",
+    "weight": 1
+},
+{
+    "source": "Famille : Chaetopteridae",
+    "target": "Chaetopterus variopedatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Chamaeleonidae",
+    "target": "Chamaeleo calcaricarens",
+    "weight": 1
+},
+{
+    "source": "Famille : Chaoboridae",
+    "target": "Chaoborus americanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Astyanax fasciatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Astyanax maximus",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Astyanax mexicanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Boehlkea fredcochui",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Bryconamericus caucanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Bryconamericus hypopterus",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Creagrutus amoenus",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Creagrutus cochui",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Ctenobrycon hauxwellianus",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Knodus megalops",
+    "weight": 1
+},
+{
+    "source": "Famille : Characidae",
+    "target": "Odontostilbe fugitiva",
+    "weight": 1
+},
+{
+    "source": "Famille : Charadriidae",
+    "target": "Charadrius alexandrinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Charadriidae",
+    "target": "Charadrius falklandicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Charadriidae",
+    "target": "Charadrius obscurus",
+    "weight": 1
+},
+{
+    "source": "Famille : Charadriidae",
+    "target": "Charadrius sanctaehelenae",
+    "weight": 1
+},
+{
+    "source": "Famille : Charadriidae",
+    "target": "Vanellus vanellus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cheilodactylidae",
+    "target": "Nemadactylus bergi",
+    "weight": 1
+},
+{
+    "source": "Famille : Chironomidae",
+    "target": "Chironomus longilobus",
+    "weight": 1
+},
+{
+    "source": "Famille : Chiroteuthidae",
+    "target": "Chiroteuthis veranyi",
+    "weight": 1
+},
+{
+    "source": "Famille : Chrysomelidae",
+    "target": "Caryedon serratus",
+    "weight": 1
+},
+{
+    "source": "Famille : Chrysomelidae",
+    "target": "Chrysochus auratus",
+    "weight": 1
+},
+{
+    "source": "Famille : Chrysomelidae",
+    "target": "Chrysochus cobaltinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Chtenopterygidae",
+    "target": "Chtenopteryx sicula",
+    "weight": 1
+},
+{
+    "source": "Famille : Cicadidae",
+    "target": "Psithyristria crassinervis",
+    "weight": 1
+},
+{
+    "source": "Famille : Cichlidae",
+    "target": "Caquetaia spectabilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Cichlidae",
+    "target": "Crenicichla lugubris",
+    "weight": 1
+},
+{
+    "source": "Famille : Cichlidae",
+    "target": "Heros severus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cichlidae",
+    "target": "Oreochromis mossambicus",
+    "weight": 2
+},
+{
+    "source": "Famille : Cinctiporidae",
+    "target": "Cinctipora elegans",
+    "weight": 1
+},
+{
+    "source": "Famille : Cionidae",
+    "target": "Ciona intestinalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Cirratulidae",
+    "target": "Dodecaceria concharum",
+    "weight": 1
+},
+{
+    "source": "Famille : Cisticolidae",
+    "target": "Apalis jacksoni",
+    "weight": 1
+},
+{
+    "source": "Famille : Cisticolidae",
+    "target": "Artisornis metopias",
+    "weight": 1
+},
+{
+    "source": "Famille : Cisticolidae",
+    "target": "Orthotomus sutorius",
+    "weight": 1
+},
+{
+    "source": "Famille : Clinidae",
+    "target": "Ribeiroclinus eigenmanni",
+    "weight": 1
+},
+{
+    "source": "Famille : Clupeidae",
+    "target": "Clupeichthys aesarnensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Cobitidae",
+    "target": "Misgurnus anguillicaudatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Colletidae",
+    "target": "Diphaglossa gayi",
+    "weight": 1
+},
+{
+    "source": "Famille : Colubridae",
+    "target": "Drymarchon corais",
+    "weight": 1
+},
+{
+    "source": "Famille : Colubridae",
+    "target": "Elaphe obsoleta",
+    "weight": 1
+},
+{
+    "source": "Famille : Colubridae",
+    "target": "Pantherophis obsoletus",
+    "weight": 1
+},
+{
+    "source": "Famille : Colubridae",
+    "target": "Telescopus dhara",
+    "weight": 1
+},
+{
+    "source": "Famille : Columbidae",
+    "target": "Columba livia",
+    "weight": 2
+},
+{
+    "source": "Famille : Columbidae",
+    "target": "Columba palumbus",
+    "weight": 1
+},
+{
+    "source": "Famille : Columbidae",
+    "target": "Streptopelia chinensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Columbidae",
+    "target": "Zenaida asiatica",
+    "weight": 1
+},
+{
+    "source": "Famille : Columbidae",
+    "target": "Zenaida macroura",
+    "weight": 1
+},
+{
+    "source": "Famille : Congiopodidae",
+    "target": "Congiopodus peruvianus",
+    "weight": 1
+},
+{
+    "source": "Famille : Corbulidae",
+    "target": "Potamocorbula amurensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Corvidae",
+    "target": "Aphelocoma coerulescens",
+    "weight": 1
+},
+{
+    "source": "Famille : Corvidae",
+    "target": "Corvus corax",
+    "weight": 1
+},
+{
+    "source": "Famille : Corvidae",
+    "target": "Corvus corone",
+    "weight": 2
+},
+{
+    "source": "Famille : Corvidae",
+    "target": "Corvus frugilegus",
+    "weight": 1
+},
+{
+    "source": "Famille : Corvidae",
+    "target": "Corvus macrorhynchos",
+    "weight": 1
+},
+{
+    "source": "Famille : Corvidae",
+    "target": "Corvus monedula",
+    "weight": 1
+},
+{
+    "source": "Famille : Corvidae",
+    "target": "Corvus ruficollis",
+    "weight": 1
+},
+{
+    "source": "Famille : Corvidae",
+    "target": "Pica hudsonia",
+    "weight": 1
+},
+{
+    "source": "Famille : Corvidae",
+    "target": "Pica pica",
+    "weight": 2
+},
+{
+    "source": "Famille : Cottidae",
+    "target": "Cottus cognatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cottidae",
+    "target": "Cottus ricei",
+    "weight": 1
+},
+{
+    "source": "Famille : Cottidae",
+    "target": "Leptocottus armatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Crabronidae",
+    "target": "Trypoxylon albitarse",
+    "weight": 1
+},
+{
+    "source": "Famille : Cracidae",
+    "target": "Crax alector",
+    "weight": 1
+},
+{
+    "source": "Famille : Cracidae",
+    "target": "Ortalis motmot",
+    "weight": 1
+},
+{
+    "source": "Famille : Cracidae",
+    "target": "Penelope marail",
+    "weight": 1
+},
+{
+    "source": "Famille : Crambidae",
+    "target": "Palpita nigropunctalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Cranchiidae",
+    "target": "Galiteuthis armata",
+    "weight": 1
+},
+{
+    "source": "Famille : Cranchiidae",
+    "target": "Taonius pavo",
+    "weight": 1
+},
+{
+    "source": "Famille : Cranchiidae",
+    "target": "Teuthowenia megalops",
+    "weight": 1
+},
+{
+    "source": "Famille : Crangonidae",
+    "target": "Crangon crangon",
+    "weight": 1
+},
+{
+    "source": "Famille : Craterostigmidae",
+    "target": "Craterostigmus tasmanianus",
+    "weight": 1
+},
+{
+    "source": "Famille : Crenuchidae",
+    "target": "Characidium zebra",
+    "weight": 1
+},
+{
+    "source": "Famille : Cricetidae",
+    "target": "Arvicola amphibius",
+    "weight": 1
+},
+{
+    "source": "Famille : Cricetidae",
+    "target": "Arvicola terrestris",
+    "weight": 1
+},
+{
+    "source": "Famille : Cricetidae",
+    "target": "Hyperacrius wynnei",
+    "weight": 1
+},
+{
+    "source": "Famille : Cricetidae",
+    "target": "Microtus kikuchii",
+    "weight": 1
+},
+{
+    "source": "Famille : Cricetidae",
+    "target": "Microtus lusitanicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cricetidae",
+    "target": "Peromyscus maniculatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cricetidae",
+    "target": "Peromyscus polionotus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cricetidae",
+    "target": "Phodopus campbelli",
+    "weight": 1
+},
+{
+    "source": "Famille : Cricetidae",
+    "target": "Phodopus sungorus",
+    "weight": 1
+},
+{
+    "source": "Famille : Crocodylidae",
+    "target": "Crocodylus siamensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Crotaphytidae",
+    "target": "Crotaphytus collaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Cuculidae",
+    "target": "Cuculus canorus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cuculidae",
+    "target": "Geococcyx californianus",
+    "weight": 1
+},
+{
+    "source": "Famille : Culicidae",
+    "target": "Aedes aegypti",
+    "weight": 3
+},
+{
+    "source": "Famille : Culicidae",
+    "target": "Anopheles gambiae",
+    "weight": 2
+},
+{
+    "source": "Famille : Cuniculidae",
+    "target": "Agouti paca",
+    "weight": 2
+},
+{
+    "source": "Famille : Cuniculidae",
+    "target": "Cuniculus paca",
+    "weight": 2
+},
+{
+    "source": "Famille : Curculionidae",
+    "target": "Larinus griseopilosus",
+    "weight": 1
+},
+{
+    "source": "Famille : Curculionidae",
+    "target": "Larinus latissimus",
+    "weight": 1
+},
+{
+    "source": "Famille : Curculionidae",
+    "target": "Larinus meleagris",
+    "weight": 1
+},
+{
+    "source": "Famille : Curimatidae",
+    "target": "Curimata cyprinoides",
+    "weight": 1
+},
+{
+    "source": "Famille : Curimatidae",
+    "target": "Curimata inornata",
+    "weight": 1
+},
+{
+    "source": "Famille : Curimatidae",
+    "target": "Psectrogaster amazonica",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyclopedidae",
+    "target": "Cyclopes didactylus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cynodontidae",
+    "target": "Hydrolycus armatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Abramis brama",
+    "weight": 2
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Agosia chrysogaster",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Alburnus alburnus",
+    "weight": 2
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Aspius aspius",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Barbodes altus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Barbodes gonionotus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Barbonymus gonionotus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Blicca bjoerkna",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Carassius auratus",
+    "weight": 2
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Carassius gibelio",
+    "weight": 2
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Couesius plumbeus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Cyclocheilichthys repasson",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Cyprinus carpio",
+    "weight": 6
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Danio rerio",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Gila nigra",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Gila robusta",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Gobio gobio",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Hampala dispar",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Hampala macrolepidota",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Hemiculter bleekeri",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Labeo chrysophekadion",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Leuciscus idus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Leuciscus leuciscus",
+    "weight": 2
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Macrhybopsis gelida",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Morulius chrysophekadion",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Osteochilus microcephalus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Parachela oxygastroides",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Paralaubuca riveroi",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Phoxinus neogaeus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Pimephales promelas",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Rhinichthys cataractae",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Rhinichthys osculus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Rutilus rutilus",
+    "weight": 2
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Scardinius erythrophthalmus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Semotilus atromaculatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Sikukia gudgeri",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Tinca tinca",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyprinidae",
+    "target": "Vimba vimba",
+    "weight": 1
+},
+{
+    "source": "Famille : Cyrenidae",
+    "target": "Corbicula fluminea",
+    "weight": 1
+},
+{
+    "source": "Famille : Dasypodidae",
+    "target": "Dasypus novemcinctus",
+    "weight": 3
+},
+{
+    "source": "Famille : Dasyproctidae",
+    "target": "Dasyprocta leporina",
+    "weight": 1
+},
+{
+    "source": "Famille : Dasyproctidae",
+    "target": "Dasyprocta punctata",
+    "weight": 1
+},
+{
+    "source": "Famille : Delphinidae",
+    "target": "Delphinus delphis",
+    "weight": 1
+},
+{
+    "source": "Famille : Delphinidae",
+    "target": "Stenella coeruleoalba",
+    "weight": 1
+},
+{
+    "source": "Famille : Dicroglossidae",
+    "target": "Hoplobatrachus tigerinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Dicroglossidae",
+    "target": "Nanorana parkeri",
+    "weight": 1
+},
+{
+    "source": "Famille : Dicroglossidae",
+    "target": "Nanorana vicina",
+    "weight": 1
+},
+{
+    "source": "Famille : Dicroglossidae",
+    "target": "Paa vicina",
+    "weight": 1
+},
+{
+    "source": "Famille : Dicruridae",
+    "target": "Dicrurus adsimilis",
+    "weight": 2
+},
+{
+    "source": "Famille : Didelphidae",
+    "target": "Monodelphis domestica",
+    "weight": 1
+},
+{
+    "source": "Famille : Dinophilidae",
+    "target": "Dinophilus gyrociliatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Dinophilidae",
+    "target": "Trilobodrilus axi",
+    "weight": 1
+},
+{
+    "source": "Famille : Dinophilidae",
+    "target": "Trilobodrilus heideri",
+    "weight": 1
+},
+{
+    "source": "Famille : Diphyllobothriidae",
+    "target": "Ligula intestinalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Doradidae",
+    "target": "Hassar wilderi",
+    "weight": 1
+},
+{
+    "source": "Famille : Doradidae",
+    "target": "Platydoras armatulus",
+    "weight": 1
+},
+{
+    "source": "Famille : Dorvilleidae",
+    "target": "Dorvillea bermudensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Dorvilleidae",
+    "target": "Parapodrilus psammophilus",
+    "weight": 1
+},
+{
+    "source": "Famille : Dorvilleidae",
+    "target": "Pettiboneia urciensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Dorvilleidae",
+    "target": "Schistomeringos rudolphi",
+    "weight": 1
+},
+{
+    "source": "Famille : Dreissenidae",
+    "target": "Dreissena polymorpha",
+    "weight": 2
+},
+{
+    "source": "Famille : Drepanidae",
+    "target": "Macrauzata maxima",
+    "weight": 1
+},
+{
+    "source": "Famille : Drosophilidae",
+    "target": "Drosophila melanogaster",
+    "weight": 6
+},
+{
+    "source": "Famille : Drosophilidae",
+    "target": "Drosophila simulans",
+    "weight": 1
+},
+{
+    "source": "Famille : Drosophilidae",
+    "target": "Drosophila yakuba",
+    "weight": 1
+},
+{
+    "source": "Famille : Echimyidae",
+    "target": "Proechimys semispinosus",
+    "weight": 1
+},
+{
+    "source": "Famille : Ectobiidae",
+    "target": "Blattella germanica",
+    "weight": 1
+},
+{
+    "source": "Famille : Elapidae",
+    "target": "Rhinoplocephalus nigrescens",
+    "weight": 1
+},
+{
+    "source": "Famille : Electridae",
+    "target": "Conopeum aciculatum",
+    "weight": 1
+},
+{
+    "source": "Famille : Electridae",
+    "target": "Electra crustulenta",
+    "weight": 1
+},
+{
+    "source": "Famille : Eleotridae",
+    "target": "Oxyeleotris marmorata",
+    "weight": 1
+},
+{
+    "source": "Famille : Eleotridae",
+    "target": "Philypnodon grandiceps",
+    "weight": 1
+},
+{
+    "source": "Famille : Elephantidae",
+    "target": "Elephas maximus",
+    "weight": 1
+},
+{
+    "source": "Famille : Emberizidae",
+    "target": "Aimophila ruficeps",
+    "weight": 1
+},
+{
+    "source": "Famille : Emberizidae",
+    "target": "Ammodramus savannarum",
+    "weight": 1
+},
+{
+    "source": "Famille : Emberizidae",
+    "target": "Amphispiza bilineata",
+    "weight": 1
+},
+{
+    "source": "Famille : Emberizidae",
+    "target": "Melozone fusca",
+    "weight": 1
+},
+{
+    "source": "Famille : Emberizidae",
+    "target": "Passerculus sandwichensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Emberizidae",
+    "target": "Pipilo fuscus",
+    "weight": 1
+},
+{
+    "source": "Famille : Embiotocidae",
+    "target": "Amphistichus argenteus",
+    "weight": 1
+},
+{
+    "source": "Famille : Empididae",
+    "target": "Rhamphomyia marginata",
+    "weight": 1
+},
+{
+    "source": "Famille : Engraulidae",
+    "target": "Engraulis anchoita",
+    "weight": 1
+},
+{
+    "source": "Famille : Engraulidae",
+    "target": "Lycengraulis batesii",
+    "weight": 1
+},
+{
+    "source": "Famille : Enteroctopodidae",
+    "target": "Enteroctopus megalocyathus",
+    "weight": 1
+},
+{
+    "source": "Famille : Entomobryidae",
+    "target": "Lepidocyrtus paradoxus",
+    "weight": 1
+},
+{
+    "source": "Famille : Epialtidae",
+    "target": "Leucippa pentagona",
+    "weight": 1
+},
+{
+    "source": "Famille : Epialtidae",
+    "target": "Libidoclaea granaria",
+    "weight": 1
+},
+{
+    "source": "Famille : Epialtidae",
+    "target": "Rochinia gracilipes",
+    "weight": 1
+},
+{
+    "source": "Famille : Escharinidae",
+    "target": "Hippomenella vellicata",
+    "weight": 1
+},
+{
+    "source": "Famille : Esocidae",
+    "target": "Esox lucius",
+    "weight": 4
+},
+{
+    "source": "Famille : Eublepharidae",
+    "target": "Eublepharis macularius",
+    "weight": 1
+},
+{
+    "source": "Famille : Eumenidae",
+    "target": "Polistes associus",
+    "weight": 1
+},
+{
+    "source": "Famille : Eumenidae",
+    "target": "Polistes atrimandibularis",
+    "weight": 1
+},
+{
+    "source": "Famille : Eumenidae",
+    "target": "Polistes biglumis",
+    "weight": 1
+},
+{
+    "source": "Famille : Eumenidae",
+    "target": "Polistes dominula",
+    "weight": 1
+},
+{
+    "source": "Famille : Eumenidae",
+    "target": "Polistes gallicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Eumenidae",
+    "target": "Polistes nimpha",
+    "weight": 1
+},
+{
+    "source": "Famille : Eumenidae",
+    "target": "Polistes semenowi",
+    "weight": 1
+},
+{
+    "source": "Famille : Eumenidae",
+    "target": "Polistes sulcifer",
+    "weight": 1
+},
+{
+    "source": "Famille : Eunicidae",
+    "target": "Eunice sebastiani",
+    "weight": 1
+},
+{
+    "source": "Famille : Eunicidae",
+    "target": "Eunice vittata",
+    "weight": 1
+},
+{
+    "source": "Famille : Eunicidae",
+    "target": "Lysidice ninetta",
+    "weight": 1
+},
+{
+    "source": "Famille : Eunicidae",
+    "target": "Marphysa bellii",
+    "weight": 1
+},
+{
+    "source": "Famille : Eunicidae",
+    "target": "Nematonereis unicornis",
+    "weight": 1
+},
+{
+    "source": "Famille : Falconidae",
+    "target": "Falco tinnunculus",
+    "weight": 1
+},
+{
+    "source": "Famille : Felidae",
+    "target": "Felis catus",
+    "weight": 2
+},
+{
+    "source": "Famille : Felidae",
+    "target": "Leopardus pardalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Felidae",
+    "target": "Neofelis nebulosa",
+    "weight": 1
+},
+{
+    "source": "Famille : Felidae",
+    "target": "Panthera leo",
+    "weight": 2
+},
+{
+    "source": "Famille : Felidae",
+    "target": "Panthera onca",
+    "weight": 1
+},
+{
+    "source": "Famille : Felidae",
+    "target": "Panthera pardus",
+    "weight": 4
+},
+{
+    "source": "Famille : Felidae",
+    "target": "Panthera tigris",
+    "weight": 3
+},
+{
+    "source": "Famille : Felidae",
+    "target": "Panthera uncia",
+    "weight": 2
+},
+{
+    "source": "Famille : Felidae",
+    "target": "Prionailurus bengalensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Felidae",
+    "target": "Puma concolor",
+    "weight": 1
+},
+{
+    "source": "Famille : Fissurellidae",
+    "target": "Fissurellidea megatrema",
+    "weight": 1
+},
+{
+    "source": "Famille : Fissurellidae",
+    "target": "Lucapinella henseli",
+    "weight": 1
+},
+{
+    "source": "Famille : Flustridae",
+    "target": "Flustra foliacea",
+    "weight": 1
+},
+{
+    "source": "Famille : Flustridae",
+    "target": "Securiflustra securifrons",
+    "weight": 1
+},
+{
+    "source": "Famille : Formicidae",
+    "target": "Messor barbarus",
+    "weight": 1
+},
+{
+    "source": "Famille : Formicidae",
+    "target": "Solenopsis invicta",
+    "weight": 1
+},
+{
+    "source": "Famille : Frieleiidae",
+    "target": "Neorhynchia strebeli",
+    "weight": 1
+},
+{
+    "source": "Famille : Fringillidae",
+    "target": "Carduelis chloris",
+    "weight": 1
+},
+{
+    "source": "Famille : Fringillidae",
+    "target": "Carpodacus mexicanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Fringillidae",
+    "target": "Chloris chloris",
+    "weight": 1
+},
+{
+    "source": "Famille : Fringillidae",
+    "target": "Fringilla coelebs",
+    "weight": 1
+},
+{
+    "source": "Famille : Fringillidae",
+    "target": "Haemorhous mexicanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Fundulidae",
+    "target": "Fundulus parvipinnis",
+    "weight": 1
+},
+{
+    "source": "Famille : Gadidae",
+    "target": "Gadus morhua",
+    "weight": 1
+},
+{
+    "source": "Famille : Gadidae",
+    "target": "Micromesistius poutassou",
+    "weight": 1
+},
+{
+    "source": "Famille : Galagidae",
+    "target": "Otolemur garnettii",
+    "weight": 1
+},
+{
+    "source": "Famille : Galatheidae",
+    "target": "Munida gregaria",
+    "weight": 1
+},
+{
+    "source": "Famille : Galaxiidae",
+    "target": "Galaxias olidus",
+    "weight": 1
+},
+{
+    "source": "Famille : Gammaridae",
+    "target": "Gammarus lacustris",
+    "weight": 1
+},
+{
+    "source": "Famille : Gasterosteidae",
+    "target": "Culaea inconstans",
+    "weight": 1
+},
+{
+    "source": "Famille : Gasterosteidae",
+    "target": "Gasterosteus aculeatus",
+    "weight": 4
+},
+{
+    "source": "Famille : Gecarcinidae",
+    "target": "Cardisoma guanhumi",
+    "weight": 1
+},
+{
+    "source": "Famille : Gekkonidae",
+    "target": "Hemidactylus isolepis",
+    "weight": 1
+},
+{
+    "source": "Famille : Geometridae",
+    "target": "Eois chrysocraspedata",
+    "weight": 1
+},
+{
+    "source": "Famille : Geometridae",
+    "target": "Scopula epiorrhoe",
+    "weight": 1
+},
+{
+    "source": "Famille : Gliridae",
+    "target": "Dryomys nitedula",
+    "weight": 1
+},
+{
+    "source": "Famille : Glossinidae",
+    "target": "Glossina morsitans",
+    "weight": 1
+},
+{
+    "source": "Famille : Glossiphoniidae",
+    "target": "Alboglossiphonia heteroclita",
+    "weight": 1
+},
+{
+    "source": "Famille : Glyceridae",
+    "target": "Glycera americana",
+    "weight": 1
+},
+{
+    "source": "Famille : Gobiidae",
+    "target": "Gillichthys mirabilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Gobiidae",
+    "target": "Rhinogobius ocellatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Gonatidae",
+    "target": "Gonatus fabricii",
+    "weight": 1
+},
+{
+    "source": "Famille : Gonatidae",
+    "target": "Gonatus steenstrupi",
+    "weight": 1
+},
+{
+    "source": "Famille : Goodeidae",
+    "target": "Ameca splendens",
+    "weight": 1
+},
+{
+    "source": "Famille : Goodeidae",
+    "target": "Girardinichthys viviparus",
+    "weight": 1
+},
+{
+    "source": "Famille : Gruidae",
+    "target": "Grus canadensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Gryllidae",
+    "target": "Acheta domesticus",
+    "weight": 1
+},
+{
+    "source": "Famille : Haematopodidae",
+    "target": "Haematopus ostralegus",
+    "weight": 1
+},
+{
+    "source": "Famille : Hemieuryalidae",
+    "target": "Ophioplocus januarii",
+    "weight": 1
+},
+{
+    "source": "Famille : Hemiodontidae",
+    "target": "Hemiodus amazonum",
+    "weight": 1
+},
+{
+    "source": "Famille : Hemiodontidae",
+    "target": "Hemiodus unimaculatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Hemiphractidae",
+    "target": "Flectonotus fitzgeraldi",
+    "weight": 1
+},
+{
+    "source": "Famille : Hemitripteridae",
+    "target": "Hemitripterus americanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Heptapteridae",
+    "target": "Chasmocranus rosae",
+    "weight": 1
+},
+{
+    "source": "Famille : Heptapteridae",
+    "target": "Pimelodella conquetaensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Heptapteridae",
+    "target": "Pimelodella cristata",
+    "weight": 1
+},
+{
+    "source": "Famille : Hexagrammidae",
+    "target": "Hexagrammos agrammus",
+    "weight": 1
+},
+{
+    "source": "Famille : Hexagrammidae",
+    "target": "Hexagrammos octogrammus",
+    "weight": 1
+},
+{
+    "source": "Famille : Hexagrammidae",
+    "target": "Hexagrammos otakii",
+    "weight": 1
+},
+{
+    "source": "Famille : Hirudinidae",
+    "target": "Hirudo medicinalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Hirundinidae",
+    "target": "Hirundo rustica",
+    "weight": 1
+},
+{
+    "source": "Famille : Histioteuthidae",
+    "target": "Histioteuthis arcturi",
+    "weight": 1
+},
+{
+    "source": "Famille : Histioteuthidae",
+    "target": "Histioteuthis bonnellii",
+    "weight": 1
+},
+{
+    "source": "Famille : Histioteuthidae",
+    "target": "Histioteuthis corona",
+    "weight": 1
+},
+{
+    "source": "Famille : Histioteuthidae",
+    "target": "Histioteuthis meleagroteuthis",
+    "weight": 1
+},
+{
+    "source": "Famille : Histioteuthidae",
+    "target": "Histioteuthis reversa",
+    "weight": 1
+},
+{
+    "source": "Famille : Hominidae",
+    "target": "Homo sapiens",
+    "weight": 2
+},
+{
+    "source": "Famille : Hominidae",
+    "target": "Pan troglodytes",
+    "weight": 1
+},
+{
+    "source": "Famille : Hydridae",
+    "target": "Hydra vulgaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Hylidae",
+    "target": "Hyla crepitans",
+    "weight": 1
+},
+{
+    "source": "Famille : Hylidae",
+    "target": "Hyla geographica",
+    "weight": 1
+},
+{
+    "source": "Famille : Hylidae",
+    "target": "Hyla pseudopuma",
+    "weight": 1
+},
+{
+    "source": "Famille : Hylidae",
+    "target": "Isthmohyla infucata",
+    "weight": 1
+},
+{
+    "source": "Famille : Hylidae",
+    "target": "Phrynohyas venulosa",
+    "weight": 1
+},
+{
+    "source": "Famille : Hylidae",
+    "target": "Phyllomedusa trinitatis",
+    "weight": 1
+},
+{
+    "source": "Famille : Hylidae",
+    "target": "Pseudacris triseriata",
+    "weight": 1
+},
+{
+    "source": "Famille : Hylidae",
+    "target": "Scinax ruber",
+    "weight": 1
+},
+{
+    "source": "Famille : Hylobatidae",
+    "target": "Hylobates lar",
+    "weight": 2
+},
+{
+    "source": "Famille : Hylobatidae",
+    "target": "Hylobates muelleri",
+    "weight": 1
+},
+{
+    "source": "Famille : Hylobatidae",
+    "target": "Nomascus gabriellae",
+    "weight": 1
+},
+{
+    "source": "Famille : Hymenosomatidae",
+    "target": "Halicarcinus planatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Hyperoodontidae",
+    "target": "Hyperoodon ampullatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Hyperoodontidae",
+    "target": "Ziphius cavirostris",
+    "weight": 1
+},
+{
+    "source": "Famille : Ichneumonidae",
+    "target": "Acrolyta nens",
+    "weight": 1
+},
+{
+    "source": "Famille : Ichneumonidae",
+    "target": "Gelis agilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Ichneumonidae",
+    "target": "Lysibia nana",
+    "weight": 1
+},
+{
+    "source": "Famille : Ictaluridae",
+    "target": "Ameiurus melas",
+    "weight": 2
+},
+{
+    "source": "Famille : Ictaluridae",
+    "target": "Ictalurus punctatus",
+    "weight": 2
+},
+{
+    "source": "Famille : Ictaluridae",
+    "target": "Pylodictis olivaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Icteridae",
+    "target": "Agelaius phoeniceus",
+    "weight": 1
+},
+{
+    "source": "Famille : Icteridae",
+    "target": "Icterus parisorum",
+    "weight": 1
+},
+{
+    "source": "Famille : Icteridae",
+    "target": "Molothrus ater",
+    "weight": 1
+},
+{
+    "source": "Famille : Inachoididae",
+    "target": "Leurocyclus tuberculosus",
+    "weight": 1
+},
+{
+    "source": "Famille : Isotomidae",
+    "target": "Parisotoma notabilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Ixodidae",
+    "target": "Ixodes ricinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Julidae",
+    "target": "Cylindroiulus punctatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Kogiidae",
+    "target": "Kogia breviceps",
+    "weight": 1
+},
+{
+    "source": "Famille : Kogiidae",
+    "target": "Kogia sima",
+    "weight": 1
+},
+{
+    "source": "Famille : Labridae",
+    "target": "Hemigymnus melapterus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Acanthodactylus erythrurus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Gallotia caesaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Gallotia galloti",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Lacerta agilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Lacerta lepida",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Latastia longicaudata",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Podarcis bocagei",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Podarcis sicula",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Psammodromus algirus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Pseuderemias mucronata",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Timon lepidus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lacertidae",
+    "target": "Zootoca vivipara",
+    "weight": 1
+},
+{
+    "source": "Famille : Lamnidae",
+    "target": "Carcharodon carcharias",
+    "weight": 1
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius collaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius collurio",
+    "weight": 1
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius dorsalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius excubitor",
+    "weight": 1
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius humeralis",
+    "weight": 1
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius isabellinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius ludovicianus",
+    "weight": 2
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius mackinnoni",
+    "weight": 1
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius newtoni",
+    "weight": 1
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius senator",
+    "weight": 1
+},
+{
+    "source": "Famille : Laniidae",
+    "target": "Lanius souzae",
+    "weight": 1
+},
+{
+    "source": "Famille : Laridae",
+    "target": "Chroicocephalus ridibundus",
+    "weight": 1
+},
+{
+    "source": "Famille : Laridae",
+    "target": "Larus argentatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Latidae",
+    "target": "Lateolabrax japonicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Latidae",
+    "target": "Lates niloticus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lebiasinidae",
+    "target": "Nannostomus eques",
+    "weight": 1
+},
+{
+    "source": "Famille : Lebiasinidae",
+    "target": "Nannostomus unifasciatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Leiuperidae",
+    "target": "Engystomops pustulosus",
+    "weight": 1
+},
+{
+    "source": "Famille : Leiuperidae",
+    "target": "Physalaemus pustulosus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lemuridae",
+    "target": "Eulemur fulvus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lepidoteuthidae",
+    "target": "Lepidoteuthis grimaldii",
+    "weight": 1
+},
+{
+    "source": "Famille : Leporidae",
+    "target": "Lepus capensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Leporidae",
+    "target": "Oryctolagus cuniculus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lepraliellidae",
+    "target": "Celleporaria agglutinans",
+    "weight": 1
+},
+{
+    "source": "Famille : Leptodactylidae",
+    "target": "Leptodactylus fuscus",
+    "weight": 1
+},
+{
+    "source": "Famille : Limacidae",
+    "target": "Limax maximus",
+    "weight": 1
+},
+{
+    "source": "Famille : Limidae",
+    "target": "Acesta patagonica",
+    "weight": 1
+},
+{
+    "source": "Famille : Limifossoridae",
+    "target": "Scutopus ventrolineatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Linyphiidae",
+    "target": "Centromerita bicolor",
+    "weight": 1
+},
+{
+    "source": "Famille : Linyphiidae",
+    "target": "Oedothorax fuscus",
+    "weight": 1
+},
+{
+    "source": "Famille : Linyphiidae",
+    "target": "Tenuiphantes tenuis",
+    "weight": 1
+},
+{
+    "source": "Famille : Littorinidae",
+    "target": "Littoraria filosa",
+    "weight": 1
+},
+{
+    "source": "Famille : Littorinidae",
+    "target": "Littorina fabalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Littorinidae",
+    "target": "Littorina obtusata",
+    "weight": 1
+},
+{
+    "source": "Famille : Littorinidae",
+    "target": "Littorina saxatilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Loliginidae",
+    "target": "Loligo forbesi",
+    "weight": 1
+},
+{
+    "source": "Famille : Loliginidae",
+    "target": "Loligo vulgaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Loliginidae",
+    "target": "Sepioteuthis australis",
+    "weight": 1
+},
+{
+    "source": "Famille : Loricariidae",
+    "target": "Chaetostoma alternifasciatum",
+    "weight": 1
+},
+{
+    "source": "Famille : Loricariidae",
+    "target": "Chaetostoma leucomelas",
+    "weight": 1
+},
+{
+    "source": "Famille : Loricariidae",
+    "target": "Cordylancistrus platyrhynchus",
+    "weight": 1
+},
+{
+    "source": "Famille : Loricariidae",
+    "target": "Farlowella gracilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Loricariidae",
+    "target": "Hypostomus wuchereri",
+    "weight": 1
+},
+{
+    "source": "Famille : Loricariidae",
+    "target": "Pterygoplichthys joselimaianus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lotidae",
+    "target": "Lota lota",
+    "weight": 1
+},
+{
+    "source": "Famille : Lumbricidae",
+    "target": "Lumbricus rubellus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lumbriculidae",
+    "target": "Lumbriculus variegatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Lumbrineridae",
+    "target": "Lumbrineris funchalensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Lutjanidae",
+    "target": "Lutjanus analis",
+    "weight": 1
+},
+{
+    "source": "Famille : Macrophthalmidae",
+    "target": "Macrophthalmus abbreviatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Macrophthalmidae",
+    "target": "Macrophthalmus brevis",
+    "weight": 1
+},
+{
+    "source": "Famille : Macrophthalmidae",
+    "target": "Macrophthalmus convexus",
+    "weight": 1
+},
+{
+    "source": "Famille : Macrophthalmidae",
+    "target": "Macrophthalmus laevimanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Macrophthalmidae",
+    "target": "Macrophthalmus milloti",
+    "weight": 1
+},
+{
+    "source": "Famille : Macrophthalmidae",
+    "target": "Macrophthalmus sulcatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Magelonidae",
+    "target": "Magelona mirabilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Mastigoteuthidae",
+    "target": "Mastigoteuthis schmidti",
+    "weight": 1
+},
+{
+    "source": "Famille : Melanotaeniidae",
+    "target": "Melanotaenia fluviatilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Meliphagidae",
+    "target": "Anthornis melanura",
+    "weight": 1
+},
+{
+    "source": "Famille : Melolonthidae",
+    "target": "Melolontha hippocastani",
+    "weight": 1
+},
+{
+    "source": "Famille : Melolonthidae",
+    "target": "Melolontha melolontha",
+    "weight": 1
+},
+{
+    "source": "Famille : Membraniporidae",
+    "target": "Biflustra grandicella",
+    "weight": 1
+},
+{
+    "source": "Famille : Merlucciidae",
+    "target": "Macruronus magellanicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Merlucciidae",
+    "target": "Merluccius hubbsi",
+    "weight": 1
+},
+{
+    "source": "Famille : Milleporidae",
+    "target": "Millepora alcicornis",
+    "weight": 1
+},
+{
+    "source": "Famille : Milleporidae",
+    "target": "Millepora braziliensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Mimidae",
+    "target": "Mimus polyglottos",
+    "weight": 1
+},
+{
+    "source": "Famille : Miridae",
+    "target": "Adelphocoris lineolatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Miridae",
+    "target": "Lygus lineolaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Molgulidae",
+    "target": "Bostrichobranchus digonas",
+    "weight": 1
+},
+{
+    "source": "Famille : Molgulidae",
+    "target": "Molgula occidentalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Molgulidae",
+    "target": "Molgula occulta",
+    "weight": 1
+},
+{
+    "source": "Famille : Molgulidae",
+    "target": "Molgula oculata",
+    "weight": 1
+},
+{
+    "source": "Famille : Molossidae",
+    "target": "Nyctinomops femorosaccus",
+    "weight": 1
+},
+{
+    "source": "Famille : Molossidae",
+    "target": "Nyctinomops macrotis",
+    "weight": 1
+},
+{
+    "source": "Famille : Molossidae",
+    "target": "Tadarida brasiliensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Mormoopidae",
+    "target": "Mormoops megalophylla",
+    "weight": 1
+},
+{
+    "source": "Famille : Moronidae",
+    "target": "Dicentrarchus labrax",
+    "weight": 1
+},
+{
+    "source": "Famille : Moronidae",
+    "target": "Morone americana",
+    "weight": 1
+},
+{
+    "source": "Famille : Moronidae",
+    "target": "Morone saxatilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Motacillidae",
+    "target": "Motacilla alba",
+    "weight": 2
+},
+{
+    "source": "Famille : Mugilidae",
+    "target": "Mugil cephalus",
+    "weight": 1
+},
+{
+    "source": "Famille : Muricidae",
+    "target": "Nucella emarginata",
+    "weight": 1
+},
+{
+    "source": "Famille : Muricidae",
+    "target": "Nucella lapillus",
+    "weight": 1
+},
+{
+    "source": "Famille : Muricidae",
+    "target": "Thais emarginata",
+    "weight": 1
+},
+{
+    "source": "Famille : Muridae",
+    "target": "Apodemus rusiges",
+    "weight": 1
+},
+{
+    "source": "Famille : Muridae",
+    "target": "Apodemus uralensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Muridae",
+    "target": "Mus caroli",
+    "weight": 1
+},
+{
+    "source": "Famille : Muridae",
+    "target": "Mus macedonicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Muridae",
+    "target": "Mus musculus",
+    "weight": 7
+},
+{
+    "source": "Famille : Muridae",
+    "target": "Mus spretus",
+    "weight": 1
+},
+{
+    "source": "Famille : Muridae",
+    "target": "Rattus norvegicus",
+    "weight": 6
+},
+{
+    "source": "Famille : Muridae",
+    "target": "Rattus rattus",
+    "weight": 2
+},
+{
+    "source": "Famille : Muscicapidae",
+    "target": "Muscicapa striata",
+    "weight": 1
+},
+{
+    "source": "Famille : Muscicapidae",
+    "target": "Saxicola rubetra",
+    "weight": 1
+},
+{
+    "source": "Famille : Mustelidae",
+    "target": "Meles meles",
+    "weight": 1
+},
+{
+    "source": "Famille : Mustelidae",
+    "target": "Mustela vison",
+    "weight": 1
+},
+{
+    "source": "Famille : Mustelidae",
+    "target": "Neovison vison",
+    "weight": 1
+},
+{
+    "source": "Famille : Myliobatidae",
+    "target": "Manta birostris",
+    "weight": 1
+},
+{
+    "source": "Famille : Myliobatidae",
+    "target": "Mobula hypostoma",
+    "weight": 1
+},
+{
+    "source": "Famille : Myliobatidae",
+    "target": "Mobula rochebrunei",
+    "weight": 1
+},
+{
+    "source": "Famille : Myriaporidae",
+    "target": "Myriapora truncata",
+    "weight": 1
+},
+{
+    "source": "Famille : Myrmecophagidae",
+    "target": "Tamandua mexicana",
+    "weight": 1
+},
+{
+    "source": "Famille : Myrmecophagidae",
+    "target": "Tamandua tetradactyla",
+    "weight": 1
+},
+{
+    "source": "Famille : Mysidae",
+    "target": "Hemimysis anomala",
+    "weight": 1
+},
+{
+    "source": "Famille : Mysidae",
+    "target": "Limnomysis benedeni",
+    "weight": 1
+},
+{
+    "source": "Famille : Mysidae",
+    "target": "Mysis relicta",
+    "weight": 1
+},
+{
+    "source": "Famille : Mysidae",
+    "target": "Paramysis lacustris",
+    "weight": 1
+},
+{
+    "source": "Famille : Mytilidae",
+    "target": "Arcuatula senhousia",
+    "weight": 1
+},
+{
+    "source": "Famille : Mytilidae",
+    "target": "Aulacomya atra",
+    "weight": 2
+},
+{
+    "source": "Famille : Mytilidae",
+    "target": "Musculista senhousia",
+    "weight": 1
+},
+{
+    "source": "Famille : Mytilidae",
+    "target": "Mytilus chilensis",
+    "weight": 2
+},
+{
+    "source": "Famille : Mytilidae",
+    "target": "Mytilus edulis",
+    "weight": 4
+},
+{
+    "source": "Famille : Mytilidae",
+    "target": "Mytilus galloprovincialis",
+    "weight": 2
+},
+{
+    "source": "Famille : Mytilidae",
+    "target": "Perna canaliculus",
+    "weight": 1
+},
+{
+    "source": "Famille : Mytilidae",
+    "target": "Perna viridis",
+    "weight": 1
+},
+{
+    "source": "Famille : Naididae",
+    "target": "Limnodrilus cervix",
+    "weight": 1
+},
+{
+    "source": "Famille : Naididae",
+    "target": "Limnodrilus hoffmeisteri",
+    "weight": 1
+},
+{
+    "source": "Famille : Natricidae",
+    "target": "Natrix helvetica",
+    "weight": 1
+},
+{
+    "source": "Famille : Natricidae",
+    "target": "Natrix natrix",
+    "weight": 1
+},
+{
+    "source": "Famille : Natricidae",
+    "target": "Natrix tessellata",
+    "weight": 1
+},
+{
+    "source": "Famille : Natricidae",
+    "target": "Nerodia sipedon",
+    "weight": 1
+},
+{
+    "source": "Famille : Natricidae",
+    "target": "Thamnophis elegans",
+    "weight": 2
+},
+{
+    "source": "Famille : Natricidae",
+    "target": "Thamnophis sirtalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Nephtyidae",
+    "target": "Nephtys hombergii",
+    "weight": 1
+},
+{
+    "source": "Famille : Nereididae",
+    "target": "Alitta succinea",
+    "weight": 1
+},
+{
+    "source": "Famille : Nereididae",
+    "target": "Alitta virens",
+    "weight": 1
+},
+{
+    "source": "Famille : Nereididae",
+    "target": "Nereis limbata",
+    "weight": 1
+},
+{
+    "source": "Famille : Nereididae",
+    "target": "Nereis virens",
+    "weight": 1
+},
+{
+    "source": "Famille : Noctuidae",
+    "target": "Helicoverpa armigera",
+    "weight": 2
+},
+{
+    "source": "Famille : Notiomystidae",
+    "target": "Notiomystis cincta",
+    "weight": 1
+},
+{
+    "source": "Famille : Notodontidae",
+    "target": "Fentonia ocypete",
+    "weight": 1
+},
+{
+    "source": "Famille : Notodontidae",
+    "target": "Hippia pronax",
+    "weight": 1
+},
+{
+    "source": "Famille : Nototheniidae",
+    "target": "Patagonotothen cornucola",
+    "weight": 1
+},
+{
+    "source": "Famille : Nototheniidae",
+    "target": "Patagonotothen sima",
+    "weight": 1
+},
+{
+    "source": "Ordre : Diplostraca",
+    "target": "Daphnia pulex",
+    "weight": 1
+},
+{
+    "source": "Famille : Nymphalidae",
+    "target": "Amauris ochlea",
+    "weight": 1
+},
+{
+    "source": "Famille : Nymphalidae",
+    "target": "Danaus chrysippus",
+    "weight": 1
+},
+{
+    "source": "Famille : Nymphalidae",
+    "target": "Danaus plexippus",
+    "weight": 1
+},
+{
+    "source": "Famille : Nymphalidae",
+    "target": "Euploea phaenareta",
+    "weight": 1
+},
+{
+    "source": "Famille : Nymphalidae",
+    "target": "Limenitis archippus",
+    "weight": 1
+},
+{
+    "source": "Famille : Nymphalidae",
+    "target": "Neope goschkevitschii",
+    "weight": 1
+},
+{
+    "source": "Famille : Octopodidae",
+    "target": "Octopus tehuelchus",
+    "weight": 1
+},
+{
+    "source": "Famille : Octopoteuthidae",
+    "target": "Octopoteuthis sicula",
+    "weight": 1
+},
+{
+    "source": "Famille : Odontaspididae",
+    "target": "Carcharias taurus",
+    "weight": 1
+},
+{
+    "source": "Famille : Odontophoridae",
+    "target": "Callipepla squamata",
+    "weight": 1
+},
+{
+    "source": "Famille : Odontophoridae",
+    "target": "Colinus virginianus",
+    "weight": 2
+},
+{
+    "source": "Famille : Oithonidae",
+    "target": "Oithona davisae",
+    "weight": 1
+},
+{
+    "source": "Famille : Ommastrephidae",
+    "target": "Todarodes sagittatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Onuphidae",
+    "target": "Diopatra cuprea",
+    "weight": 1
+},
+{
+    "source": "Famille : Onuphidae",
+    "target": "Hyalinoecia bilineata",
+    "weight": 1
+},
+{
+    "source": "Famille : Onuphidae",
+    "target": "Hyalinoecia tubicola",
+    "weight": 1
+},
+{
+    "source": "Famille : Ophidiidae",
+    "target": "Raneya brasiliensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Orbiniidae",
+    "target": "Questa paucibranchiata",
+    "weight": 1
+},
+{
+    "source": "Famille : Orbiniidae",
+    "target": "Scoloplos armiger",
+    "weight": 1
+},
+{
+    "source": "Famille : Osmeridae",
+    "target": "Osmerus eperlanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Osmeridae",
+    "target": "Osmerus mordax",
+    "weight": 1
+},
+{
+    "source": "Famille : Ostreidae",
+    "target": "Crassostrea corteziensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Ostreidae",
+    "target": "Crassostrea gigas",
+    "weight": 1
+},
+{
+    "source": "Famille : Ostreidae",
+    "target": "Crassostrea virginica",
+    "weight": 1
+},
+{
+    "source": "Famille : Otariidae",
+    "target": "Arctocephalus australis",
+    "weight": 1
+},
+{
+    "source": "Famille : Otariidae",
+    "target": "Arctocephalus gazella",
+    "weight": 1
+},
+{
+    "source": "Famille : Otariidae",
+    "target": "Arctocephalus pusillus",
+    "weight": 1
+},
+{
+    "source": "Famille : Palaemonidae",
+    "target": "Palaemon serratus",
+    "weight": 1
+},
+{
+    "source": "Famille : Palinuridae",
+    "target": "Panulirus argus",
+    "weight": 1
+},
+{
+    "source": "Famille : Palinuridae",
+    "target": "Panulirus laevicauda",
+    "weight": 1
+},
+{
+    "source": "Famille : Pangasiidae",
+    "target": "Pangasius bocourti",
+    "weight": 1
+},
+{
+    "source": "Famille : Pangasiidae",
+    "target": "Pangasius conchophilus",
+    "weight": 1
+},
+{
+    "source": "Famille : Pangasiidae",
+    "target": "Pangasius larnaudii",
+    "weight": 1
+},
+{
+    "source": "Famille : Pangasiidae",
+    "target": "Pangasius macronema",
+    "weight": 1
+},
+{
+    "source": "Famille : Panopeidae",
+    "target": "Panopeus meridionalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Papilionidae",
+    "target": "Papilio memnon",
+    "weight": 1
+},
+{
+    "source": "Famille : Paracalanidae",
+    "target": "Paracalanus parvus",
+    "weight": 1
+},
+{
+    "source": "Famille : Paralichthyidae",
+    "target": "Paralichthys patagonicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Parergodrilidae",
+    "target": "Parergodrilus heideri",
+    "weight": 1
+},
+{
+    "source": "Famille : Parergodrilidae",
+    "target": "Stygocapitella subterranea",
+    "weight": 1
+},
+{
+    "source": "Famille : Paridae",
+    "target": "Cyanistes caeruleus",
+    "weight": 2
+},
+{
+    "source": "Famille : Paridae",
+    "target": "Parus major",
+    "weight": 3
+},
+{
+    "source": "Famille : Passeridae",
+    "target": "Passer domesticus",
+    "weight": 3
+},
+{
+    "source": "Famille : Passeridae",
+    "target": "Passer montanus",
+    "weight": 2
+},
+{
+    "source": "Famille : Pectinidae",
+    "target": "Aequipecten tehuelchus",
+    "weight": 1
+},
+{
+    "source": "Famille : Pectinidae",
+    "target": "Argopecten irradians",
+    "weight": 1
+},
+{
+    "source": "Famille : Pelecanidae",
+    "target": "Pelecanus occidentalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Pellorneidae",
+    "target": "Illadopsis albipectus",
+    "weight": 1
+},
+{
+    "source": "Famille : Pellorneidae",
+    "target": "Illadopsis cleaveri",
+    "weight": 1
+},
+{
+    "source": "Famille : Pellorneidae",
+    "target": "Illadopsis fulvescens",
+    "weight": 1
+},
+{
+    "source": "Famille : Pellorneidae",
+    "target": "Illadopsis puveli",
+    "weight": 1
+},
+{
+    "source": "Famille : Pellorneidae",
+    "target": "Illadopsis pyrrhoptera",
+    "weight": 1
+},
+{
+    "source": "Famille : Pellorneidae",
+    "target": "Illadopsis rufescens",
+    "weight": 1
+},
+{
+    "source": "Famille : Pellorneidae",
+    "target": "Illadopsis rufipennis",
+    "weight": 1
+},
+{
+    "source": "Famille : Pellorneidae",
+    "target": "Kenopia striata",
+    "weight": 1
+},
+{
+    "source": "Famille : Pellorneidae",
+    "target": "Pellorneum ruficeps",
+    "weight": 1
+},
+{
+    "source": "Famille : Penaeidae",
+    "target": "Farfantepenaeus brasiliensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Penaeidae",
+    "target": "Farfantepenaeus paulensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Penaeidae",
+    "target": "Farfantepenaeus subtilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Penaeidae",
+    "target": "Litopenaeus schmitti",
+    "weight": 1
+},
+{
+    "source": "Famille : Penaeidae",
+    "target": "Xiphopenaeus kroyeri",
+    "weight": 1
+},
+{
+    "source": "Famille : Percichthyidae",
+    "target": "Macquaria ambigua",
+    "weight": 1
+},
+{
+    "source": "Famille : Percichthyidae",
+    "target": "Nannoperca australis",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Ammocrypta beani",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Ammocrypta bifascia",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Ammocrypta clara",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Ammocrypta meridiana",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Ammocrypta pellucida",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Ammocrypta vivax",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Crystallaria asprella",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma artesiae",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma asprigene",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma atripinne",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma baileyi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma barbouri",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma barrenense",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma bellator",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma bison",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma blennioides",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma blennius",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma boschungi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma brevirostrum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma burri",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma caeruleum",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma cervus",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma chermocki",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma chienense",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma chlorosomum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma collettei",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma collis",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma colorosum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma coosae",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma corona",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma crossopterum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma davisoni",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma ditrema",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma duryi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma edwini",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma etnieri",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma euzonum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma exile",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma flabellare",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma flavum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma fonticola",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma forbesi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma fragi",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma fricksium",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma fusiforme",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma gracile",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma grahami",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma histrio",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma hopkinsi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma inscriptum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma jessiae",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma kanawhae",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma kennicotti",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma lachneri",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma lepidum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma longimanum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma luteovinctum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma lynceum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma mariae",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma microperca",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma neopterum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma nianguae",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma nigripinne",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma nigrum",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma obeyense",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma okaloosae",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma olivaceum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma olmstedi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma osburni",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma parvipinne",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma perlongum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma podostemone",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma proeliare",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma punctulatum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma pyrrhogaster",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma radiosum",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma rafinesquei",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma ramseyi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma raneyi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma rupestre",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma sagitta",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma saludae",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma scotti",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma serrifer",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma simoterum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma smithi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma spectabile",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma squamiceps",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma stigmaeum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma striatulum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma swaini",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma swannanoa",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma tallapoosae",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma tetrazonum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma trisella",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma tuscumbia",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma uniporum",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma variatum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma vitreum",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma whipplei",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma zonale",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Etheostoma zonifer",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Gymnocephalus cernua",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Gymnocephalus cernuus",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Nothonotus aquali",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Nothonotus microlepidus",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Nothonotus sanguifluus",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Perca flavescens",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Perca fluviatilis",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina antesella",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina aurantiaca",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina aurolineata",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina aurora",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina austroperca",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina brevicauda",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina burtoni",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina caprodes",
+    "weight": 2
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina carbonaria",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina copelandi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina crassa",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina cymatotaenia",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina evides",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina gymnocephala",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina kathae",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina kusha",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina lenticula",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina macrocephala",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina maculata",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina nasuta",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina nevisense",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina nigrofasciata",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina notogramma",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina oxyrhynchus",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina palmaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina pantherina",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina peltata",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina phoxocephala",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina rex",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina roanoka",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina sciera",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina shumardi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina squamata",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina stictogaster",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina suttkusi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina tanasi",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina uranidea",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Percina vigil",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Sander lucioperca",
+    "weight": 1
+},
+{
+    "source": "Famille : Percidae",
+    "target": "Sander vitreus",
+    "weight": 1
+},
+{
+    "source": "Famille : Percopsidae",
+    "target": "Percopsis omiscomaycus",
+    "weight": 1
+},
+{
+    "source": "Famille : Petroicidae",
+    "target": "Petroica australis",
+    "weight": 1
+},
+{
+    "source": "Famille : Phalacrocoracidae",
+    "target": "Phalacrocorax aristotelis",
+    "weight": 1
+},
+{
+    "source": "Famille : Phalacrocoracidae",
+    "target": "Phalacrocorax carbo",
+    "weight": 1
+},
+{
+    "source": "Famille : Phalangeridae",
+    "target": "Trichosurus vulpecula",
+    "weight": 1
+},
+{
+    "source": "Famille : Pharidae",
+    "target": "Ensis macha",
+    "weight": 1
+},
+{
+    "source": "Famille : Phasianidae",
+    "target": "Alectoris chukar",
+    "weight": 1
+},
+{
+    "source": "Famille : Phasianidae",
+    "target": "Bonasa umbellus",
+    "weight": 1
+},
+{
+    "source": "Famille : Phasianidae",
+    "target": "Lophura leucomelanos",
+    "weight": 1
+},
+{
+    "source": "Famille : Phasianidae",
+    "target": "Meleagris gallopavo",
+    "weight": 1
+},
+{
+    "source": "Famille : Phasianidae",
+    "target": "Phasianus colchicus",
+    "weight": 2
+},
+{
+    "source": "Famille : Phasianidae",
+    "target": "Pucrasia macrolopha",
+    "weight": 1
+},
+{
+    "source": "Famille : Phocidae",
+    "target": "Halichoerus grypus",
+    "weight": 1
+},
+{
+    "source": "Famille : Phocidae",
+    "target": "Leptonychotes weddellii",
+    "weight": 1
+},
+{
+    "source": "Famille : Phocidae",
+    "target": "Mirounga leonina",
+    "weight": 1
+},
+{
+    "source": "Famille : Phocidae",
+    "target": "Phoca vitulina",
+    "weight": 1
+},
+{
+    "source": "Famille : Pholidae",
+    "target": "Pholis gunnellus",
+    "weight": 1
+},
+{
+    "source": "Famille : Phoridae",
+    "target": "Conicera tibialis",
+    "weight": 1
+},
+{
+    "source": "Famille : Phrynosomatidae",
+    "target": "Sceloporus gadoviae",
+    "weight": 1
+},
+{
+    "source": "Famille : Phrynosomatidae",
+    "target": "Sceloporus occidentalis",
+    "weight": 2
+},
+{
+    "source": "Famille : Phrynosomatidae",
+    "target": "Urosaurus ornatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Phyllostomidae",
+    "target": "Leptonycteris curasoae",
+    "weight": 1
+},
+{
+    "source": "Famille : Phyllostomidae",
+    "target": "Macrotus californicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Physeteridae",
+    "target": "Physeter macrocephalus",
+    "weight": 1
+},
+{
+    "source": "Famille : Picidae",
+    "target": "Picus viridis",
+    "weight": 1
+},
+{
+    "source": "Famille : Pieridae",
+    "target": "Pieris brassicae",
+    "weight": 1
+},
+{
+    "source": "Famille : Pieridae",
+    "target": "Pieris rapae",
+    "weight": 1
+},
+{
+    "source": "Famille : Pimelodidae",
+    "target": "Pimelodina flavipinnis",
+    "weight": 1
+},
+{
+    "source": "Famille : Pimelodidae",
+    "target": "Pimelodus blochii",
+    "weight": 1
+},
+{
+    "source": "Famille : Pinguipedidae",
+    "target": "Pinguipes brasilianus",
+    "weight": 1
+},
+{
+    "source": "Famille : Pinguipedidae",
+    "target": "Pseudopercis semifasciata",
+    "weight": 1
+},
+{
+    "source": "Famille : Pinnotheridae",
+    "target": "Pinnixa brevipollex",
+    "weight": 1
+},
+{
+    "source": "Famille : Pipidae",
+    "target": "Xenopus laevis",
+    "weight": 3
+},
+{
+    "source": "Famille : Platyxanthidae",
+    "target": "Platyxanthus patagonicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Pleuronectidae",
+    "target": "Oncopterus darwinii",
+    "weight": 1
+},
+{
+    "source": "Famille : Pleuronectidae",
+    "target": "Platichthys flesus",
+    "weight": 1
+},
+{
+    "source": "Famille : Pleuronectidae",
+    "target": "Pleuronectes platessa",
+    "weight": 2
+},
+{
+    "source": "Famille : Pleuronectidae",
+    "target": "Pseudopleuronectes americanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Pleuronectidae",
+    "target": "Rhombosolea tapirina",
+    "weight": 1
+},
+{
+    "source": "Famille : Poeciliidae",
+    "target": "Gambusia affinis",
+    "weight": 2
+},
+{
+    "source": "Famille : Poeciliidae",
+    "target": "Gambusia holbrooki",
+    "weight": 1
+},
+{
+    "source": "Famille : Polioptilidae",
+    "target": "Polioptila melanura",
+    "weight": 1
+},
+{
+    "source": "Famille : Polybiidae",
+    "target": "Coenophthalmus tridentatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Polybiidae",
+    "target": "Ovalipes trimaculatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Polybiidae",
+    "target": "Polybius henslowii",
+    "weight": 1
+},
+{
+    "source": "Famille : Polynoidae",
+    "target": "Harmothoe impar",
+    "weight": 1
+},
+{
+    "source": "Famille : Pomacentridae",
+    "target": "Acanthochromis polyacanthus",
+    "weight": 1
+},
+{
+    "source": "Famille : Portunidae",
+    "target": "Callinectes sapidus",
+    "weight": 1
+},
+{
+    "source": "Famille : Portunidae",
+    "target": "Carcinus maenas",
+    "weight": 3
+},
+{
+    "source": "Famille : Portunidae",
+    "target": "Charybdis hellerii",
+    "weight": 1
+},
+{
+    "source": "Famille : Potamididae",
+    "target": "Terebralia palustris",
+    "weight": 1
+},
+{
+    "source": "Famille : Pristigasteridae",
+    "target": "Pellona flavipinnis",
+    "weight": 1
+},
+{
+    "source": "Famille : Prochilodontidae",
+    "target": "Semaprochilodus brama",
+    "weight": 1
+},
+{
+    "source": "Famille : Pseudodiaptomidae",
+    "target": "Pseudodiaptomus marinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Pseudopimelodidae",
+    "target": "Cephalosilurus apurensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Psophiidae",
+    "target": "Psophia crepitans",
+    "weight": 1
+},
+{
+    "source": "Famille : Psychidae",
+    "target": "Metisa plana",
+    "weight": 1
+},
+{
+    "source": "Famille : Pteriidae",
+    "target": "Isognomon bicolor",
+    "weight": 1
+},
+{
+    "source": "Famille : Pteromalidae",
+    "target": "Nasonia vitripennis",
+    "weight": 1
+},
+{
+    "source": "Famille : Pycnonotidae",
+    "target": "Pycnonotus atriceps",
+    "weight": 1
+},
+{
+    "source": "Famille : Pycnonotidae",
+    "target": "Pycnonotus capensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Pycnonotidae",
+    "target": "Pycnonotus melanoleucos",
+    "weight": 1
+},
+{
+    "source": "Famille : Pyralidae",
+    "target": "Amyelois transitella",
+    "weight": 1
+},
+{
+    "source": "Famille : Pythonidae",
+    "target": "Python reticulatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Pyuridae",
+    "target": "Halocynthia roretzi",
+    "weight": 1
+},
+{
+    "source": "Famille : Rallidae",
+    "target": "Fulica atra",
+    "weight": 1
+},
+{
+    "source": "Famille : Rallidae",
+    "target": "Rallus aquaticus",
+    "weight": 1
+},
+{
+    "source": "Famille : Randiellidae",
+    "target": "Dero digitata",
+    "weight": 1
+},
+{
+    "source": "Famille : Ranidae",
+    "target": "Lithobates pipiens",
+    "weight": 1
+},
+{
+    "source": "Famille : Ranidae",
+    "target": "Pelophylax nigromaculatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Ranidae",
+    "target": "Pelophylax ridibundus",
+    "weight": 1
+},
+{
+    "source": "Famille : Ranidae",
+    "target": "Rana nigromaculata",
+    "weight": 1
+},
+{
+    "source": "Famille : Ranidae",
+    "target": "Rana pipiens",
+    "weight": 1
+},
+{
+    "source": "Famille : Ranidae",
+    "target": "Rana ridibunda",
+    "weight": 1
+},
+{
+    "source": "Famille : Remizidae",
+    "target": "Auriparus flaviceps",
+    "weight": 1
+},
+{
+    "source": "Famille : Retropinnidae",
+    "target": "Retropinna semoni",
+    "weight": 1
+},
+{
+    "source": "Famille : Rhabditidae",
+    "target": "Caenorhabditis elegans",
+    "weight": 3
+},
+{
+    "source": "Famille : Rhincodontidae",
+    "target": "Rhincodon typus",
+    "weight": 1
+},
+{
+    "source": "Famille : Rhinobatidae",
+    "target": "Rhinobatos horkelii",
+    "weight": 1
+},
+{
+    "source": "Famille : Rhipiduridae",
+    "target": "Rhipidura fuliginosa",
+    "weight": 1
+},
+{
+    "source": "Famille : Romancheinidae",
+    "target": "Lageneschara lyrulata",
+    "weight": 1
+},
+{
+    "source": "Famille : Sabellariidae",
+    "target": "Sabellaria spinulosa",
+    "weight": 1
+},
+{
+    "source": "Famille : Sabellidae",
+    "target": "Sabella pavonina",
+    "weight": 1
+},
+{
+    "source": "Famille : Saccocirridae",
+    "target": "Saccocirrus papillocercus",
+    "weight": 1
+},
+{
+    "source": "Famille : Salangidae",
+    "target": "Neosalanx taihuensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Coregonus albula",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Coregonus artedi",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Coregonus lavaretus",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Oncorhynchus clarki",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Oncorhynchus clarkii",
+    "weight": 2
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Oncorhynchus kisutch",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Oncorhynchus mykiss",
+    "weight": 7
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Prosopium williamsoni",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Salmo salar",
+    "weight": 4
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Salmo trutta",
+    "weight": 3
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Salvelinus alpinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Salvelinus confluentus",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Salvelinus fontinalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Salvelinus malma",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Salvelinus namaycush",
+    "weight": 1
+},
+{
+    "source": "Famille : Salmonidae",
+    "target": "Thymallus arcticus",
+    "weight": 1
+},
+{
+    "source": "Famille : Salticidae",
+    "target": "Portia labiata",
+    "weight": 1
+},
+{
+    "source": "Famille : Schizoporellidae",
+    "target": "Schizobrachiella sanguinea",
+    "weight": 1
+},
+{
+    "source": "Famille : Schizoporellidae",
+    "target": "Schizoporella errata",
+    "weight": 1
+},
+{
+    "source": "Famille : Schizoporellidae",
+    "target": "Schizoporella pungens",
+    "weight": 1
+},
+{
+    "source": "Famille : Sciaenidae",
+    "target": "Pachyurus junki",
+    "weight": 1
+},
+{
+    "source": "Famille : Sciaenidae",
+    "target": "Sciaenops ocellatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Sciuridae",
+    "target": "Eoglaucomys fimbriatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Sclerodomidae",
+    "target": "Cellarinella nutti",
+    "weight": 1
+},
+{
+    "source": "Famille : Scolopacidae",
+    "target": "Numenius arquata",
+    "weight": 1
+},
+{
+    "source": "Famille : Scophthalmidae",
+    "target": "Scophthalmus maximus",
+    "weight": 1
+},
+{
+    "source": "Famille : Sebastidae",
+    "target": "Sebastes oculatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Sebastidae",
+    "target": "Sebastes schlegeli",
+    "weight": 1
+},
+{
+    "source": "Famille : Sebastidae",
+    "target": "Sebastes schlegelii",
+    "weight": 1
+},
+{
+    "source": "Famille : Sepiidae",
+    "target": "Sepia officinalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Sepiolidae",
+    "target": "Rossia macrosoma",
+    "weight": 1
+},
+{
+    "source": "Famille : Sergestidae",
+    "target": "Peisos petrunkevitchi",
+    "weight": 1
+},
+{
+    "source": "Famille : Serranidae",
+    "target": "Acanthistius brasilianus",
+    "weight": 1
+},
+{
+    "source": "Famille : Serranidae",
+    "target": "Acanthistius patachonicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Serranidae",
+    "target": "Anthias salmopunctatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Serranidae",
+    "target": "Dules auriga",
+    "weight": 1
+},
+{
+    "source": "Famille : Serranidae",
+    "target": "Epinephelus gabriellae",
+    "weight": 1
+},
+{
+    "source": "Famille : Serranidae",
+    "target": "Epinephelus itajara",
+    "weight": 1
+},
+{
+    "source": "Famille : Serranidae",
+    "target": "Epinephelus morio",
+    "weight": 1
+},
+{
+    "source": "Famille : Serrasalmidae",
+    "target": "Metynnis hypsauchen",
+    "weight": 1
+},
+{
+    "source": "Famille : Serrasalmidae",
+    "target": "Metynnis lippincottianus",
+    "weight": 1
+},
+{
+    "source": "Famille : Serrasalmidae",
+    "target": "Serrasalmus eigenmanni",
+    "weight": 1
+},
+{
+    "source": "Famille : Serrasalmidae",
+    "target": "Serrasalmus gibbus",
+    "weight": 1
+},
+{
+    "source": "Famille : Serrasalmidae",
+    "target": "Serrasalmus rhombeus",
+    "weight": 1
+},
+{
+    "source": "Famille : Siluridae",
+    "target": "Kryptopterus cheveyi",
+    "weight": 1
+},
+{
+    "source": "Famille : Siluridae",
+    "target": "Kryptopterus cryptopterus",
+    "weight": 1
+},
+{
+    "source": "Famille : Siluridae",
+    "target": "Micronema apogon",
+    "weight": 1
+},
+{
+    "source": "Famille : Siluridae",
+    "target": "Wallago attu",
+    "weight": 1
+},
+{
+    "source": "Famille : Sminthuridae",
+    "target": "Sminthurus viridis",
+    "weight": 1
+},
+{
+    "source": "Famille : Smittinidae",
+    "target": "Pleurocodonellina ingens",
+    "weight": 1
+},
+{
+    "source": "Famille : Solenoceridae",
+    "target": "Pleoticus muelleri",
+    "weight": 1
+},
+{
+    "source": "Famille : Soricidae",
+    "target": "Crocidura pullata",
+    "weight": 1
+},
+{
+    "source": "Famille : Soricidae",
+    "target": "Crocidura russula",
+    "weight": 1
+},
+{
+    "source": "Famille : Sparidae",
+    "target": "Pagrus auratus",
+    "weight": 1
+},
+{
+    "source": "Famille : Sparidae",
+    "target": "Sparus aurata",
+    "weight": 1
+},
+{
+    "source": "Famille : Sphecidae",
+    "target": "Sceliphron caementarium",
+    "weight": 1
+},
+{
+    "source": "Famille : Spheniscidae",
+    "target": "Eudyptula minor",
+    "weight": 1
+},
+{
+    "source": "Famille : Sphingidae",
+    "target": "Manduca sexta",
+    "weight": 1
+},
+{
+    "source": "Famille : Sphyrnidae",
+    "target": "Sphyrna lewini",
+    "weight": 1
+},
+{
+    "source": "Famille : Spionidae",
+    "target": "Polydora ciliata",
+    "weight": 1
+},
+{
+    "source": "Famille : Spionidae",
+    "target": "Pygospio elegans",
+    "weight": 1
+},
+{
+    "source": "Famille : Stenostiridae",
+    "target": "Culicicapa ceylonensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Stomiidae",
+    "target": "Chauliodus sloani",
+    "weight": 1
+},
+{
+    "source": "Famille : Strigidae",
+    "target": "Ninox novaeseelandiae",
+    "weight": 2
+},
+{
+    "source": "Famille : Strigidae",
+    "target": "Strix occidentalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Stromateidae",
+    "target": "Stromateus brasiliensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Strombidae",
+    "target": "Strombus goliath",
+    "weight": 1
+},
+{
+    "source": "Famille : Sturnidae",
+    "target": "Acridotheres tristis",
+    "weight": 2
+},
+{
+    "source": "Famille : Sturnidae",
+    "target": "Sturnus vulgaris",
+    "weight": 1
+},
+{
+    "source": "Famille : Suidae",
+    "target": "Sus scrofa",
+    "weight": 1
+},
+{
+    "source": "Famille : Sylviidae",
+    "target": "Pseudoalcippe abyssinica",
+    "weight": 1
+},
+{
+    "source": "Famille : Syngnathidae",
+    "target": "Syngnathus scovelli",
+    "weight": 1
+},
+{
+    "source": "Famille : Syrphidae",
+    "target": "Eristalis tenax",
+    "weight": 1
+},
+{
+    "source": "Famille : Syrphidae",
+    "target": "Merodon albifrons",
+    "weight": 1
+},
+{
+    "source": "Famille : Syrphidae",
+    "target": "Merodon avidus",
+    "weight": 1
+},
+{
+    "source": "Famille : Talpidae",
+    "target": "Talpa occidentalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Tapiridae",
+    "target": "Tapirus bairdii",
+    "weight": 1
+},
+{
+    "source": "Famille : Tapiridae",
+    "target": "Tapirus terrestris",
+    "weight": 1
+},
+{
+    "source": "Famille : Tarsiidae",
+    "target": "Tarsius spectrum",
+    "weight": 1
+},
+{
+    "source": "Famille : Tarsiidae",
+    "target": "Tarsius tarsier",
+    "weight": 1
+},
+{
+    "source": "Famille : Tayassuidae",
+    "target": "Pecari tajacu",
+    "weight": 1
+},
+{
+    "source": "Famille : Tayassuidae",
+    "target": "Tayassu pecari",
+    "weight": 1
+},
+{
+    "source": "Famille : Tayassuidae",
+    "target": "Tayassu tajacu",
+    "weight": 1
+},
+{
+    "source": "Famille : Tellinidae",
+    "target": "Macoma nasuta",
+    "weight": 1
+},
+{
+    "source": "Famille : Tenebrionidae",
+    "target": "Tenebrio molitor",
+    "weight": 1
+},
+{
+    "source": "Famille : Tenrecidae",
+    "target": "Echinops telfairi",
+    "weight": 1
+},
+{
+    "source": "Famille : Tephritidae",
+    "target": "Anastrepha suspensa",
+    "weight": 1
+},
+{
+    "source": "Famille : Tephritidae",
+    "target": "Chaetostomella stigmataspis",
+    "weight": 1
+},
+{
+    "source": "Famille : Tephritidae",
+    "target": "Tephritis longicauda",
+    "weight": 1
+},
+{
+    "source": "Famille : Tephritidae",
+    "target": "Tephritis majuscula",
+    "weight": 1
+},
+{
+    "source": "Famille : Tephritidae",
+    "target": "Urophora sachalinensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Tephritidae",
+    "target": "Xyphosia punctigera",
+    "weight": 1
+},
+{
+    "source": "Famille : Terebrataliidae",
+    "target": "Terebratalia transversa",
+    "weight": 1
+},
+{
+    "source": "Famille : Terebratellidae",
+    "target": "Magellania fragilis",
+    "weight": 1
+},
+{
+    "source": "Famille : Terebratellidae",
+    "target": "Magellania venosa",
+    "weight": 1
+},
+{
+    "source": "Famille : Termitidae",
+    "target": "Microcerotermes exiguus",
+    "weight": 1
+},
+{
+    "source": "Famille : Terviidae",
+    "target": "Tervia irregularis",
+    "weight": 1
+},
+{
+    "source": "Famille : Testudinidae",
+    "target": "Stigmochelys pardalis",
+    "weight": 1
+},
+{
+    "source": "Famille : Tetraodontidae",
+    "target": "Takifugu obscurus",
+    "weight": 1
+},
+{
+    "source": "Famille : Tetraodontidae",
+    "target": "Takifugu ocellatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Tetraodontidae",
+    "target": "Takifugu rubripes",
+    "weight": 2
+},
+{
+    "source": "Famille : Tetraodontidae",
+    "target": "Tetraodon cutcutia",
+    "weight": 1
+},
+{
+    "source": "Famille : Tetraodontidae",
+    "target": "Tetraodon nigroviridis",
+    "weight": 1
+},
+{
+    "source": "Famille : Tettigoniidae",
+    "target": "Anabrus simplex",
+    "weight": 1
+},
+{
+    "source": "Famille : Tettigoniidae",
+    "target": "Kawanaphila nartee",
+    "weight": 1
+},
+{
+    "source": "Famille : Tettigoniidae",
+    "target": "Metaballus litus",
+    "weight": 1
+},
+{
+    "source": "Famille : Tortanidae",
+    "target": "Tortanus derjugini",
+    "weight": 1
+},
+{
+    "source": "Famille : Tortricidae",
+    "target": "Cydia pomonella",
+    "weight": 1
+},
+{
+    "source": "Famille : Tortricidae",
+    "target": "Epiphyas postvittana",
+    "weight": 1
+},
+{
+    "source": "Famille : Tragulidae",
+    "target": "Tragulus javanicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Triakidae",
+    "target": "Galeorhinus galeus",
+    "weight": 1
+},
+{
+    "source": "Famille : Triakidae",
+    "target": "Mustelus fasciatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Triakidae",
+    "target": "Mustelus schmitti",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichinellidae",
+    "target": "Trichinella spiralis",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichomycteridae",
+    "target": "Eremophilus mutisii",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichomycteridae",
+    "target": "Trichomycterus areolatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichomycteridae",
+    "target": "Trichomycterus bogotense",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichomycteridae",
+    "target": "Trichomycterus caliense",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichomycteridae",
+    "target": "Trichomycterus chapmani",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichomycteridae",
+    "target": "Trichomycterus cubataonis",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichomycteridae",
+    "target": "Trichomycterus itacarambiensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichomycteridae",
+    "target": "Trichomycterus knerii",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichomycteridae",
+    "target": "Trichomycterus meridae",
+    "weight": 1
+},
+{
+    "source": "Famille : Trichomycteridae",
+    "target": "Trichomycterus striatum",
+    "weight": 1
+},
+{
+    "source": "Famille : Trionychidae",
+    "target": "Pelodiscus sinensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Trochilidae",
+    "target": "Sephanoides sephaniodes",
+    "weight": 1
+},
+{
+    "source": "Famille : Troglodytidae",
+    "target": "Campylorhynchus brunneicapillus",
+    "weight": 1
+},
+{
+    "source": "Famille : Troglodytidae",
+    "target": "Cistothorus platensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Troglodytidae",
+    "target": "Salpinctes obsoletus",
+    "weight": 1
+},
+{
+    "source": "Famille : Troglodytidae",
+    "target": "Thryomanes bewickii",
+    "weight": 1
+},
+{
+    "source": "Famille : Tropiduridae",
+    "target": "Tropidurus semitaeniatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Turdidae",
+    "target": "Sialia mexicana",
+    "weight": 1
+},
+{
+    "source": "Famille : Turdidae",
+    "target": "Sialia sialis",
+    "weight": 1
+},
+{
+    "source": "Famille : Tyrannidae",
+    "target": "Elaenia albiceps",
+    "weight": 1
+},
+{
+    "source": "Famille : Tyrannidae",
+    "target": "Myiarchus cinerascens",
+    "weight": 1
+},
+{
+    "source": "Famille : Tyrannidae",
+    "target": "Sayornis saya",
+    "weight": 1
+},
+{
+    "source": "Famille : Ucididae",
+    "target": "Ucides cordatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Uloboridae",
+    "target": "Octonoba sybotides",
+    "weight": 1
+},
+{
+    "source": "Famille : Uloboridae",
+    "target": "Uloborus diversus",
+    "weight": 1
+},
+{
+    "source": "Famille : Uloboridae",
+    "target": "Uloborus glomosus",
+    "weight": 1
+},
+{
+    "source": "Famille : Ursidae",
+    "target": "Ursus arctos",
+    "weight": 1
+},
+{
+    "source": "Famille : Varunidae",
+    "target": "Cyrtograpsus altimanus",
+    "weight": 1
+},
+{
+    "source": "Famille : Varunidae",
+    "target": "Hemigrapsus sanguineus",
+    "weight": 1
+},
+{
+    "source": "Famille : Veneridae",
+    "target": "Megapitaria squalida",
+    "weight": 1
+},
+{
+    "source": "Famille : Veneridae",
+    "target": "Tapes japonica",
+    "weight": 1
+},
+{
+    "source": "Famille : Vespertilionidae",
+    "target": "Antrozous pallidus",
+    "weight": 1
+},
+{
+    "source": "Famille : Vespertilionidae",
+    "target": "Eptesicus fuscus",
+    "weight": 1
+},
+{
+    "source": "Famille : Vespertilionidae",
+    "target": "Lasiurus cinereus",
+    "weight": 1
+},
+{
+    "source": "Famille : Vespertilionidae",
+    "target": "Lasiurus xanthinus",
+    "weight": 1
+},
+{
+    "source": "Famille : Vespertilionidae",
+    "target": "Myotis californicus",
+    "weight": 1
+},
+{
+    "source": "Famille : Vespertilionidae",
+    "target": "Myotis vivesi",
+    "weight": 1
+},
+{
+    "source": "Famille : Vespertilionidae",
+    "target": "Myotis volans",
+    "weight": 1
+},
+{
+    "source": "Famille : Vespertilionidae",
+    "target": "Myotis yumanensis",
+    "weight": 1
+},
+{
+    "source": "Famille : Vespertilionidae",
+    "target": "Pipistrellus hesperus",
+    "weight": 1
+},
+{
+    "source": "Famille : Viperidae",
+    "target": "Crotalus durissus",
+    "weight": 1
+},
+{
+    "source": "Famille : Viperidae",
+    "target": "Crotalus horridus",
+    "weight": 1
+},
+{
+    "source": "Famille : Viperidae",
+    "target": "Sistrurus catenatus",
+    "weight": 1
+},
+{
+    "source": "Famille : Viperidae",
+    "target": "Vipera aspis",
+    "weight": 1
+},
+{
+    "source": "Famille : Viperidae",
+    "target": "Vipera berus",
+    "weight": 1
+},
+{
+    "source": "Famille : Vireonidae",
+    "target": "Vireo bellii",
+    "weight": 1
+},
+{
+    "source": "Famille : Volutidae",
+    "target": "Odontocymbiola magellanica",
+    "weight": 1
+},
+{
+    "source": "Famille : Xiphiidae",
+    "target": "Xiphias gladius",
+    "weight": 1
+},
+{
+    "source": "Famille : Phasianidae",
+    "target": "Gallus gallus",
+    "weight": 6
+},
+{
+    "source": "Ordre : Accipitriformes",
+    "target": "Famille : Accipitridae",
+    "weight": 8
+},
+{
+    "source": "Ordre : Accipitriformes",
+    "target": "Famille : Cathartidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Acipenseriformes",
+    "target": "Famille : Acipenseridae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Adapedonta",
+    "target": "Famille : Pharidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Afrosoricida",
+    "target": "Famille : Tenrecidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Amphilepidida",
+    "target": "Famille : Hemieuryalidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Amphinomida",
+    "target": "Famille : Amphinomidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Amphipoda",
+    "target": "Famille : Gammaridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Anguilliformes",
+    "target": "Famille : Anguillidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Anostraca",
+    "target": "Famille : Artemiidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Anseriformes",
+    "target": "Famille : Anatidae",
+    "weight": 9
+},
+{
+    "source": "Ordre : Anthoathecata",
+    "target": "Famille : Hydridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Anthoathecata",
+    "target": "Famille : Milleporidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Anura",
+    "target": "Famille : Aromobatidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Anura",
+    "target": "Famille : Bufonidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Anura",
+    "target": "Famille : Dicroglossidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Anura",
+    "target": "Famille : Hemiphractidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Anura",
+    "target": "Famille : Hylidae",
+    "weight": 8
+},
+{
+    "source": "Ordre : Anura",
+    "target": "Famille : Leiuperidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Anura",
+    "target": "Famille : Leptodactylidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Anura",
+    "target": "Famille : Pipidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Anura",
+    "target": "Famille : Ranidae",
+    "weight": 6
+},
+{
+    "source": "Ordre : Apodiformes",
+    "target": "Famille : Trochilidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Apterygiformes",
+    "target": "Famille : Apterygidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Araneae",
+    "target": "Famille : Araneidae",
+    "weight": 12
+},
+{
+    "source": "Ordre : Araneae",
+    "target": "Famille : Linyphiidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Araneae",
+    "target": "Famille : Salticidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Araneae",
+    "target": "Famille : Uloboridae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Arcida",
+    "target": "Famille : Arcidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Arhynchobdellida",
+    "target": "Famille : Hirudinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Artiodactyla",
+    "target": "Famille : Bovidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Artiodactyla",
+    "target": "Famille : Cervidae",
+    "weight": 7
+},
+{
+    "source": "Ordre : Artiodactyla",
+    "target": "Famille : Suidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Artiodactyla",
+    "target": "Famille : Tayassuidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Artiodactyla",
+    "target": "Famille : Tragulidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Atheriniformes",
+    "target": "Famille : Atherinopsidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Atheriniformes",
+    "target": "Famille : Melanotaeniidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Batrachoidiformes",
+    "target": "Famille : Batrachoididae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Beloniformes",
+    "target": "Famille : Adrianichthyidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Blattodea",
+    "target": "Famille : Ectobiidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Blattodea",
+    "target": "Famille : Termitidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Calanoida",
+    "target": "Famille : Acartiidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Calanoida",
+    "target": "Famille : Calanidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Calanoida",
+    "target": "Famille : Centropagidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Calanoida",
+    "target": "Famille : Paracalanidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Calanoida",
+    "target": "Famille : Pseudodiaptomidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Calanoida",
+    "target": "Famille : Tortanidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Caprimulgiformes",
+    "target": "Famille : Caprimulgidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Carcharhiniformes",
+    "target": "Famille : Carcharhinidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Carcharhiniformes",
+    "target": "Famille : Sphyrnidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Carcharhiniformes",
+    "target": "Famille : Triakidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Cardiida",
+    "target": "Famille : Tellinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Carnivora",
+    "target": "Famille : Canidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Carnivora",
+    "target": "Famille : Felidae",
+    "weight": 18
+},
+{
+    "source": "Ordre : Carnivora",
+    "target": "Famille : Mustelidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Carnivora",
+    "target": "Famille : Otariidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Carnivora",
+    "target": "Famille : Phocidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Carnivora",
+    "target": "Famille : Ursidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cetacea",
+    "target": "Famille : Delphinidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Cetacea",
+    "target": "Famille : Hyperoodontidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Cetacea",
+    "target": "Famille : Kogiidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Cetacea",
+    "target": "Famille : Physeteridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Chaetodermatida",
+    "target": "Famille : Limifossoridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Characiformes",
+    "target": "Famille : Anostomidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Characiformes",
+    "target": "Famille : Characidae",
+    "weight": 11
+},
+{
+    "source": "Ordre : Characiformes",
+    "target": "Famille : Crenuchidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Characiformes",
+    "target": "Famille : Curimatidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Characiformes",
+    "target": "Famille : Cynodontidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Characiformes",
+    "target": "Famille : Hemiodontidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Characiformes",
+    "target": "Famille : Lebiasinidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Characiformes",
+    "target": "Famille : Prochilodontidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Characiformes",
+    "target": "Famille : Serrasalmidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Charadriiformes",
+    "target": "Famille : Alcidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Charadriiformes",
+    "target": "Famille : Charadriidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Charadriiformes",
+    "target": "Famille : Haematopodidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Charadriiformes",
+    "target": "Famille : Laridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Charadriiformes",
+    "target": "Famille : Scolopacidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Arachnopusiidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Bitectiporidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Cellariidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Electridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Escharinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Flustridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Lepraliellidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Membraniporidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Myriaporidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Romancheinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Schizoporellidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Sclerodomidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cheilostomatida",
+    "target": "Famille : Smittinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Chiroptera",
+    "target": "Famille : Molossidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Chiroptera",
+    "target": "Famille : Mormoopidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Chiroptera",
+    "target": "Famille : Phyllostomidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Chiroptera",
+    "target": "Famille : Vespertilionidae",
+    "weight": 9
+},
+{
+    "source": "Ordre : Chitonida",
+    "target": "Famille : Chaetopleuridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cingulata",
+    "target": "Famille : Dasypodidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Clupeiformes",
+    "target": "Famille : Clupeidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Clupeiformes",
+    "target": "Famille : Engraulidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Clupeiformes",
+    "target": "Famille : Pristigasteridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Coleoptera",
+    "target": "Famille : Chrysomelidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Coleoptera",
+    "target": "Famille : Curculionidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Coleoptera",
+    "target": "Famille : Melolonthidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Coleoptera",
+    "target": "Famille : Tenebrionidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Collembola",
+    "target": "Famille : Entomobryidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Collembola",
+    "target": "Famille : Isotomidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Collembola",
+    "target": "Famille : Sminthuridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Columbiformes",
+    "target": "Famille : Columbidae",
+    "weight": 6
+},
+{
+    "source": "Ordre : Crassiclitellata",
+    "target": "Famille : Lumbricidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Craterostigmomorpha",
+    "target": "Famille : Craterostigmidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Crocodylia",
+    "target": "Famille : Alligatoridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Crocodylia",
+    "target": "Famille : Crocodylidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cuculiformes",
+    "target": "Famille : Cuculidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Cyclopoida",
+    "target": "Famille : Oithonidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cyclostomatida",
+    "target": "Famille : Cinctiporidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cyclostomatida",
+    "target": "Famille : Terviidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cypriniformes",
+    "target": "Famille : Catostomidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Cypriniformes",
+    "target": "Famille : Cobitidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cypriniformes",
+    "target": "Famille : Cyprinidae",
+    "weight": 49
+},
+{
+    "source": "Ordre : Cyprinodontiformes",
+    "target": "Famille : Fundulidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Cyprinodontiformes",
+    "target": "Famille : Goodeidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Cyprinodontiformes",
+    "target": "Famille : Poeciliidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Cancridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Crangonidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Epialtidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Galatheidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Gecarcinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Hymenosomatidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Inachoididae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Macrophthalmidae",
+    "weight": 6
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Palaemonidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Palinuridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Panopeidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Penaeidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Pinnotheridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Platyxanthidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Polybiidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Portunidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Sergestidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Solenoceridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Ucididae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Decapoda",
+    "target": "Famille : Varunidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Didelphimorphia",
+    "target": "Famille : Didelphidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Diphyllobothriidea",
+    "target": "Famille : Diphyllobothriidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Diplostraca",
+    "target": "Famille : Cercopagidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Diprotodontia",
+    "target": "Famille : Phalangeridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Diptera",
+    "target": "Famille : Calliphoridae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Diptera",
+    "target": "Famille : Chaoboridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Diptera",
+    "target": "Famille : Chironomidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Diptera",
+    "target": "Famille : Culicidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Diptera",
+    "target": "Famille : Drosophilidae",
+    "weight": 8
+},
+{
+    "source": "Ordre : Diptera",
+    "target": "Famille : Empididae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Diptera",
+    "target": "Famille : Glossinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Diptera",
+    "target": "Famille : Phoridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Diptera",
+    "target": "Famille : Syrphidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Diptera",
+    "target": "Famille : Tephritidae",
+    "weight": 6
+},
+{
+    "source": "Ordre : Enchytraeida",
+    "target": "Famille : Randiellidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Ephemeroptera",
+    "target": "Famille : Baetidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Esociformes",
+    "target": "Famille : Esocidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Eunicida",
+    "target": "Famille : Dorvilleidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Eunicida",
+    "target": "Famille : Eunicidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Eunicida",
+    "target": "Famille : Lumbrineridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Eunicida",
+    "target": "Famille : Onuphidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Falconiformes",
+    "target": "Famille : Falconidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Gadiformes",
+    "target": "Famille : Gadidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Gadiformes",
+    "target": "Famille : Lotidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Gadiformes",
+    "target": "Famille : Merlucciidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Galliformes",
+    "target": "Famille : Cracidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Galliformes",
+    "target": "Famille : Odontophoridae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Galliformes",
+    "target": "Famille : Phasianidae",
+    "weight": 7
+},
+{
+    "source": "Ordre : Gasterosteiformes",
+    "target": "Famille : Gasterosteidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Gruiformes",
+    "target": "Famille : Gruidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Gruiformes",
+    "target": "Famille : Psophiidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Gruiformes",
+    "target": "Famille : Rallidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Haplotaxida",
+    "target": "Famille : Naididae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Hemiptera",
+    "target": "Famille : Cicadidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Hemiptera",
+    "target": "Famille : Miridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Hymenoptera",
+    "target": "Famille : Agaonidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Hymenoptera",
+    "target": "Famille : Apidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Hymenoptera",
+    "target": "Famille : Braconidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Hymenoptera",
+    "target": "Famille : Colletidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Hymenoptera",
+    "target": "Famille : Crabronidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Hymenoptera",
+    "target": "Famille : Eumenidae",
+    "weight": 8
+},
+{
+    "source": "Ordre : Hymenoptera",
+    "target": "Famille : Formicidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Hymenoptera",
+    "target": "Famille : Ichneumonidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Hymenoptera",
+    "target": "Famille : Pteromalidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Hymenoptera",
+    "target": "Famille : Sphecidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Isopoda",
+    "target": "Famille : Asellidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Ixodida",
+    "target": "Famille : Ixodidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Julida",
+    "target": "Famille : Julidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lagomorpha",
+    "target": "Famille : Leporidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Lamniformes",
+    "target": "Famille : Cetorhinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lamniformes",
+    "target": "Famille : Lamnidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lamniformes",
+    "target": "Famille : Odontaspididae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lepetellida",
+    "target": "Famille : Fissurellidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Arctiidae",
+    "weight": 6
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Bombycidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Crambidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Drepanidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Geometridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Noctuidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Notodontidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Nymphalidae",
+    "weight": 6
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Papilionidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Pieridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Psychidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Pyralidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Sphingidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lepidoptera",
+    "target": "Famille : Tortricidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Limida",
+    "target": "Famille : Limidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Littorinimorpha",
+    "target": "Famille : Littorinidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Littorinimorpha",
+    "target": "Famille : Strombidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Lumbriculida",
+    "target": "Famille : Lumbriculidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Mugiliformes",
+    "target": "Famille : Mugilidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Myida",
+    "target": "Famille : Corbulidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Myida",
+    "target": "Famille : Dreissenidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Myliobatiformes",
+    "target": "Famille : Myliobatidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Myopsida",
+    "target": "Famille : Loliginidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Mysida",
+    "target": "Famille : Mysidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Mytilida",
+    "target": "Famille : Mytilidae",
+    "weight": 14
+},
+{
+    "source": "Ordre : Neogastropoda",
+    "target": "Famille : Buccinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Neogastropoda",
+    "target": "Famille : Muricidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Neogastropoda",
+    "target": "Famille : Volutidae",
+    "weight": 1
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Famille : Capitellidae",
+    "weight": 1
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Famille : Chaetopteridae",
+    "weight": 1
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Famille : Dinophilidae",
+    "weight": 3
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Famille : Magelonidae",
+    "weight": 1
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Famille : Orbiniidae",
+    "weight": 2
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Famille : Parergodrilidae",
+    "weight": 2
+},
+{
+    "source": "Classe : Gastropoda",
+    "target": "Famille : Potamididae",
+    "weight": 1
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Famille : Sabellariidae",
+    "weight": 1
+},
+{
+    "source": "Classe : Polychaeta",
+    "target": "Famille : Saccocirridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Octopoda",
+    "target": "Famille : Alloposidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Octopoda",
+    "target": "Famille : Enteroctopodidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Octopoda",
+    "target": "Famille : Octopodidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Oegopsida",
+    "target": "Famille : Brachioteuthidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Oegopsida",
+    "target": "Famille : Chiroteuthidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Oegopsida",
+    "target": "Famille : Cranchiidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Oegopsida",
+    "target": "Famille : Gonatidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Oegopsida",
+    "target": "Famille : Histioteuthidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Oegopsida",
+    "target": "Famille : Lepidoteuthidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Oegopsida",
+    "target": "Famille : Mastigoteuthidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Oegopsida",
+    "target": "Famille : Octopoteuthidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Oegopsida",
+    "target": "Famille : Ommastrephidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Ophidiiformes",
+    "target": "Famille : Ophidiidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Orectolobiformes",
+    "target": "Famille : Rhincodontidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Orthoptera",
+    "target": "Famille : Acrididae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Orthoptera",
+    "target": "Famille : Gryllidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Orthoptera",
+    "target": "Famille : Tettigoniidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Osmeriformes",
+    "target": "Famille : Galaxiidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Osmeriformes",
+    "target": "Famille : Osmeridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Osmeriformes",
+    "target": "Famille : Retropinnidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Osmeriformes",
+    "target": "Famille : Salangidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Ostreida",
+    "target": "Famille : Ostreidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Ostreida",
+    "target": "Famille : Pteriidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Acrocephalidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Aegithalidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Arcanatoridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Cardinalidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Cisticolidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Corvidae",
+    "weight": 11
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Dicruridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Emberizidae",
+    "weight": 6
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Fringillidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Hirundinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Icteridae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Laniidae",
+    "weight": 12
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Meliphagidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Mimidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Motacillidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Muscicapidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Notiomystidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Paridae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Passeridae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Pellorneidae",
+    "weight": 9
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Petroicidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Polioptilidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Pycnonotidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Remizidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Rhipiduridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Stenostiridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Sturnidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Sylviidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Troglodytidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Turdidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Tyrannidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Passeriformes",
+    "target": "Famille : Vireonidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Paxillosida",
+    "target": "Famille : Astropectinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Pectinida",
+    "target": "Famille : Pectinidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Pelecaniformes",
+    "target": "Famille : Ardeidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Pelecaniformes",
+    "target": "Famille : Pelecanidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Blenniidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Centrarchidae",
+    "weight": 10
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Cheilodactylidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Cichlidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Clinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Eleotridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Embiotocidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Gobiidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Labridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Latidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Lutjanidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Moronidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Nototheniidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Percichthyidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Percidae",
+    "weight": 161
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Pholidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Pinguipedidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Pomacentridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Sciaenidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Serranidae",
+    "weight": 7
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Sparidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Stromateidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Perciformes",
+    "target": "Famille : Xiphiidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Percopsiformes",
+    "target": "Famille : Percopsidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Perissodactyla",
+    "target": "Famille : Tapiridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Phlebobranchia",
+    "target": "Famille : Cionidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Phyllodocida",
+    "target": "Famille : Aphroditidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Phyllodocida",
+    "target": "Famille : Glyceridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Phyllodocida",
+    "target": "Famille : Nephtyidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Phyllodocida",
+    "target": "Famille : Nereididae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Phyllodocida",
+    "target": "Famille : Polynoidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Piciformes",
+    "target": "Famille : Picidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Pilosa",
+    "target": "Famille : Cyclopedidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Pilosa",
+    "target": "Famille : Myrmecophagidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Pleuronectiformes",
+    "target": "Famille : Paralichthyidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Pleuronectiformes",
+    "target": "Famille : Pleuronectidae",
+    "weight": 6
+},
+{
+    "source": "Ordre : Pleuronectiformes",
+    "target": "Famille : Scophthalmidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Primates",
+    "target": "Famille : Atelidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Primates",
+    "target": "Famille : Callitrichidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Primates",
+    "target": "Famille : Cebidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Primates",
+    "target": "Famille : Cercopithecidae",
+    "weight": 27
+},
+{
+    "source": "Ordre : Primates",
+    "target": "Famille : Galagidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Primates",
+    "target": "Famille : Hominidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Primates",
+    "target": "Famille : Hylobatidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Primates",
+    "target": "Famille : Lemuridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Primates",
+    "target": "Famille : Tarsiidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Proboscidea",
+    "target": "Famille : Elephantidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Rhabditida",
+    "target": "Famille : Rhabditidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Rhinopristiformes",
+    "target": "Famille : Rhinobatidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Rhynchobdellida",
+    "target": "Famille : Glossiphoniidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Rhynchonellida",
+    "target": "Famille : Frieleiidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Rodentia",
+    "target": "Famille : Cricetidae",
+    "weight": 9
+},
+{
+    "source": "Ordre : Rodentia",
+    "target": "Famille : Cuniculidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Rodentia",
+    "target": "Famille : Dasyproctidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Rodentia",
+    "target": "Famille : Echimyidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Rodentia",
+    "target": "Famille : Gliridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Rodentia",
+    "target": "Famille : Muridae",
+    "weight": 20
+},
+{
+    "source": "Ordre : Rodentia",
+    "target": "Famille : Sciuridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Sabellida",
+    "target": "Famille : Sabellidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Salmoniformes",
+    "target": "Famille : Salmonidae",
+    "weight": 28
+},
+{
+    "source": "Ordre : Scorpaeniformes",
+    "target": "Famille : Congiopodidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Scorpaeniformes",
+    "target": "Famille : Cottidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Scorpaeniformes",
+    "target": "Famille : Hemitripteridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Scorpaeniformes",
+    "target": "Famille : Hexagrammidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Scorpaeniformes",
+    "target": "Famille : Sebastidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Sepiida",
+    "target": "Famille : Sepiidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Sepiida",
+    "target": "Famille : Sepiolidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Amblycipitidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Astroblepidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Bagridae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Doradidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Heptapteridae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Ictaluridae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Loricariidae",
+    "weight": 6
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Pangasiidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Pimelodidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Pseudopimelodidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Siluridae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Siluriformes",
+    "target": "Famille : Trichomycteridae",
+    "weight": 10
+},
+{
+    "source": "Ordre : Soricomorpha",
+    "target": "Famille : Soricidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Soricomorpha",
+    "target": "Famille : Talpidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Sphenisciformes",
+    "target": "Famille : Spheniscidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Spionida",
+    "target": "Famille : Spionidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Agamidae",
+    "weight": 12
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Boidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Chamaeleonidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Colubridae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Crotaphytidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Elapidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Eublepharidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Gekkonidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Lacertidae",
+    "weight": 12
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Natricidae",
+    "weight": 7
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Phrynosomatidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Pythonidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Tropiduridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Squamata",
+    "target": "Famille : Viperidae",
+    "weight": 5
+},
+{
+    "source": "Ordre : Stolidobranchia",
+    "target": "Famille : Molgulidae",
+    "weight": 4
+},
+{
+    "source": "Ordre : Stolidobranchia",
+    "target": "Famille : Pyuridae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Stomiiformes",
+    "target": "Famille : Stomiidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Strigiformes",
+    "target": "Famille : Strigidae",
+    "weight": 3
+},
+{
+    "source": "Ordre : Stylommatophora",
+    "target": "Famille : Agriolimacidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Stylommatophora",
+    "target": "Famille : Limacidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Suliformes",
+    "target": "Famille : Phalacrocoracidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Syngnathiformes",
+    "target": "Famille : Syngnathidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Terebellida",
+    "target": "Famille : Cirratulidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Terebratulida",
+    "target": "Famille : Terebrataliidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Terebratulida",
+    "target": "Famille : Terebratellidae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Testudines",
+    "target": "Famille : Testudinidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Testudines",
+    "target": "Famille : Trionychidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Tetraodontiformes",
+    "target": "Famille : Tetraodontidae",
+    "weight": 6
+},
+{
+    "source": "Ordre : Trichocephalida",
+    "target": "Famille : Trichinellidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Venerida",
+    "target": "Famille : Arcticidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Venerida",
+    "target": "Famille : Cyrenidae",
+    "weight": 1
+},
+{
+    "source": "Ordre : Venerida",
+    "target": "Famille : Veneridae",
+    "weight": 2
+},
+{
+    "source": "Ordre : Galliformes",
+    "target": "Famille : Phasianidae",
+    "weight": 6
+},
+{
+    "source": "Règne : Animalia",
+    "target": "Embranchement : Annelida",
+    "weight": 46
+},
+{
+    "source": "Règne : Animalia",
+    "target": "Embranchement : Arthropoda",
+    "weight": 194
+},
+{
+    "source": "Règne : Animalia",
+    "target": "Embranchement : Brachiopoda",
+    "weight": 4
+},
+{
+    "source": "Règne : Animalia",
+    "target": "Embranchement : Bryozoa",
+    "weight": 22
+},
+{
+    "source": "Règne : Animalia",
+    "target": "Embranchement : Chordata",
+    "weight": 884
+},
+{
+    "source": "Règne : Animalia",
+    "target": "Embranchement : Cnidaria",
+    "weight": 3
+},
+{
+    "source": "Règne : Animalia",
+    "target": "Embranchement : Echinodermata",
+    "weight": 2
+},
+{
+    "source": "Règne : Animalia",
+    "target": "Embranchement : Mollusca",
+    "weight": 74
+},
+{
+    "source": "Règne : Animalia",
+    "target": "Embranchement : Nematoda",
+    "weight": 4
+},
+{
+    "source": "Règne : Animalia",
+    "target": "Embranchement : Platyhelminthes",
+    "weight": 1
+}]}

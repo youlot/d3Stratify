@@ -1,0 +1,75 @@
+{"total":100,"maxSize":500,"maxValue":1000000,"minValue":0,"data":[{
+    "source": "1 - sciences appliquees, technologies et medecines",
+    "target": "2 - sciences biologiques et medicales",
+    "weight": 50
+},
+{
+    "source": "2 - sciences biologiques et medicales",
+    "target": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "weight": 50
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - biologie moleculaire et cellulaire",
+    "weight": 2
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - cytologie, morphologie, systematique, floristique et evolution des vegetaux",
+    "weight": 1
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - ecologie animale, vegetale et microbienne",
+    "weight": 7
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - embryologie: invertebres et vertebres. teratologie",
+    "weight": 1
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - ethologie animale",
+    "weight": 4
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - industries agroalimentaires",
+    "weight": 2
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - invertebres",
+    "weight": 4
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - phytopathologie. zoologie agricole. protection des cultures et des forets",
+    "weight": 1
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - sylviculture",
+    "weight": 2
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - vecteurs d'importance medicale, nuisances, depredateurs des denrees et materiaux: surveillance des populations et lutte",
+    "weight": 1
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - vertebres: systeme cardiovasculaire",
+    "weight": 1
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - vertebres: systeme nerveux et organes des sens",
+    "weight": 1
+},
+{
+    "source": "3 - sciences biologiques fondamentales et appliquees. psychologie",
+    "target": "4 - vertebres: zoologie generale, morphologie, phylogenese, systematique, cytogenetique, repartition geographique",
+    "weight": 4
+}]}

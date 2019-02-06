@@ -1,0 +1,100 @@
+{"total":100,"maxSize":500,"maxValue":1000000,"minValue":0,"data":[{
+    "source": "1 - science",
+    "target": "2 - anatomy & morphology",
+    "weight": 1
+},
+{
+    "source": "1 - science",
+    "target": "2 - behavioral sciences",
+    "weight": 3
+},
+{
+    "source": "1 - science",
+    "target": "2 - biochemistry & molecular biology",
+    "weight": 6
+},
+{
+    "source": "1 - science",
+    "target": "2 - biodiversity conservation",
+    "weight": 8
+},
+{
+    "source": "1 - science",
+    "target": "2 - developmental biology",
+    "weight": 2
+},
+{
+    "source": "1 - science",
+    "target": "2 - ecology",
+    "weight": 28
+},
+{
+    "source": "1 - science",
+    "target": "2 - entomology",
+    "weight": 10
+},
+{
+    "source": "1 - science",
+    "target": "2 - environmental sciences",
+    "weight": 11
+},
+{
+    "source": "1 - science",
+    "target": "2 - evolutionary biology",
+    "weight": 21
+},
+{
+    "source": "1 - science",
+    "target": "2 - fisheries",
+    "weight": 21
+},
+{
+    "source": "1 - science",
+    "target": "2 - genetics & heredity",
+    "weight": 4
+},
+{
+    "source": "1 - science",
+    "target": "2 - geography, physical",
+    "weight": 2
+},
+{
+    "source": "1 - science",
+    "target": "2 - marine & freshwater biology",
+    "weight": 21
+},
+{
+    "source": "1 - science",
+    "target": "2 - medicine, legal",
+    "weight": 1
+},
+{
+    "source": "1 - science",
+    "target": "2 - ornithology",
+    "weight": 4
+},
+{
+    "source": "1 - science",
+    "target": "2 - toxicology",
+    "weight": 4
+},
+{
+    "source": "1 - science",
+    "target": "2 - veterinary sciences",
+    "weight": 1
+},
+{
+    "source": "1 - science",
+    "target": "2 - water resources",
+    "weight": 1
+},
+{
+    "source": "1 - science",
+    "target": "2 - zoology",
+    "weight": 13
+},
+{
+    "source": "1 - social science",
+    "target": "2 - anthropology",
+    "weight": 2
+}]}

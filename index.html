@@ -85,6 +85,7 @@
 </body>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="lodash.js"></script>
 <script>
     var transition = d3.transition().duration(500)
     // main svg - get the initial size and append a g element to svg
@@ -124,10 +125,33 @@
     let myData;
     let root;
 
-    d3.json("JSON2_noms_despeces_modified.json", function (error, treeData) {
+    // d3.json("sciences.json", function (error, treeData) {
+    // d3.json("sciences2.json", function (error, treeData) {
+    // d3.json("sciences100.json", function (error, treeData) {
+    d3.json("animal2002.json", function (error, treeData) {
+    // d3.json("JSON2_noms_despeces_modified.json", function (error, treeData) {
+
         if (error) throw error;
+
+        // add link weight when duplicated
+        var formatedData = [];
+        treeData.data.forEach(d => {
+            let index = formatedData.findIndex(f => f.target === d.target && f.source === d.source)
+            if(index < 0) {
+                formatedData.push(d);
+            } else {
+                formatedData[index].wieght += d.weight;
+            }
+        })
+        //return elements with multiple parents
+        var grouped = _.mapValues(_.groupBy(formatedData, 'target'), function(d) {return d.length;});
+        _.keysIn(grouped).forEach(k => {
+            if(grouped[k]> 1) {
+                console.log(k, grouped[k])
+            }
+        })
         
-        myData = addRootElements(treeData.data);
+        myData = addRootElements(formatedData);
         root = stratify(myData);
         // collpsed all nodes
         root.children.forEach(d => d.children.forEach(collapse))
@@ -315,7 +339,6 @@
         d3.selectAll(".node--internal")
                .on("mouseover", handleMouseOverInternalNode)
                .on("mouseout", handleMouseOutInternalNode);
-        // tata 
         
         function handleMouseOver(d) {
             var leafG = d3.select(this);
@@ -426,6 +449,7 @@
     }
 
     function addRootElements(data) {
+        debugger
         newData = [];
         elementsDone = [];
         parentsAdded = [];
@@ -461,8 +485,8 @@
             isFakeNode: true 
         });
 
-        console.log(`parentsAdded : ${parentsAdded}`);
-        console.log(`newData : `, newData);
+        // console.log(`parentsAdded : ${parentsAdded}`);
+        // console.log(`newData : `, newData);
 
         newData.push.apply(newData, data);
         return newData;
