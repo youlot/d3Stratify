@@ -257,12 +257,17 @@
             .attr("width", function (d) { return xScale(d.data.weight); });
 
         leafNodeG.append("text")
+            .attr("class", "dotme")
             .style("text-anchor", "start")
             .text(function(d) {
                 return d.id;
             })
             .attr("dy", 19.5)
             .attr("x", 8)
+            .attr("width", function (d) { return xScale(d.data.weight) - 8; });
+        
+        // text fits its container
+        d3.selectAll('.dotme').call(dotme);
         
         // Attach the xAxis a the top of the document    
         g.insert("g")
@@ -302,21 +307,6 @@
             .style("stroke-dasharray", "20,1")
             .style("stroke", "black");
 
-        // The moving ball
-        // tata 
-        var ballG = g.insert("g")
-               .attr("class","ballG")
-               .attr("stroke-width","5")
-               .attr("transform", "translate(" + (width + 1000) + "," + height/2 + ")");
-        ballG.insert("circle")
-               .attr("class","shadow")
-               .style("fill","steelblue")
-               .attr("r", 5);
-        ballG.insert("text")
-               .style("text-anchor", "middle")
-               .attr("dy",5)
-               .text("0.0");
-
         //// Animation functions for mouse on and off events.
         d3.selectAll(".node--leaf-g")
                .on("mouseover", handleMouseOver)
@@ -334,34 +324,23 @@
                     .attr("stroke","#4D4D4D")
                     .attr("stroke-width","2");
 
-
-            let tmpText = d.id;
             let textSize = leafG.select("text").node().getComputedTextLength(); //get text length
-            var ballGMovement = ballG.transition()
-                    .duration(400)
-                    .attr("transform", "translate(" + (d.x + textSize + 90) + "," + (d.y) + ")");
-
-            ballGMovement.select("circle")
-                    .style("fill", "#454545")
-                    .attr("r", 18);
-
-            let text = Number(d.data.weight).toFixed(1);
-            ballGMovement.select("text")
-                    .delay(300)
-                    .text(text);
+            
+            tooltip.style("opacity", 1);		
+            tooltip.html(`${d.id} - ${d.data.weight.toFixed(1)}`)
+                .style("left", d3.event.pageX + "px")		
+                .style("top", (d3.event.pageY - 28) + "px");
         }
         function handleMouseOut() {
             var leafG = d3.select(this);
 
             leafG.select("rect")
                     .attr("stroke-width","0");
+            tooltip.style("opacity", 0);
         }
         function handleMouseOverInternalNode(d) {
             var nodeG = d3.select(this);
             var text = nodeG.select("text");
-            text.text(function(d) {
-                return d.id + ' - '+ d.data.weight.toFixed(1);
-            })
             tooltip.style("opacity", 1);		
             tooltip.html(`${d.id} - ${d.data.weight.toFixed(1)}`)
                 .style("left", (d3.event.pageX - text.node().getComputedTextLength() *0.5) + "px")		
@@ -375,6 +354,31 @@
                 .attr("r", 4)
         }
 
+    }
+
+    function dotme(text) {
+        text.each(function() {
+            var text = d3.select(this);
+            var letters = text.text().split('');
+            
+            var ellipsis = text.text('').append('tspan').attr('class', 'elip').text('...');
+            var width = parseFloat(text.attr('width')) - ellipsis.node().getComputedTextLength();
+            var numLetters = letters.length;
+            
+            var tspan = text.insert('tspan', ':first-child').text(letters.join(''));
+            
+            // Try the whole line
+            // While it's too long, and we have words left, keep removing words
+            
+            while (tspan.node().getComputedTextLength() > width && letters.length) {
+                letters.pop();
+                tspan.text(letters.join(''));
+            }
+            
+            if (letters.length === numLetters) {
+                ellipsis.remove();
+            }
+        });
     }
 
     function collapse(d) {
@@ -393,7 +397,6 @@
     }
 
     function removeCurrentGraph() {
-        svg.selectAll("g.ballG").remove();
         svg.selectAll(".grid").remove();
         svg.selectAll(".xAxis").remove();
     }
