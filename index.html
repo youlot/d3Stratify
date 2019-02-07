@@ -120,17 +120,15 @@
 
     var xScale = d3.scaleLinear()
         .domain([0, 5]) // the values 
-        .range([0, (width * (1 - ratioGridTree))]);
-    let maxWeight = 0
+        .range([0, 500]);
     var xAxis = d3.axisTop()
             .scale(xScale)
             .ticks(5);
-    
 
     // Setting up a way to handle the data
     var tree = d3.cluster()    // This D3 API method setup the Dendrogram elements position.
-        .separation(function(a, b) { return a.parent == b.parent ? 3 : 4; }) // define separation ratio between siblings 
-        .size([height, width * ratioGridTree]);    // Total width - bar chart width = Dendrogram chart width
+        .separation(function(a, b) { return a.parent == b.parent ? 3 : 4; }); // define separation ratio between siblings 
+       // .size([height, width * ratioGridTree]);    // Total width - bar chart width = Dendrogram chart width
 
     var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
         .id(function(d) { return d.target; })
@@ -182,11 +180,11 @@
     });
 
     function update() {
-
         // update tree size
         height = (root.leaves().length + 1) * 50;
+        width = (root.depth + root.height) * 200
         // d3.select("svg").attr("height", height)
-        tree.size([height, width * ratioGridTree]);
+        tree.size([height, width]);
         // tree.nodeSize([40, 200])
 
         // update axis
@@ -208,7 +206,7 @@
         tree(root); // d3.cluster()
         root.descendants().forEach(d => {
             d.y = d.x;
-            d.x = (d.depth - 1) / (d.depth + d.height - 1) * width * ratioGridTree;
+            d.x = (d.depth - 1) / (d.depth + d.height - 1) * width;
         });
 
         // Draw every datum a line connecting to its parent.
@@ -258,8 +256,8 @@
             .attr("width", function (d) { return xScale(d.data.weight) - 8; })
             .text(function(d) {
                 return d.id;
-            })
-            .call(dotme);
+            });
+            // .call(dotme);
 
         // add new nodes
         var nodeEnter = node.enter().append("g")
@@ -315,13 +313,13 @@
         // Attach the xAxis a the top of the document    
         g.insert("g")
                 .attr("class","xAxis")
-                .attr("transform", "translate(" + (7 + width * ratioGridTree) + "," + 0 + ")")
+                .attr("transform", "translate(" + (7 + width ) + "," + 0 + ")")
                 .call(xAxis);
 
         // tick mark for x-axis
         g.insert("g")
                 .attr("class", "grid")
-                .attr("transform", "translate(" + (7 + width * ratioGridTree) + "," + height + ")")
+                .attr("transform", "translate(" + (7 + width) + "," + height + ")")
                 .call(d3.axisBottom()
                         .scale(xScale)
                         .ticks(5)
@@ -365,22 +363,23 @@
                     .attr("stroke-width","0");
             tooltip.style("opacity", 0);
         }
-        function handleMouseOverInternalNode(d) {
-            var nodeG = d3.select(this);
-            var text = nodeG.select("text");
-            tooltip.style("opacity", 1);		
-            tooltip.html(`${d.id} - ${d.data.weight.toFixed(1)}`)
-                .style("left", (d3.event.pageX - text.node().getComputedTextLength() *0.5) + "px")		
-                .style("top", (d3.event.pageY - 28) + "px");
-            nodeG.select("circle")
-                .attr("r", 8)
-        }
-        function handleMouseOutInternalNode(d) {
-            tooltip.style("opacity", 0);
-            d3.select(this).select("circle")
-                .attr("r", 4)
-        }
 
+    }
+    function handleMouseOverInternalNode(d) {
+        var nodeG = d3.select(this);
+        var text = nodeG.select("text");
+        tooltip.style("opacity", 1);		
+        tooltip.html(`${d.id} - ${d.data.weight.toFixed(1)}`)
+            .style("left", (d3.event.pageX - text.node().getComputedTextLength() *0.5) + "px")		
+            .style("top", (d3.event.pageY - 28) + "px");
+        nodeG.select("circle")
+            .attr("r", 8)
+    }
+    
+    function handleMouseOutInternalNode(d) {
+        tooltip.style("opacity", 0);
+        d3.select(this).select("circle")
+            .attr("r", 4)
     }
 
     function dotme(text) {
