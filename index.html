@@ -86,6 +86,7 @@
 
 <body>
     <svg width="1000" height="500"></svg>
+    <div class="tooltip"></div>
 </body>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -98,9 +99,18 @@
         height = 4500,
         g = svg.append("g").attr("transform", "translate(20,20)"),       // move right 20px.
         ratioGridTree = 0.7, // width of the tree/ width of the grid 
-        tooltip = d3.select("body").append("div")	// Define the div for the tooltip
-            .attr("class", "tooltip")				
+        tooltip = d3.select(".tooltip")			
             .style("opacity", 0);
+    
+    //function to init graph
+    function initGrid() {
+        var svg = d3.select("svg");
+        var g = svg.append("g").attr("transform", "translate(20,20)");
+
+        //create grid
+
+    }
+
     function zoom() {
         g.attr("transform", d3.event.transform);
     }
@@ -172,10 +182,6 @@
     });
 
     function update() {
-
-        computeX = function(node) {
-            return (node.depth - 1) / (node.depth + node.height - 1) * width * ratioGridTree
-        }
 
         // update tree size
         height = (root.leaves().length + 1) * 50;
@@ -280,13 +286,13 @@
                 return !d.children && !d._children;
             }).append("g")
             .attr("class", "node--leaf-g")
-            .attr("transform", "translate(" + 8 + "," + -13 + ")"); // move rectangle to be centered to the node
+            .attr("transform", "translate(" + 8 + "," + 0 + ")"); // move rectangle to be centered to the node
 
         leafNodeGEnter.append("rect")
-            .attr("class", "shadow")
-            .style("fill", function (d) { return "#ebebeb"; })
+            .attr("class", "")
+            .style("fill", function (d) { return "#555"; })
             .attr("width", 2)
-            .attr("height", 30)
+            .attr("height", 10)
             .attr("rx", 2)
             .attr("ry", 2)
             .transition(transition)
@@ -301,10 +307,10 @@
             .text(function(d) {
                 return d.id;
             })
-            .attr("dy", 19.5)
+            .attr("dy", -5)
             .attr("x", 8)
-            .attr("width", function (d) { return xScale(d.data.weight) - 8; })
-            .call(dotme);
+            .attr("width", function (d) { return xScale(d.data.weight) - 8; });
+            // .call(dotme);
         
         // Attach the xAxis a the top of the document    
         g.insert("g")
@@ -323,24 +329,9 @@
                         .tickFormat("")
                 );
 
-        // Write down text for every collapsed datum
-        //var leafNodeGCollapsed = g.selectAll(".node--leaf")
-        //leafNodeGCollapsed.append("text")
-        //    .attr("y", -10)
-        //    .style("text-anchor", "middle")
-        //    .text(function (d) {
-        //        return ((d.isCollapsedNode === true) ? d.data.id.substring(d.data.id.lastIndexOf(".") + 1 ) : '');
-        //    });
-        //var internalNodeCollapsed = g.selectAll(".node--internal");
-        //internalNodeCollapsed.append("text")
-        //    .attr("y", -10)
-        //    .style("text-anchor", "middle")
-        //    .text(function (d) {
-        //        return ((d.isCollapsedNode === true) ? d.data.id.substring(d.data.id.lastIndexOf(".") + 1 ) : '');
-        //    });
 
         // Emphasize the y-axis baseline.
-        svg.selectAll(".grid").select("line")
+        svg.select(".grid").select("line")
             .style("stroke-dasharray", "20,1")
             .style("stroke", "black");
 
