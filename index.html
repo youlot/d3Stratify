@@ -137,10 +137,10 @@
     let myData;
     let root;
 
-    d3.json("sciences.json", function (error, treeData) {
+    // d3.json("sciences.json", function (error, treeData) {
     // d3.json("sciences2.json", function (error, treeData) {
     // d3.json("sciences100.json", function (error, treeData) {
-    // d3.json("animal2002.json", function (error, treeData) {
+    d3.json("animal2000.json", function (error, treeData) {
     // d3.json("JSON2_noms_despeces_modified.json", function (error, treeData) {
 
         if (error) throw error;
@@ -155,28 +155,39 @@
                 formatedData[index].wieght += d.weight;
             }
         })
-        //return elements with multiple parents
-        var grouped = _.mapValues(_.groupBy(formatedData, 'target'), function(d) {return d.length;});
-        _.keysIn(grouped).forEach(k => {
-            if(grouped[k]> 1) {
-                console.log(k, grouped[k])
-            }
-        })
         
         myData = addRootElements(formatedData);
-        root = stratify(myData);
-        // collpsed all nodes
-        root.children.forEach(d => d.children.forEach(collapse))
-        maxWeight =d3.max(root.leaves(), function(d) {
-            return d.data.weight;
-        })
+        try {
+            root = stratify(myData);
+            
+            // collpsed all nodes
+            root.children.forEach(d => d.children.forEach(collapse))
+            maxWeight =d3.max(root.leaves(), function(d) {
+                return d.data.weight;
+            })
 
-        // set axis dimension
-        xScale.domain([0, maxWeight])
-        xAxis.scale(xScale)
+            // set axis dimension
+            xScale.domain([0, maxWeight])
+            xAxis.scale(xScale)
 
 
-        update();
+            update();
+        } catch (error) {
+            //return elements with multiple parents
+            var grouped = _.mapValues(_.groupBy(formatedData, 'target'), function(d) {return d.length;});
+            _.keysIn(grouped).forEach(k => {
+                if(grouped[k]> 1) {
+                    console.log(k, grouped[k])
+                }
+            })
+            tooltip.style("background-color", "red")
+                .style("color", "white")
+                .style("border-color", "red")
+                .style("opacity", 1)
+                .style("top", `${+svg.attr("height") / 2}px`)
+                .style("left", `${(+svg.attr("width") / 2) -140}px`)
+                .html(`An error occured while rendering the graph:<br>${error}`);
+        }
     });
 
     function update() {
