@@ -84,7 +84,12 @@
     }
 </style>
 
-<body>
+<body style="display: flex; flex-direction: column;">
+    <select id="mySelect" onchange="changeFile()">
+        <option value="animal2002.json">Animalia Corrected
+        <option value="animal2000.json">Animalia Error
+        <option selected="selected" value="sciences.json">Sciences Multiple Roots
+    </select>
     <svg width="1000" height="500"></svg>
     <div class="tooltip"></div>
 </body>
@@ -95,25 +100,10 @@
     var transition = d3.transition().duration(500)
     // main svg - get the initial size and append a g element to svg
     var svg = d3.select("svg"),
-        width = +svg.attr("width")
-        height = 4500,
         g = svg.append("g").attr("transform", "translate(20,20)"),       // move right 20px.
-        ratioGridTree = 0.7, // width of the tree/ width of the grid 
         tooltip = d3.select(".tooltip")			
-            .style("opacity", 0);
-    
-    //function to init graph
-    function initGrid() {
-        var svg = d3.select("svg");
-        var g = svg.append("g").attr("transform", "translate(20,20)");
+                .style("opacity", 0);
 
-        //create grid
-
-    }
-
-    function zoom() {
-        g.attr("transform", d3.event.transform);
-    }
     // define the zoomListener which calls the zoom function on the "zoom" event
     var zoomListener = d3.zoom().on("zoom", zoom);
     svg.call(zoomListener);
@@ -128,7 +118,6 @@
     // Setting up a way to handle the data
     var tree = d3.cluster()    // This D3 API method setup the Dendrogram elements position.
         .separation(function(a, b) { return a.parent == b.parent ? 3 : 4; }); // define separation ratio between siblings 
-       // .size([height, width * ratioGridTree]);    // Total width - bar chart width = Dendrogram chart width
 
     var stratify = d3.stratify()            // This D3 API method gives cvs file flat data array dimensions.
         .id(function(d) { return d.target; })
@@ -136,12 +125,25 @@
 
     let myData;
     let root;
+    changeFile();
 
-    // d3.json("sciences.json", function (error, treeData) {
-    // d3.json("sciences2.json", function (error, treeData) {
-    // d3.json("sciences100.json", function (error, treeData) {
-    d3.json("animal2000.json", function (error, treeData) {
-    // d3.json("JSON2_noms_despeces_modified.json", function (error, treeData) {
+    function zoom() {
+        g.attr("transform", d3.event.transform);
+    }
+
+    function changeFile() {
+        var selectedFile = document.getElementById("mySelect").value;
+        
+        svg.select("g").remove();
+        g = svg.append("g").attr("transform", "translate(20,20)");
+        g.insert("g").attr("class", "grid");
+        // g.insert("g").attr("class","xAxis");
+        tooltip = d3.select(".tooltip")
+            .style("background-color", "")
+            .style("color", "")
+            .style("border-color", "")		
+            .style("opacity", 0);
+        d3.json(selectedFile, function (error, treeData) {
 
         if (error) throw error;
 
@@ -155,7 +157,7 @@
                 formatedData[index].wieght += d.weight;
             }
         })
-        
+
         myData = addRootElements(formatedData);
         try {
             root = stratify(myData);
@@ -188,15 +190,14 @@
                 .style("left", `${(+svg.attr("width") / 2) -140}px`)
                 .html(`An error occured while rendering the graph:<br>${error}`);
         }
-    });
+        });
+    }
 
     function update() {
         // update tree size
-        height = (root.leaves().length + 1) * 50;
-        width = (root.depth + root.height) * 200
-        // d3.select("svg").attr("height", height)
+        var height = (root.leaves().length + 1) * 50;
+        var width = (root.depth + root.height) * 200;
         tree.size([height, width]);
-        // tree.nodeSize([40, 200])
 
         // update axis
         maxWeight =d3.max(root.descendants().filter(d => !d.children && !d._children), function(d) {
@@ -204,16 +205,7 @@
         })
         xScale.domain([0, maxWeight])
         xAxis.scale(xScale)
-        // generate a new hierarchy from the specified tabular data
-        // root object example
-        // children: Array(6) [ {…}, {…}, {…}, … ]
-        // data: Object { id: "Tom", value: 0, color: undefined }
-        // depth: 0
-        // height: 3
-        // id: "Tom"
-        // parent: null
-        // x: 657.7932098765434
-        // y: 0
+       
         tree(root); // d3.cluster()
         root.descendants().forEach(d => {
             d.y = d.x;
@@ -284,7 +276,7 @@
             return (d.children || d._children);
         });
         nodeInternal.append("text")
-            .style("text-anchor", "middle")
+            .style("text-anchor", "start")
             .text(function(d) {
                 return d.id;
             })
@@ -305,10 +297,7 @@
             .attr("rx", 2)
             .attr("ry", 2)
             .transition(transition)
-            // .attr("width", function (d) { 
-            //     let text = Number(d.data.weight).toFixed(1) + ` - ${d.id}`;
-            //     return (9 * text.length  + 20); 
-            // }); 
+            
             .attr("width", function (d) { return xScale(d.data.weight); });
 
         leafNodeGEnter.append("text")
@@ -319,18 +308,12 @@
             .attr("dy", -5)
             .attr("x", 8)
             .attr("width", function (d) { return xScale(d.data.weight) - 8; });
-            // .call(dotme);
         
         // Attach the xAxis a the top of the document    
-        g.insert("g")
-                .attr("class","xAxis")
-                .attr("transform", "translate(" + (7 + width ) + "," + 0 + ")")
-                .call(xAxis);
+        // g.select(".xAxis").attr("transform", "translate(" + (7 + width ) + "," + 0 + ")")
+        //         .call(xAxis);
 
-        // tick mark for x-axis
-        g.insert("g")
-                .attr("class", "grid")
-                .attr("transform", "translate(" + (7 + width) + "," + height + ")")
+        g.select(".grid").attr("transform", "translate(" + (7 + width) + "," + height + ")")
                 .call(d3.axisBottom()
                         .scale(xScale)
                         .ticks(5)
@@ -363,7 +346,7 @@
             let textSize = leafG.select("text").node().getComputedTextLength(); //get text length
             
             tooltip.style("opacity", 1);		
-            tooltip.html(`${d.id} - ${d.data.weight.toFixed(1)}`)
+            tooltip.html(`${d.data.weight.toFixed(0)} documents`)
                 .style("left", d3.event.pageX + "px")		
                 .style("top", (d3.event.pageY - 28) + "px");
         }
@@ -380,7 +363,7 @@
         var nodeG = d3.select(this);
         var text = nodeG.select("text");
         tooltip.style("opacity", 1);		
-        tooltip.html(`${d.id} - ${d.data.weight.toFixed(1)}`)
+        tooltip.html(`${d.data.weight.toFixed(0)} documents`)
             .style("left", (d3.event.pageX - text.node().getComputedTextLength() *0.5) + "px")		
             .style("top", (d3.event.pageY - 28) + "px");
         nodeG.select("circle")
@@ -391,30 +374,6 @@
         tooltip.style("opacity", 0);
         d3.select(this).select("circle")
             .attr("r", 4)
-    }
-
-    function dotme(text) {
-        text.each(function() {
-            var text = d3.select(this);
-            var letters = text.text().split('');
-            var ellipsis = text.text('').append('tspan').attr('class', 'elip').text('...');
-            var width = parseFloat(text.attr('width')) - ellipsis.node().getComputedTextLength();
-            var numLetters = letters.length;
-            
-            var tspan = text.insert('tspan', ':first-child').text(letters.join(''));
-            
-            // Try the whole line
-            // While it's too long, and we have words left, keep removing words
-            
-            while (tspan.node().getComputedTextLength() > width && letters.length) {
-                letters.pop();
-                tspan.text(letters.join(''));
-            }
-            
-            if (letters.length === numLetters) {
-                ellipsis.remove();
-            }
-        });
     }
 
     function collapse(d) {
@@ -432,19 +391,12 @@
         }
     }
 
-    function removeCurrentGraph() {
-        svg.selectAll(".grid").remove();
-        svg.selectAll(".xAxis").remove();
-    }
-
-
     function click(d) {
         if(d.children) {
             collapse(d)
         } else {
             expand(d)
         }
-        removeCurrentGraph();
         update();
         centerNode(d)
     }
@@ -496,9 +448,6 @@
             weight: 0,
             isFakeNode: true 
         });
-
-        // console.log(`parentsAdded : ${parentsAdded}`);
-        // console.log(`newData : `, newData);
 
         newData.push.apply(newData, data);
         return newData;
